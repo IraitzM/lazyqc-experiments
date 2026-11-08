@@ -1,0 +1,45 @@
+# SkyPilot task: rerun the GPU-dependent part of the planner-versus-direct
+# study (benchmarks/direct_baseline_manifest.json) on a Lambda datacenter GPU,
+# to confirm the laptop RTX 4060 results on a faster device that does not
+# throttle. Launch, follow and collect with scripts/sky_gpu.sh.
+#
+# The GPU defaults to one H100 PCIe (80 GB, 26 vCPUs); the launcher overrides
+# it with GPU=A100:1 or GPU=A10:1. Expected: about two hours, most of it the
+# single-thread CPU baselines that keep every ratio on one host.
+name: lazyqc-gpu
+
+resources:
+  accelerators: H100:1
+
+# .skyignore limits the sync to benchmarks/, scripts/ and cloud/.
+workdir: .
+
+# Results already collected from an earlier cluster. After an abrupt end, a
+# relaunch on the same GPU model resumes from the completed steps instead of
+# starting over (scripts/run_remote_gpu.sh restores them).
+file_mounts:
+  ~/collected: results/direct/remote
+
+envs:
+  # Folder under results/direct/remote/; empty means derived from the GPU name.
+  REMOTE_TAG: ""
+  # The laptop study ran on Python 3.12; the script lockfiles pin the rest.
+  UV_PYTHON: "3.12"
+
+setup: |
+  set -euo pipefail
+  # The uv release that created the script lockfiles on the laptop.
+  if [ ! -x "$HOME/.local/bin/uv" ] && ! command -v uv > /dev/null; then
+    curl -LsSf https://astral.sh/uv/0.13.1/install.sh | sh
+  fi
+  export PATH="$HOME/.local/bin:$PATH"
+  # The GPU runners declare their dependencies inline (PEP 723) and pin them in
+  # the adjacent .lock files, the same versions as the laptop study.
+  uv sync --locked --script benchmarks/run_direct_baselines.py
+  uv sync --locked --script benchmarks/run_gradient_baselines.py
+
+run: |
+  set -euo pipefail
+  export PATH="$HOME/.local/bin:$PATH"
+  nvidia-smi --query-gpu=name,driver_version,memory.total --format=csv
+  bash scripts/run_remote_gpu.sh

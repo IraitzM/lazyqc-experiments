@@ -1,0 +1,16 @@
+# SkyPilot uses this file instead of .gitignore when it syncs the workdir to a
+# cluster. The GPU confirmation runs (cloud/gpu-baselines.yaml) only need
+# benchmarks/ (runners, manifests and their script lockfiles) and scripts/; the
+# core library is mounted from its own checkout.
+# Results are written on the cluster and copied back by scripts/sky_gpu.sh.
+.git/
+.github/
+.venv/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+results/
+paper/
+docs/
+dist/

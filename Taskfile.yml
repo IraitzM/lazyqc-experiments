@@ -1,0 +1,31 @@
+version: "3"
+
+tasks:
+  remote-gpu:
+    desc: GPU confirmation runs on Lambda via SkyPilot; e.g. task remote-gpu -- dryrun (launch, logs, collect, down)
+    cmds:
+      - scripts/sky_gpu.sh {{.CLI_ARGS}}
+
+  laptop-gpu:
+    desc: Laptop GPU reruns of the direct study inside the locked script environments (resumable)
+    cmds:
+      - scripts/run_laptop_gpu.sh
+
+  local-studies:
+    desc: Rerun the CPU-only studies on the pinned lazyqc release (resumable, archives the previous results)
+    cmds:
+      - scripts/run_local_studies.sh
+
+  direct-summary:
+    desc: Summarize the planner-versus-direct results (laptop and remote) and regenerate the paper tables
+    cmds:
+      - uv run --locked --group notebooks python benchmarks/summarize_direct.py
+
+  paper-audit:
+    desc: Regenerate every paper table and verify byte-identical raw-data provenance
+    cmds:
+      - uv run --locked --group notebooks python benchmarks/summarize_direct.py
+      - uv run --locked python benchmarks/paper_generalization_tables.py
+      - uv run --locked python benchmarks/summarize_policy_ablations.py
+      - uv run --locked python benchmarks/summarize_lightcone_ablation.py
+      - uv run --locked --group notebooks python benchmarks/audit_paper_tables.py

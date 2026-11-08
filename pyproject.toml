@@ -1,0 +1,18 @@
+[project]
+name = "lazyqc-experiments"
+version = "0.1.0"
+description = "Benchmarks, raw results and paper sources for the LazyQC study"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lazyqc[zx,cutting,tensor,mqt]==0.5.0"
+]
+
+[dependency-groups]
+# Same group names the core repository used before the split, so the commands
+# recorded in the paper, the scripts and the Taskfile keep working unchanged.
+notebooks = ["matplotlib>=3.8"]
+remote = ["skypilot[lambda]>=0.14.0,<0.15"]
+
+[tool.uv]
+package = false
