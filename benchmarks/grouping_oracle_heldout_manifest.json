@@ -1,0 +1,28 @@
+{
+  "description": "Held-out-family run of the exhaustive five-output grouping reference; both families were added after the planner and its budget were frozen.",
+  "output_stem": "grouping_oracle_heldout",
+  "seed": 20261024,
+  "comparison": {
+    "randomized_strategy_order_seed": 20261124
+  },
+  "exhaustive_oracle": {
+    "description": "Enumerate every set partition of five same-state observables; each block executes the conservative causal cone of the union support, and include an explicit full-state candidate.",
+    "families": [
+      "tree_mera_like",
+      "strongly_entangling"
+    ],
+    "qubits": [6, 8],
+    "depths": [2, 4],
+    "seed_offsets": [1101, 1202],
+    "active_observables_per_case": 5,
+    "repetitions": 8,
+    "collections_per_plan": 5,
+    "excluded_transformations": [
+      "circuit cuts",
+      "ZX rewrites",
+      "approximation",
+      "parallel workers"
+    ],
+    "scope": "finite no-cut grouping portfolio; not a global simulator optimum"
+  }
+}

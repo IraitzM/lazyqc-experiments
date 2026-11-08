@@ -1,0 +1,4 @@
+ 16q lightning_gpu_vjp    total      256.8 ms loss 0.093267 -> 0.084076
+ 16q aer_gpu_shift        total    14876.2 ms loss 0.093267 -> 0.084076
+ 20q lightning_gpu_vjp    total      425.6 ms loss 0.083187 -> 0.076004
+ 24q lightning_gpu_vjp    total     4303.6 ms loss 0.098028 -> 0.090885

@@ -1,0 +1,7224 @@
+{
+ "scaling": {
+  "failures": [],
+  "max_abs_error": 2.83550960489265e-13,
+  "rows": 1576,
+  "configs": [
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "aer_cpu",
+    "ms": 3.1032001729098946
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "aer_gpu",
+    "ms": 2.884966061654105
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc",
+    "ms": 2.054559210939904
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "ms": 2.3222248826847065
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lightning_gpu",
+    "ms": 1.5833087905295036
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "qulacs_1t",
+    "ms": 1.1655660397386327
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "aer_cpu",
+    "ms": 7.722201568010253
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "aer_gpu",
+    "ms": 5.154836743714004
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc",
+    "ms": 31.796290275104237
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "ms": 8.001959450906506
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lightning_gpu",
+    "ms": 3.1949183264537457
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "qulacs_1t",
+    "ms": 29.884870530225417
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "aer_cpu",
+    "ms": 494.41066622199804
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "aer_gpu",
+    "ms": 28.329475750625523
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc",
+    "ms": 611.5364960907385
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "ms": 31.377390757471463
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lightning_gpu",
+    "ms": 23.54164129571076
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "qulacs_1t",
+    "ms": 598.2337957582881
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "aer_cpu",
+    "ms": 1287.0415576864193
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "aer_gpu",
+    "ms": 410.92916613874223
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc",
+    "ms": 11739.629879151067
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "ms": 413.37361307007575
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lightning_gpu",
+    "ms": 600.755299894489
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "qulacs_1t",
+    "ms": 11536.400118343943
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "aer_cpu",
+    "ms": 5419.468382743798
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "aer_gpu",
+    "ms": 1778.2594574996044
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "ms": 1777.347575019981
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lightning_gpu",
+    "ms": 2595.040851693581
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "aer_cpu",
+    "ms": 21232.194414928927
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "aer_gpu",
+    "ms": 7758.790155235183
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "ms": 7740.986091137265
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lightning_gpu",
+    "ms": 11181.61253418118
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "aer_cpu",
+    "ms": 2.8906976635840005
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "aer_gpu",
+    "ms": 2.625646715540192
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc",
+    "ms": 1.1968472854274266
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "ms": 1.2948441203453798
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lightning_gpu",
+    "ms": 1.3609532332277257
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "qulacs_1t",
+    "ms": 0.7013038471418791
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "aer_cpu",
+    "ms": 42.1210981723005
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "aer_gpu",
+    "ms": 4.559321586532693
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc",
+    "ms": 17.325918995428705
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "ms": 5.6844360314383
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lightning_gpu",
+    "ms": 2.7559137361245543
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "qulacs_1t",
+    "ms": 16.223913555259838
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "aer_cpu",
+    "ms": 331.35364106119897
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "aer_gpu",
+    "ms": 22.871311791070884
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc",
+    "ms": 343.77028050975383
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "ms": 26.726022527226153
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lightning_gpu",
+    "ms": 21.079968092184814
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "qulacs_1t",
+    "ms": 330.5135925983481
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "aer_cpu",
+    "ms": 1045.71967435434
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "aer_gpu",
+    "ms": 373.25394275530675
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc",
+    "ms": 6796.845869723372
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "ms": 373.2326865751781
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lightning_gpu",
+    "ms": 577.4776010634808
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "qulacs_1t",
+    "ms": 6621.7644254097695
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "aer_cpu",
+    "ms": 4195.914415380843
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "aer_gpu",
+    "ms": 1615.221300122333
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "ms": 1616.4577904988503
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lightning_gpu",
+    "ms": 2495.642961894276
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "aer_cpu",
+    "ms": 16992.128459057145
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "aer_gpu",
+    "ms": 7036.683688067472
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "ms": 7037.72721422171
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lightning_gpu",
+    "ms": 10751.694583323973
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "aer_cpu",
+    "ms": 3.1119848486180004
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "aer_gpu",
+    "ms": 2.8647948099390996
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc",
+    "ms": 1.670073939931403
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "ms": 1.2910782623838106
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lightning_gpu",
+    "ms": 1.546776471213601
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "qulacs_1t",
+    "ms": 1.1864197766220859
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "aer_cpu",
+    "ms": 6.752470121071843
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "aer_gpu",
+    "ms": 4.290758335843677
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc",
+    "ms": 2.054709039801013
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "ms": 2.0397550351267673
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lightning_gpu",
+    "ms": 3.1390278980461446
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "qulacs_1t",
+    "ms": 29.814786928488427
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "aer_cpu",
+    "ms": 35.22460059693163
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "aer_gpu",
+    "ms": 16.09109850120103
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc",
+    "ms": 2.8492629666157523
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "ms": 2.8560188703242146
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lightning_gpu",
+    "ms": 23.64990102953989
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "qulacs_1t",
+    "ms": 594.52025171033
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "aer_cpu",
+    "ms": 867.8257711822014
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "aer_gpu",
+    "ms": 234.8330708944959
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc",
+    "ms": 3.4355187635990294
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "ms": 3.3969434450635174
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lightning_gpu",
+    "ms": 600.7318384110295
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "qulacs_1t",
+    "ms": 11701.80306258677
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "aer_cpu",
+    "ms": 3619.4678570799047
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "aer_gpu",
+    "ms": 1001.7325866035366
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc",
+    "ms": 3.722690938461048
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "ms": 3.6904908470945976
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lightning_gpu",
+    "ms": 2594.1564845271346
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "aer_cpu",
+    "ms": 14534.617044483392
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "aer_gpu",
+    "ms": 4346.826823594123
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc",
+    "ms": 3.7687371496760025
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "ms": 3.7327519313653164
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lightning_gpu",
+    "ms": 11180.127729831096
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "aer_cpu",
+    "ms": 2.873584929776394
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "aer_gpu",
+    "ms": 2.6596078365894473
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc",
+    "ms": 0.22854695101007144
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "ms": 0.25394480819264653
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lightning_gpu",
+    "ms": 1.3635374956032562
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "qulacs_1t",
+    "ms": 0.7907551870762531
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "aer_cpu",
+    "ms": 45.01381450417072
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "aer_gpu",
+    "ms": 3.845128294656499
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc",
+    "ms": 0.23464583499180205
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "ms": 0.2366857254039626
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lightning_gpu",
+    "ms": 2.7698296679342937
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "qulacs_1t",
+    "ms": 16.770360149351173
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "aer_cpu",
+    "ms": 92.08831932214345
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "aer_gpu",
+    "ms": 13.230945007826687
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc",
+    "ms": 0.23654783591062506
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "ms": 0.24663864367531704
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lightning_gpu",
+    "ms": 21.01880403052024
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "qulacs_1t",
+    "ms": 332.95697850173366
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "aer_cpu",
+    "ms": 661.3550203066527
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "aer_gpu",
+    "ms": 197.44268922717282
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc",
+    "ms": 0.2657329967806031
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "ms": 0.26425677523197016
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lightning_gpu",
+    "ms": 577.294712068107
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "qulacs_1t",
+    "ms": 6678.283779998959
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "aer_cpu",
+    "ms": 2709.7020729749947
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "aer_gpu",
+    "ms": 839.4004134744248
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc",
+    "ms": 0.2971057449646506
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "ms": 0.2785452057673942
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lightning_gpu",
+    "ms": 2496.465528809499
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "aer_cpu",
+    "ms": 10963.341095121074
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "aer_gpu",
+    "ms": 3650.6642487579015
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc",
+    "ms": 0.2661909761524609
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "ms": 0.3171230912145944
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lightning_gpu",
+    "ms": 10791.931997939097
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "aer_cpu",
+    "ms": 1.7870435378540726
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "aer_gpu",
+    "ms": 1.5881315838179153
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc",
+    "ms": 0.5233176747875041
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "ms": 0.5174733130162366
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lightning_gpu",
+    "ms": 1.3210777781478273
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "qulacs_1t",
+    "ms": 0.5242632710766605
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "aer_cpu",
+    "ms": 3.980259681216793
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "aer_gpu",
+    "ms": 2.604193199296089
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc",
+    "ms": 0.7437714681741966
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "ms": 0.7775632034760904
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lightning_gpu",
+    "ms": 1.6318459434931352
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "qulacs_1t",
+    "ms": 16.22706999785827
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "aer_cpu",
+    "ms": 86.24601290981677
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "aer_gpu",
+    "ms": 8.73092779467669
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc",
+    "ms": 0.8693713266838284
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "ms": 0.9208283839646777
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lightning_gpu",
+    "ms": 9.93260352288583
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "qulacs_1t",
+    "ms": 316.2649669481434
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "aer_cpu",
+    "ms": 486.77334431510843
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "aer_gpu",
+    "ms": 126.0021469404437
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc",
+    "ms": 1.080976441249762
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "ms": 1.1447140938928813
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lightning_gpu",
+    "ms": 259.88087062597384
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "qulacs_1t",
+    "ms": 6157.758476924395
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "aer_cpu",
+    "ms": 2135.769973328771
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "aer_gpu",
+    "ms": 521.9830115425495
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc",
+    "ms": 1.1930850746811812
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "ms": 1.2296132772656612
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lightning_gpu",
+    "ms": 1082.1492385517838
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "aer_cpu",
+    "ms": 8816.505771808917
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "aer_gpu",
+    "ms": 2309.9811208714514
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc",
+    "ms": 1.3871926949944626
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "ms": 1.2932929936161992
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lightning_gpu",
+    "ms": 4693.386436401466
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "aer_cpu",
+    "ms": 1.6581688511246375
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "aer_gpu",
+    "ms": 1.3697425627423572
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc",
+    "ms": 0.19332969661435878
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "ms": 0.1883620060415582
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lightning_gpu",
+    "ms": 0.9539860912193636
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "qulacs_1t",
+    "ms": 0.29464463859537643
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "aer_cpu",
+    "ms": 20.829528121546588
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "aer_gpu",
+    "ms": 1.9468671495302394
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc",
+    "ms": 0.1934652841002747
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "ms": 0.203562260131882
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lightning_gpu",
+    "ms": 1.4102234778814313
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "qulacs_1t",
+    "ms": 7.17043638729192
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "aer_cpu",
+    "ms": 11.639986206507205
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "aer_gpu",
+    "ms": 6.83230927019013
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc",
+    "ms": 0.20879932748454913
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "ms": 0.2124803590099565
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lightning_gpu",
+    "ms": 9.193845664426997
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "qulacs_1t",
+    "ms": 131.0407789453529
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "aer_cpu",
+    "ms": 256.8579524283523
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "aer_gpu",
+    "ms": 88.5514874613441
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc",
+    "ms": 0.23811337896052795
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "ms": 0.23817254924948847
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lightning_gpu",
+    "ms": 236.83215517647255
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "qulacs_1t",
+    "ms": 2756.6955507135312
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "aer_cpu",
+    "ms": 1238.0476780643362
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "aer_gpu",
+    "ms": 359.65958434105863
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc",
+    "ms": 0.2298242332131231
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "ms": 0.23057366293659823
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lightning_gpu",
+    "ms": 982.4156017951963
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "aer_cpu",
+    "ms": 4597.613242213839
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "aer_gpu",
+    "ms": 1601.0081870101524
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc",
+    "ms": 0.27732494639682165
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "ms": 0.29354865253437973
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lightning_gpu",
+    "ms": 4236.281966227035
+   }
+  ],
+  "planner": [
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc",
+    "planning_ms": 0.524912,
+    "collection_ms": 1.4949405,
+    "tasks": 1,
+    "max_width": 12,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.6109295,
+    "collection_ms": 1.6148205,
+    "tasks": 1,
+    "max_width": 12,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc",
+    "planning_ms": 0.9319485,
+    "collection_ms": 30.824316,
+    "tasks": 1,
+    "max_width": 16,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.936105,
+    "collection_ms": 7.007964,
+    "tasks": 1,
+    "max_width": 16,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc",
+    "planning_ms": 1.422247,
+    "collection_ms": 612.9877055,
+    "tasks": 1,
+    "max_width": 20,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "planning_ms": 1.163398,
+    "collection_ms": 30.182251,
+    "tasks": 1,
+    "max_width": 20,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc",
+    "planning_ms": 1.7071405,
+    "collection_ms": 11728.3560805,
+    "tasks": 1,
+    "max_width": 24,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "planning_ms": 1.6715805,
+    "collection_ms": 411.660431,
+    "tasks": 1,
+    "max_width": 24,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "planning_ms": 2.000393,
+    "collection_ms": 1775.46885,
+    "tasks": 1,
+    "max_width": 26,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "planning_ms": 2.3441535,
+    "collection_ms": 7738.793705,
+    "tasks": 1,
+    "max_width": 28,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc",
+    "planning_ms": 0.1159125,
+    "collection_ms": 1.0487985,
+    "tasks": 1,
+    "max_width": 12,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.136802,
+    "collection_ms": 1.0400815,
+    "tasks": 1,
+    "max_width": 12,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc",
+    "planning_ms": 0.1873955,
+    "collection_ms": 17.149134,
+    "tasks": 1,
+    "max_width": 16,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.1884275,
+    "collection_ms": 5.4762555,
+    "tasks": 1,
+    "max_width": 16,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc",
+    "planning_ms": 0.2485195,
+    "collection_ms": 343.2802065,
+    "tasks": 1,
+    "max_width": 20,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.1539495,
+    "collection_ms": 26.5641485,
+    "tasks": 1,
+    "max_width": 20,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc",
+    "planning_ms": 0.281604,
+    "collection_ms": 6788.2732715,
+    "tasks": 1,
+    "max_width": 24,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.2549415,
+    "collection_ms": 372.9850855,
+    "tasks": 1,
+    "max_width": 24,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.2749305,
+    "collection_ms": 1616.216211,
+    "tasks": 1,
+    "max_width": 26,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.268621,
+    "collection_ms": 7037.2330865,
+    "tasks": 1,
+    "max_width": 28,
+    "strategy": [
+     "full"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc",
+    "planning_ms": 0.495327,
+    "collection_ms": 1.0422215,
+    "tasks": 6,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.4348855,
+    "collection_ms": 0.864536,
+    "tasks": 6,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc",
+    "planning_ms": 0.65153,
+    "collection_ms": 1.387227,
+    "tasks": 8,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.644497,
+    "collection_ms": 1.395502,
+    "tasks": 8,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc",
+    "planning_ms": 0.9456095,
+    "collection_ms": 1.9064275,
+    "tasks": 10,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.940096,
+    "collection_ms": 1.891507,
+    "tasks": 10,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc",
+    "planning_ms": 1.204908,
+    "collection_ms": 2.2043825,
+    "tasks": 12,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "planning_ms": 1.1763985,
+    "collection_ms": 2.2078715,
+    "tasks": 12,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc",
+    "planning_ms": 1.3074675,
+    "collection_ms": 2.3942565,
+    "tasks": 13,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "planning_ms": 1.3009655,
+    "collection_ms": 2.381233,
+    "tasks": 13,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc",
+    "planning_ms": 1.326526,
+    "collection_ms": 2.415127,
+    "tasks": 14,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "planning_ms": 1.309928,
+    "collection_ms": 2.391431,
+    "tasks": 14,
+    "max_width": 10,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc",
+    "planning_ms": 0.087963,
+    "collection_ms": 0.138019,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.0848605,
+    "collection_ms": 0.1409675,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc",
+    "planning_ms": 0.097137,
+    "collection_ms": 0.1321715,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.094094,
+    "collection_ms": 0.141271,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc",
+    "planning_ms": 0.104501,
+    "collection_ms": 0.1361235,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.108747,
+    "collection_ms": 0.140564,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc",
+    "planning_ms": 0.1136885,
+    "collection_ms": 0.139998,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.1204795,
+    "collection_ms": 0.136619,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc",
+    "planning_ms": 0.130784,
+    "collection_ms": 0.162128,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.1265685,
+    "collection_ms": 0.145557,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc",
+    "planning_ms": 0.138309,
+    "collection_ms": 0.1269775,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.1462765,
+    "collection_ms": 0.1390325,
+    "tasks": 1,
+    "max_width": 6,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc",
+    "planning_ms": 0.182524,
+    "collection_ms": 0.3209455,
+    "tasks": 10,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.175638,
+    "collection_ms": 0.3280245,
+    "tasks": 10,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc",
+    "planning_ms": 0.276262,
+    "collection_ms": 0.434635,
+    "tasks": 14,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.3041165,
+    "collection_ms": 0.472113,
+    "tasks": 14,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc",
+    "planning_ms": 0.353498,
+    "collection_ms": 0.503712,
+    "tasks": 17,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.381583,
+    "collection_ms": 0.5646405,
+    "tasks": 17,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc",
+    "planning_ms": 0.454822,
+    "collection_ms": 0.6204025,
+    "tasks": 21,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.462892,
+    "collection_ms": 0.652052,
+    "tasks": 21,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc",
+    "planning_ms": 0.518184,
+    "collection_ms": 0.649913,
+    "tasks": 22,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.544967,
+    "collection_ms": 0.682142,
+    "tasks": 22,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc",
+    "planning_ms": 0.630932,
+    "collection_ms": 0.7304085,
+    "tasks": 24,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.595367,
+    "collection_ms": 0.69142,
+    "tasks": 24,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc",
+    "planning_ms": 0.0603435,
+    "collection_ms": 0.1320985,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.058624,
+    "collection_ms": 0.1327615,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc",
+    "planning_ms": 0.065955,
+    "collection_ms": 0.128702,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.0643325,
+    "collection_ms": 0.1360645,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc",
+    "planning_ms": 0.0716925,
+    "collection_ms": 0.1368525,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.0715105,
+    "collection_ms": 0.1381315,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc",
+    "planning_ms": 0.0901485,
+    "collection_ms": 0.148219,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.090842,
+    "collection_ms": 0.1417285,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc",
+    "planning_ms": 0.0867485,
+    "collection_ms": 0.1498535,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 26,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.081645,
+    "collection_ms": 0.145869,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc",
+    "planning_ms": 0.110168,
+    "collection_ms": 0.160934,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 28,
+    "method": "lazyqc_gpu",
+    "planning_ms": 0.1160765,
+    "collection_ms": 0.165633,
+    "tasks": 1,
+    "max_width": 8,
+    "strategy": [
+     "grouped"
+    ]
+   }
+  ]
+ },
+ "memory_wall": {
+  "planned": [
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 32,
+    "total_ms": 47.284103857582465,
+    "planning_ms": 2.978417410867892,
+    "min_width": 32,
+    "median_width": 32,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 68719476736
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "total_ms": 73.16604746140459,
+    "planning_ms": 6.53371717123109,
+    "min_width": 48,
+    "median_width": 48,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 4503599627370496
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 64,
+    "total_ms": 101.24096419120761,
+    "planning_ms": 11.933382033072098,
+    "min_width": 64,
+    "median_width": 64,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 295147905179352825856
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 100,
+    "total_ms": 169.61894859860027,
+    "planning_ms": 29.901353465445336,
+    "min_width": 100,
+    "median_width": 100,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 20282409603651670423947251286016
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 128,
+    "total_ms": 226.64460094085834,
+    "planning_ms": 48.04548256945843,
+    "min_width": 128,
+    "median_width": 128,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 5444517870735015415413993718908291383296
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 32,
+    "total_ms": 38.41555971845067,
+    "planning_ms": 0.30112929741225775,
+    "min_width": 32,
+    "median_width": 32,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 68719476736
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 48,
+    "total_ms": 57.76959058380416,
+    "planning_ms": 0.420138735863524,
+    "min_width": 48,
+    "median_width": 48,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 4503599627370496
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 64,
+    "total_ms": 78.51315915412879,
+    "planning_ms": 0.5760865015108408,
+    "min_width": 64,
+    "median_width": 64,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 295147905179352825856
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 100,
+    "total_ms": 121.12401142710365,
+    "planning_ms": 0.8572816888368724,
+    "min_width": 100,
+    "median_width": 100,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 20282409603651670423947251286016
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 128,
+    "total_ms": 152.41737755469552,
+    "planning_ms": 1.0960213680061168,
+    "min_width": 128,
+    "median_width": 128,
+    "max_width": 0,
+    "tasks": 1,
+    "dense_bytes": 5444517870735015415413993718908291383296
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 32,
+    "total_ms": 4.612419118649128,
+    "planning_ms": 1.759687326446946,
+    "min_width": 6,
+    "median_width": 10,
+    "max_width": 10,
+    "tasks": 16,
+    "dense_bytes": 68719476736
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "total_ms": 8.324715483387045,
+    "planning_ms": 3.5925130612245515,
+    "min_width": 6,
+    "median_width": 10,
+    "max_width": 10,
+    "tasks": 24,
+    "dense_bytes": 4503599627370496
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 64,
+    "total_ms": 12.439916971177098,
+    "planning_ms": 5.981545554267726,
+    "min_width": 6,
+    "median_width": 10,
+    "max_width": 10,
+    "tasks": 32,
+    "dense_bytes": 295147905179352825856
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 100,
+    "total_ms": 24.12284143932634,
+    "planning_ms": 13.951463174275808,
+    "min_width": 6,
+    "median_width": 10,
+    "max_width": 10,
+    "tasks": 50,
+    "dense_bytes": 20282409603651670423947251286016
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 128,
+    "total_ms": 34.94369541918341,
+    "planning_ms": 21.994803270309102,
+    "min_width": 6,
+    "median_width": 10,
+    "max_width": 10,
+    "tasks": 64,
+    "dense_bytes": 5444517870735015415413993718908291383296
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 32,
+    "total_ms": 0.24906586724198082,
+    "planning_ms": 0.13623867801032125,
+    "min_width": 6,
+    "median_width": 6,
+    "max_width": 6,
+    "tasks": 1,
+    "dense_bytes": 68719476736
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 48,
+    "total_ms": 0.27344504677905573,
+    "planning_ms": 0.17401939010064368,
+    "min_width": 6,
+    "median_width": 6,
+    "max_width": 6,
+    "tasks": 1,
+    "dense_bytes": 4503599627370496
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 64,
+    "total_ms": 0.3355516885116211,
+    "planning_ms": 0.2276832855525412,
+    "min_width": 6,
+    "median_width": 6,
+    "max_width": 6,
+    "tasks": 1,
+    "dense_bytes": 295147905179352825856
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 100,
+    "total_ms": 0.44001817422465633,
+    "planning_ms": 0.33047815864743624,
+    "min_width": 6,
+    "median_width": 6,
+    "max_width": 6,
+    "tasks": 1,
+    "dense_bytes": 20282409603651670423947251286016
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 128,
+    "total_ms": 0.4603294662152315,
+    "planning_ms": 0.35412901776047667,
+    "min_width": 6,
+    "median_width": 6,
+    "max_width": 6,
+    "tasks": 1,
+    "dense_bytes": 5444517870735015415413993718908291383296
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 32,
+    "total_ms": 1.6290139214273154,
+    "planning_ms": 0.7926095898990877,
+    "min_width": 2,
+    "median_width": 2,
+    "max_width": 8,
+    "tasks": 28,
+    "dense_bytes": 68719476736
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "total_ms": 2.7081196400166667,
+    "planning_ms": 1.5032827864696647,
+    "min_width": 2,
+    "median_width": 2,
+    "max_width": 8,
+    "tasks": 42,
+    "dense_bytes": 4503599627370496
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 64,
+    "total_ms": 4.0484557037447,
+    "planning_ms": 2.4736971460342514,
+    "min_width": 2,
+    "median_width": 2,
+    "max_width": 8,
+    "tasks": 56,
+    "dense_bytes": 295147905179352825856
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 100,
+    "total_ms": 8.11011297828039,
+    "planning_ms": 5.6438449600425775,
+    "min_width": 2,
+    "median_width": 2,
+    "max_width": 8,
+    "tasks": 87,
+    "dense_bytes": 20282409603651670423947251286016
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 128,
+    "total_ms": 12.240447630600114,
+    "planning_ms": 9.052295754356019,
+    "min_width": 2,
+    "median_width": 2,
+    "max_width": 8,
+    "tasks": 112,
+    "dense_bytes": 5444517870735015415413993718908291383296
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 32,
+    "total_ms": 0.22566099630640649,
+    "planning_ms": 0.09290115149986031,
+    "min_width": 8,
+    "median_width": 8,
+    "max_width": 8,
+    "tasks": 1,
+    "dense_bytes": 68719476736
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 48,
+    "total_ms": 0.20703491045231956,
+    "planning_ms": 0.10371666001178405,
+    "min_width": 8,
+    "median_width": 8,
+    "max_width": 8,
+    "tasks": 1,
+    "dense_bytes": 4503599627370496
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 64,
+    "total_ms": 0.2279424097836995,
+    "planning_ms": 0.12206791532585459,
+    "min_width": 8,
+    "median_width": 8,
+    "max_width": 8,
+    "tasks": 1,
+    "dense_bytes": 295147905179352825856
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 100,
+    "total_ms": 0.2515657880157793,
+    "planning_ms": 0.15147469914477463,
+    "min_width": 8,
+    "median_width": 8,
+    "max_width": 8,
+    "tasks": 1,
+    "dense_bytes": 20282409603651670423947251286016
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 128,
+    "total_ms": 0.28510021646431627,
+    "planning_ms": 0.18080613257851627,
+    "min_width": 8,
+    "median_width": 8,
+    "max_width": 8,
+    "tasks": 1,
+    "dense_bytes": 5444517870735015415413993718908291383296
+   }
+  ],
+  "mps": [
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 44.84125770712511,
+    "max_bond": 16
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 67.36616804656389,
+    "max_bond": 16
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 89.15750408614217,
+    "max_bond": 16
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 143.44121312339297,
+    "max_bond": 16
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 179.70423729903416,
+    "max_bond": 16
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 38.03290252463781,
+    "max_bond": 16
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 56.89407354011196,
+    "max_bond": 16
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 76.59082978463043,
+    "max_bond": 16
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 119.2081297921452,
+    "max_bond": 16
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 151.95497883411488,
+    "max_bond": 16
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 65.66242238598596,
+    "max_bond": 32
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 100.3672847445776,
+    "max_bond": 32
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 6,
+    "total_ms": 262.388405610473,
+    "max_bond": 128
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 8,
+    "total_ms": 4638.423303132693,
+    "max_bond": 512
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 133.0293327910089,
+    "max_bond": 32
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 214.42662708203852,
+    "max_bond": 32
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 274.2829091896454,
+    "max_bond": 32
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 60.09789433357771,
+    "max_bond": 32
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 89.92526656826777,
+    "max_bond": 32
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 120.31550037676037,
+    "max_bond": 32
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 190.46711102588546,
+    "max_bond": 32
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 243.87670492407264,
+    "max_bond": 32
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 51.53494860984817,
+    "max_bond": 8
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 78.56491908236534,
+    "max_bond": 8
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 101.85262583574573,
+    "max_bond": 8
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 158.03356491561897,
+    "max_bond": 8
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 205.5779835136583,
+    "max_bond": 8
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 50.18892436681857,
+    "max_bond": 8
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 67.90141881251719,
+    "max_bond": 8
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 88.84771334834574,
+    "max_bond": 8
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 139.19206529060602,
+    "max_bond": 8
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 181.28608539710734,
+    "max_bond": 8
+   }
+  ],
+  "tn": [
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 5452.1861435125375
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 13690.668830627252
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 27089.410612167754
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 79563.57510414897
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_local_outputs",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 147663.25373711195
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 466.5435414727305
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 826.3833970625442
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 1315.4019619762578
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 2653.5370177904365
+   },
+   {
+    "family": "data_reuploading",
+    "pattern": "same_state_shared_cone",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 3905.322256345803
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 983.3445293838286
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 1602.2674282641806
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 6,
+    "total_ms": 3095.297975288406
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 8,
+    "total_ms": 5173.297322472223
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 2240.541437194777
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 4004.6520324466223
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 5559.50838018686
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 83.05268267036497
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 89.87996348839867
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 111.3320543528988
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 161.05114116713133
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 227.32445640690392
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 224.93423652933188
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 353.9686184460104
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 513.0228189691761
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 943.9076034603607
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 1394.3081678283877
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 32,
+    "depth": 4,
+    "total_ms": 66.99151709280095
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 48,
+    "depth": 4,
+    "total_ms": 47.32617742197338
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 64,
+    "depth": 4,
+    "total_ms": 56.50012487320055
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 100,
+    "depth": 4,
+    "total_ms": 91.26280568275669
+   },
+   {
+    "family": "qcnn_like_local",
+    "pattern": "same_state_shared_cone",
+    "qubits": 128,
+    "depth": 4,
+    "total_ms": 97.17248487528266
+   }
+  ],
+  "extra": [
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 6,
+    "method": "lazyqc",
+    "total_ms": 71.43864873437533,
+    "planning_ms": 5.328464165215528,
+    "min_width": 8,
+    "median_width": 14,
+    "max_width": 14,
+    "tasks": 24
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 6,
+    "method": "lazyqc_gpu",
+    "total_ms": 73.38042085830233,
+    "planning_ms": 5.549291490260717,
+    "min_width": 8,
+    "median_width": 14,
+    "max_width": 14,
+    "tasks": 24
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 8,
+    "method": "lazyqc",
+    "total_ms": 1412.2867810515638,
+    "planning_ms": 7.46192526092777,
+    "min_width": 10,
+    "median_width": 18,
+    "max_width": 18,
+    "tasks": 24
+   },
+   {
+    "family": "hardware_efficient_local",
+    "pattern": "same_state_local_outputs",
+    "qubits": 48,
+    "depth": 8,
+    "method": "lazyqc_gpu",
+    "total_ms": 167.23504968172256,
+    "planning_ms": 7.433663968006625,
+    "min_width": 10,
+    "median_width": 18,
+    "max_width": 18,
+    "tasks": 24
+   }
+  ],
+  "max_error_vs_quimb": 1.6827428339638573e-11,
+  "max_mps_error_vs_quimb": 1.6827428339638573e-11,
+  "refused": [],
+  "failures": []
+ },
+ "jacobian": {
+  "configs": [
+   {
+    "family": "data_reuploading",
+    "qubits": 12,
+    "method": "aer_gpu_shift",
+    "ms": 261.4076626973838
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 12,
+    "method": "lazyqc",
+    "ms": 157.77788662043878
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "ms": 157.9709136221195
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 12,
+    "method": "lightning_cpu_adjoint",
+    "ms": 4.8714186322518
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 12,
+    "method": "lightning_gpu_adjoint",
+    "ms": 24.334546862085187
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 16,
+    "method": "aer_gpu_shift",
+    "ms": 623.2285734007237
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 16,
+    "method": "lazyqc",
+    "ms": 3795.1648954286406
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "ms": 936.0982007346239
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 16,
+    "method": "lightning_cpu_adjoint",
+    "ms": 1476.6743210289092
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 16,
+    "method": "lightning_gpu_adjoint",
+    "ms": 61.95529768938101
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 12,
+    "method": "aer_gpu_shift",
+    "ms": 254.0181588804881
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 12,
+    "method": "lazyqc",
+    "ms": 54.64985954728473
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "ms": 54.30275884330838
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 12,
+    "method": "lightning_cpu_adjoint",
+    "ms": 5.436139156894349
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 12,
+    "method": "lightning_gpu_adjoint",
+    "ms": 24.79648845288268
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 16,
+    "method": "aer_gpu_shift",
+    "ms": 529.3627306210067
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 16,
+    "method": "lazyqc",
+    "ms": 94.58721159935703
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "ms": 93.82497349161142
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 16,
+    "method": "lightning_cpu_adjoint",
+    "ms": 1033.8952558990013
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 16,
+    "method": "lightning_gpu_adjoint",
+    "ms": 59.8800337418877
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 20,
+    "method": "aer_gpu_shift",
+    "ms": 2492.1622207284067
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 20,
+    "method": "lazyqc",
+    "ms": 143.00907989502264
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "ms": 145.09612214546695
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 20,
+    "method": "lightning_cpu_adjoint",
+    "ms": 3330.84766928375
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 20,
+    "method": "lightning_gpu_adjoint",
+    "ms": 846.6438664072613
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 24,
+    "method": "lazyqc",
+    "ms": 193.8489880592498
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "ms": 187.6826545783184
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 24,
+    "method": "lightning_gpu_adjoint",
+    "ms": 23875.73126517729
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 12,
+    "method": "aer_gpu_shift",
+    "ms": 59.314782792277015
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 12,
+    "method": "lazyqc",
+    "ms": 8.257407478154933
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 12,
+    "method": "lazyqc_gpu",
+    "ms": 8.310804635623679
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 12,
+    "method": "lightning_cpu_adjoint",
+    "ms": 2.4333644514704327
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 12,
+    "method": "lightning_gpu_adjoint",
+    "ms": 13.422606502573185
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 16,
+    "method": "aer_gpu_shift",
+    "ms": 133.35759929930745
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 16,
+    "method": "lazyqc",
+    "ms": 16.042944834922544
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 16,
+    "method": "lazyqc_gpu",
+    "ms": 15.804605876442478
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 16,
+    "method": "lightning_cpu_adjoint",
+    "ms": 42.85264519670155
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 16,
+    "method": "lightning_gpu_adjoint",
+    "ms": 32.58046539163404
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 20,
+    "method": "aer_gpu_shift",
+    "ms": 630.4290961013525
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 20,
+    "method": "lazyqc",
+    "ms": 19.434590814497515
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 20,
+    "method": "lazyqc_gpu",
+    "ms": 19.38528386499473
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 20,
+    "method": "lightning_cpu_adjoint",
+    "ms": 1426.589246923176
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 20,
+    "method": "lightning_gpu_adjoint",
+    "ms": 364.9733647459989
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 24,
+    "method": "lazyqc",
+    "ms": 28.991522813862595
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 24,
+    "method": "lazyqc_gpu",
+    "ms": 29.144202660138493
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 24,
+    "method": "lightning_gpu_adjoint",
+    "ms": 10540.175536836887
+   }
+  ],
+  "cases": [
+   {
+    "family": "data_reuploading",
+    "qubits": 12,
+    "parameters": 48,
+    "programs": 97,
+    "requests": 1164,
+    "structural_zeros": 55,
+    "outputs": 12,
+    "planner_tasks": 97,
+    "planning_ms": 15.506056,
+    "collection_ms": 140.4407785
+   },
+   {
+    "family": "data_reuploading",
+    "qubits": 16,
+    "parameters": 64,
+    "programs": 129,
+    "requests": 2064,
+    "structural_zeros": 105,
+    "outputs": 16,
+    "planner_tasks": 129,
+    "planning_ms": 32.8813715,
+    "collection_ms": 3755.6887285
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 12,
+    "parameters": 48,
+    "programs": 97,
+    "requests": 1164,
+    "structural_zeros": 292,
+    "outputs": 12,
+    "planner_tasks": 290,
+    "planning_ms": 9.0156205,
+    "collection_ms": 45.323421
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 16,
+    "parameters": 64,
+    "programs": 129,
+    "requests": 2064,
+    "structural_zeros": 628,
+    "outputs": 16,
+    "planner_tasks": 404,
+    "planning_ms": 15.9254265,
+    "collection_ms": 77.6002985
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 20,
+    "parameters": 80,
+    "programs": 161,
+    "requests": 3220,
+    "structural_zeros": 1092,
+    "outputs": 20,
+    "planner_tasks": 518,
+    "planning_ms": 32.2388815,
+    "collection_ms": 109.909125
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 24,
+    "parameters": 96,
+    "programs": 193,
+    "requests": 4632,
+    "structural_zeros": 1684,
+    "outputs": 24,
+    "planner_tasks": 632,
+    "planning_ms": 42.524805,
+    "collection_ms": 147.6007055
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 12,
+    "parameters": 22,
+    "programs": 45,
+    "requests": 540,
+    "structural_zeros": 196,
+    "outputs": 12,
+    "planner_tasks": 102,
+    "planning_ms": 2.049421,
+    "collection_ms": 6.160361
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 16,
+    "parameters": 32,
+    "programs": 65,
+    "requests": 1040,
+    "structural_zeros": 408,
+    "outputs": 16,
+    "planner_tasks": 158,
+    "planning_ms": 4.172495,
+    "collection_ms": 11.548468
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 20,
+    "parameters": 38,
+    "programs": 77,
+    "requests": 1540,
+    "structural_zeros": 640,
+    "outputs": 20,
+    "planner_tasks": 181,
+    "planning_ms": 5.662247,
+    "collection_ms": 13.438385
+   },
+   {
+    "family": "qcnn_like_local",
+    "qubits": 24,
+    "parameters": 48,
+    "programs": 97,
+    "requests": 2328,
+    "structural_zeros": 996,
+    "outputs": 24,
+    "planner_tasks": 237,
+    "planning_ms": 8.65288,
+    "collection_ms": 20.0615115
+   }
+  ],
+  "validation": [
+   {
+    "case": "hardware_efficient_local_12q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 8.881784197001252e-16
+   },
+   {
+    "case": "hardware_efficient_local_12q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 8.881784197001252e-16
+   },
+   {
+    "case": "hardware_efficient_local_12q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 8.881784197001252e-16
+   },
+   {
+    "case": "hardware_efficient_local_12q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 8.881784197001252e-16
+   },
+   {
+    "case": "qcnn_like_local_12q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 1.3322676295501878e-15
+   },
+   {
+    "case": "qcnn_like_local_12q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 1.3322676295501878e-15
+   },
+   {
+    "case": "qcnn_like_local_12q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 2.7755575615628914e-16
+   },
+   {
+    "case": "qcnn_like_local_12q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 2.7755575615628914e-16
+   },
+   {
+    "case": "data_reuploading_12q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 1.444157293750692e-15
+   },
+   {
+    "case": "data_reuploading_12q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 1.444157293750692e-15
+   },
+   {
+    "case": "data_reuploading_12q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 1.7208456881689926e-15
+   },
+   {
+    "case": "data_reuploading_12q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 1.7208456881689926e-15
+   },
+   {
+    "case": "hardware_efficient_local_16q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 4.727121472036799e-16
+   },
+   {
+    "case": "hardware_efficient_local_16q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 4.727121472036799e-16
+   },
+   {
+    "case": "hardware_efficient_local_16q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 9.43689570931383e-16
+   },
+   {
+    "case": "hardware_efficient_local_16q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 9.43689570931383e-16
+   },
+   {
+    "case": "qcnn_like_local_16q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 1.5543122344752192e-15
+   },
+   {
+    "case": "qcnn_like_local_16q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 1.5543122344752192e-15
+   },
+   {
+    "case": "qcnn_like_local_16q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 9.992007221626409e-16
+   },
+   {
+    "case": "qcnn_like_local_16q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 9.992007221626409e-16
+   },
+   {
+    "case": "data_reuploading_16q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 3.608224830031759e-16
+   },
+   {
+    "case": "data_reuploading_16q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 6.945832797811136e-15
+   },
+   {
+    "case": "data_reuploading_16q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 2.7755575615628914e-16
+   },
+   {
+    "case": "data_reuploading_16q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 6.57525249525559e-15
+   },
+   {
+    "case": "hardware_efficient_local_20q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 7.216449660063518e-16
+   },
+   {
+    "case": "hardware_efficient_local_20q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 7.216449660063518e-16
+   },
+   {
+    "case": "hardware_efficient_local_20q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 8.604228440844963e-16
+   },
+   {
+    "case": "hardware_efficient_local_20q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 8.604228440844963e-16
+   },
+   {
+    "case": "qcnn_like_local_20q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 1.5543122344752192e-15
+   },
+   {
+    "case": "qcnn_like_local_20q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 1.5543122344752192e-15
+   },
+   {
+    "case": "qcnn_like_local_20q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 1.1102230246251565e-15
+   },
+   {
+    "case": "qcnn_like_local_20q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 1.1102230246251565e-15
+   },
+   {
+    "case": "hardware_efficient_local_24q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 1.4988010832439613e-15
+   },
+   {
+    "case": "hardware_efficient_local_24q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 1.4988010832439613e-15
+   },
+   {
+    "case": "hardware_efficient_local_24q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 6.38378239159465e-16
+   },
+   {
+    "case": "hardware_efficient_local_24q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 6.38378239159465e-16
+   },
+   {
+    "case": "qcnn_like_local_24q_d4_jacobian_s202",
+    "method": "lazyqc",
+    "max_abs_error": 4.440892098500626e-16
+   },
+   {
+    "case": "qcnn_like_local_24q_d4_jacobian_s202",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 4.440892098500626e-16
+   },
+   {
+    "case": "qcnn_like_local_24q_d4_jacobian_s303",
+    "method": "lazyqc",
+    "max_abs_error": 1.7763568394002505e-15
+   },
+   {
+    "case": "qcnn_like_local_24q_d4_jacobian_s303",
+    "method": "lazyqc_gpu",
+    "max_abs_error": 1.7763568394002505e-15
+   },
+   {
+    "case": "hardware_efficient_local_12q_d4_jacobian_s202",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 2.7755575615628914e-16
+   },
+   {
+    "case": "hardware_efficient_local_12q_d4_jacobian_s202",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 1.9984014443252818e-15
+   },
+   {
+    "case": "hardware_efficient_local_12q_d4_jacobian_s303",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 2.4702462297909733e-15
+   },
+   {
+    "case": "hardware_efficient_local_12q_d4_jacobian_s303",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 3.3306690738754696e-16
+   },
+   {
+    "case": "qcnn_like_local_12q_d4_jacobian_s202",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 2.4147350785597155e-15
+   },
+   {
+    "case": "qcnn_like_local_12q_d4_jacobian_s202",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 7.771561172376096e-16
+   },
+   {
+    "case": "qcnn_like_local_12q_d4_jacobian_s303",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 4.440892098500626e-16
+   },
+   {
+    "case": "qcnn_like_local_12q_d4_jacobian_s303",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 4.440892098500626e-16
+   },
+   {
+    "case": "data_reuploading_12q_d4_jacobian_s202",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 2.220446049250313e-16
+   },
+   {
+    "case": "data_reuploading_12q_d4_jacobian_s202",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 8.049116928532385e-16
+   },
+   {
+    "case": "data_reuploading_12q_d4_jacobian_s303",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 1.8648277366750676e-16
+   },
+   {
+    "case": "data_reuploading_12q_d4_jacobian_s303",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 1.1657341758564144e-15
+   },
+   {
+    "case": "hardware_efficient_local_16q_d4_jacobian_s202",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 4.3576253716537394e-15
+   },
+   {
+    "case": "hardware_efficient_local_16q_d4_jacobian_s202",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 2.7755575615628914e-16
+   },
+   {
+    "case": "hardware_efficient_local_16q_d4_jacobian_s303",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 6.106226635438361e-16
+   },
+   {
+    "case": "hardware_efficient_local_16q_d4_jacobian_s303",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 3.4416913763379853e-15
+   },
+   {
+    "case": "qcnn_like_local_16q_d4_jacobian_s202",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 1.4432899320127035e-15
+   },
+   {
+    "case": "qcnn_like_local_16q_d4_jacobian_s202",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 3.3800186030459342e-15
+   },
+   {
+    "case": "qcnn_like_local_16q_d4_jacobian_s303",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 5.551115123125783e-16
+   },
+   {
+    "case": "qcnn_like_local_16q_d4_jacobian_s303",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 2.3314683517128287e-15
+   },
+   {
+    "case": "data_reuploading_16q_d4_jacobian_s202",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 6.328271240363392e-15
+   },
+   {
+    "case": "data_reuploading_16q_d4_jacobian_s202",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 3.608224830031759e-16
+   },
+   {
+    "case": "data_reuploading_16q_d4_jacobian_s303",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 2.7755575615628914e-16
+   },
+   {
+    "case": "data_reuploading_16q_d4_jacobian_s303",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 4.773959005888173e-15
+   },
+   {
+    "case": "hardware_efficient_local_20q_d4_jacobian_s202",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 4.440892098500626e-16
+   },
+   {
+    "case": "hardware_efficient_local_20q_d4_jacobian_s202",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 2.0095036745715333e-14
+   },
+   {
+    "case": "hardware_efficient_local_20q_d4_jacobian_s303",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 2.7755575615628914e-16
+   },
+   {
+    "case": "hardware_efficient_local_20q_d4_jacobian_s303",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 1.815214645262131e-14
+   },
+   {
+    "case": "qcnn_like_local_20q_d4_jacobian_s202",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 5.4567461660326444e-14
+   },
+   {
+    "case": "qcnn_like_local_20q_d4_jacobian_s202",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 8.881784197001252e-16
+   },
+   {
+    "case": "qcnn_like_local_20q_d4_jacobian_s303",
+    "method": "lightning_cpu_adjoint",
+    "max_abs_error": 5.020428517354958e-13
+   },
+   {
+    "case": "qcnn_like_local_20q_d4_jacobian_s303",
+    "method": "aer_gpu_shift",
+    "max_abs_error": 3.2612801348363973e-16
+   }
+  ],
+  "failures": [
+   {
+    "case_id": "hardware_efficient_local_24q_d4_jacobian_s202",
+    "method": "lightning_gpu_adjoint",
+    "note": "observable batch out of memory; retried in chunks of 8"
+   },
+   {
+    "case_id": "hardware_efficient_local_24q_d4_jacobian_s303",
+    "method": "lightning_gpu_adjoint",
+    "note": "observable batch out of memory; retried in chunks of 8"
+   },
+   {
+    "case_id": "qcnn_like_local_24q_d4_jacobian_s202",
+    "method": "lightning_gpu_adjoint",
+    "note": "observable batch out of memory; retried in chunks of 8"
+   },
+   {
+    "case_id": "qcnn_like_local_24q_d4_jacobian_s303",
+    "method": "lightning_gpu_adjoint",
+    "note": "observable batch out of memory; retried in chunks of 8"
+   },
+   {
+    "case_id": "hardware_efficient_local_24q_d4_jacobian_s202",
+    "method": "lightning_gpu_adjoint",
+    "note": "observable batch out of memory; retried in chunks of 8"
+   },
+   {
+    "case_id": "hardware_efficient_local_24q_d4_jacobian_s303",
+    "method": "lightning_gpu_adjoint",
+    "note": "observable batch out of memory; retried in chunks of 8"
+   },
+   {
+    "case_id": "qcnn_like_local_24q_d4_jacobian_s202",
+    "method": "lightning_gpu_adjoint",
+    "note": "observable batch out of memory; retried in chunks of 8"
+   },
+   {
+    "case_id": "qcnn_like_local_24q_d4_jacobian_s303",
+    "method": "lightning_gpu_adjoint",
+    "note": "observable batch out of memory; retried in chunks of 8"
+   }
+  ]
+ },
+ "training": [
+  {
+   "qubits": 16,
+   "method": "aer_gpu_shift",
+   "parameters": 64,
+   "total_ms": 7253.610989,
+   "median_step_ms": 718.8031415,
+   "first_loss": 0.09326724136106618,
+   "last_loss": 0.08407643152131296,
+   "max_loss_difference_vs_lightning": 4.163336342344337e-17
+  },
+  {
+   "qubits": 16,
+   "method": "lazyqc",
+   "parameters": 64,
+   "total_ms": 957.181872,
+   "median_step_ms": 95.333335,
+   "first_loss": 0.0932672413610662,
+   "last_loss": 0.08407643152131294,
+   "max_loss_difference_vs_lightning": 5.551115123125783e-17
+  },
+  {
+   "qubits": 16,
+   "method": "lightning_gpu_vjp",
+   "parameters": 64,
+   "total_ms": 180.488201,
+   "median_step_ms": 17.9723945,
+   "first_loss": 0.09326724136106618,
+   "last_loss": 0.08407643152131292,
+   "max_loss_difference_vs_lightning": null
+  },
+  {
+   "qubits": 20,
+   "method": "lazyqc",
+   "parameters": 80,
+   "total_ms": 1397.411896,
+   "median_step_ms": 140.527711,
+   "first_loss": 0.08318679349008831,
+   "last_loss": 0.07600372211374079,
+   "max_loss_difference_vs_lightning": 4.163336342344337e-17
+  },
+  {
+   "qubits": 20,
+   "method": "lightning_gpu_vjp",
+   "parameters": 80,
+   "total_ms": 1257.868706,
+   "median_step_ms": 125.495569,
+   "first_loss": 0.0831867934900883,
+   "last_loss": 0.07600372211374079,
+   "max_loss_difference_vs_lightning": null
+  },
+  {
+   "qubits": 24,
+   "method": "lazyqc",
+   "parameters": 96,
+   "total_ms": 1933.920214,
+   "median_step_ms": 193.03609,
+   "first_loss": 0.09802845346751095,
+   "last_loss": 0.09088483801925817,
+   "max_loss_difference_vs_lightning": 9.71445146547012e-17
+  },
+  {
+   "qubits": 24,
+   "method": "lightning_gpu_vjp",
+   "parameters": 96,
+   "total_ms": 32157.90487,
+   "median_step_ms": 3215.941188,
+   "first_loss": 0.09802845346751099,
+   "last_loss": 0.09088483801925816,
+   "max_loss_difference_vs_lightning": null
+  }
+ ],
+ "confirmation": {
+  "configurations": 12,
+  "median_relative_deviation": 0.07890190587204798,
+  "max_relative_deviation": 0.23252555873699854
+ },
+ "remote": {
+  "nvidia-h100-pcie": {
+   "gpu": "NVIDIA H100 PCIe, 81559 MiB, 570.148.08, 1755 MHz, 350.00 W",
+   "scaling": {
+    "failures": [],
+    "max_abs_error": 1.3330447856674255e-12,
+    "rows": 1576,
+    "configs": [
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "aer_cpu",
+      "ms": 16.717422831782418
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "aer_gpu",
+      "ms": 11.964189195605355
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc",
+      "ms": 4.261467955533047
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "ms": 4.30839117066777
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lightning_gpu",
+      "ms": 3.6649937638957857
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "qulacs_1t",
+      "ms": 2.4547639476212373
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "aer_cpu",
+      "ms": 47.26713466906553
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "aer_gpu",
+      "ms": 9.717870207532052
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc",
+      "ms": 65.47555465769504
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "ms": 30.80598840875276
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lightning_gpu",
+      "ms": 6.513908818465301
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "qulacs_1t",
+      "ms": 60.470977946310924
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "aer_cpu",
+      "ms": 801.702781698832
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "aer_gpu",
+      "ms": 17.223059242155557
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc",
+      "ms": 1055.995592622571
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "ms": 33.054469641745094
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lightning_gpu",
+      "ms": 8.919906081567902
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "qulacs_1t",
+      "ms": 1019.5060820772113
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "aer_cpu",
+      "ms": 10092.604427524311
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "aer_gpu",
+      "ms": 37.80520287552424
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc",
+      "ms": 17702.534089245106
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "ms": 58.98692886554579
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lightning_gpu",
+      "ms": 81.21115688182988
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "qulacs_1t",
+      "ms": 17050.24574806245
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "aer_cpu",
+      "ms": 44052.15576073043
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "aer_gpu",
+      "ms": 109.76877610609347
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "ms": 146.74367162628235
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lightning_gpu",
+      "ms": 329.71467788841005
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "aer_cpu",
+      "ms": 206166.0096229297
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "aer_gpu",
+      "ms": 451.894541483698
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "ms": 492.81750547713483
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lightning_gpu",
+      "ms": 1389.858420339985
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "aer_cpu",
+      "ms": 16.203547310596843
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "aer_gpu",
+      "ms": 10.726365375365553
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc",
+      "ms": 2.4747803761247176
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "ms": 2.477312400592021
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lightning_gpu",
+      "ms": 3.480337482133737
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "qulacs_1t",
+      "ms": 1.6924854293021254
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "aer_cpu",
+      "ms": 40.04504091469798
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "aer_gpu",
+      "ms": 13.017116062152205
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc",
+      "ms": 36.70927382824976
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "ms": 20.50658185385668
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lightning_gpu",
+      "ms": 5.138102733486165
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "qulacs_1t",
+      "ms": 33.920580025203726
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "aer_cpu",
+      "ms": 670.2339534796055
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "aer_gpu",
+      "ms": 21.8398347762253
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc",
+      "ms": 466.77923792956943
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "ms": 24.05093546456045
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lightning_gpu",
+      "ms": 8.074278704000871
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "qulacs_1t",
+      "ms": 450.6846661232382
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "aer_cpu",
+      "ms": 8267.773161624264
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "aer_gpu",
+      "ms": 33.62275140498952
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc",
+      "ms": 10555.80900414226
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "ms": 41.14024608212124
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lightning_gpu",
+      "ms": 77.2949919450713
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "qulacs_1t",
+      "ms": 10330.398868441756
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "aer_cpu",
+      "ms": 36272.11810839235
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "aer_gpu",
+      "ms": 92.81558202973382
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "ms": 106.70665517897669
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lightning_gpu",
+      "ms": 315.3589426319926
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "aer_cpu",
+      "ms": 165045.18823386836
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "aer_gpu",
+      "ms": 385.33856733197297
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "ms": 408.583648856918
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lightning_gpu",
+      "ms": 1332.7283695560807
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "aer_cpu",
+      "ms": 17.727276613095007
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "aer_gpu",
+      "ms": 12.553401893548214
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc",
+      "ms": 2.83745951401531
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "ms": 2.8441715519989295
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lightning_gpu",
+      "ms": 3.6560973416059372
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "qulacs_1t",
+      "ms": 2.5033834775782955
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "aer_cpu",
+      "ms": 42.356166057213166
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "aer_gpu",
+      "ms": 13.907303336900364
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc",
+      "ms": 4.223404169097366
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "ms": 4.225034766744766
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lightning_gpu",
+      "ms": 4.8670822697001945
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "qulacs_1t",
+      "ms": 59.602065927595795
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "aer_cpu",
+      "ms": 704.2056822276663
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "aer_gpu",
+      "ms": 13.243813677420563
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc",
+      "ms": 5.716834245146084
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "ms": 5.7214978862776835
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lightning_gpu",
+      "ms": 8.01225089074974
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "qulacs_1t",
+      "ms": 1268.8726383167682
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "aer_cpu",
+      "ms": 8729.239929532992
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "aer_gpu",
+      "ms": 31.12837569759336
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc",
+      "ms": 4.728614103819426
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "ms": 4.640936150719594
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lightning_gpu",
+      "ms": 81.5540622551098
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "qulacs_1t",
+      "ms": 18669.869112316257
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "aer_cpu",
+      "ms": 40227.409793265084
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "aer_gpu",
+      "ms": 98.20664568809434
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc",
+      "ms": 5.123875716089042
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "ms": 5.067977178210947
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lightning_gpu",
+      "ms": 329.3972739570788
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "aer_cpu",
+      "ms": 188584.46665015412
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "aer_gpu",
+      "ms": 388.58913004049253
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc",
+      "ms": 5.666336877149997
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "ms": 7.588598933774929
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lightning_gpu",
+      "ms": 1390.402332782761
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "aer_cpu",
+      "ms": 16.467393616211588
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "aer_gpu",
+      "ms": 11.59073090504749
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc",
+      "ms": 0.52461892379898
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "ms": 0.5461039791569001
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lightning_gpu",
+      "ms": 3.216831118259552
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "qulacs_1t",
+      "ms": 1.689250035130975
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "aer_cpu",
+      "ms": 36.844847725038946
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "aer_gpu",
+      "ms": 7.957335268929731
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc",
+      "ms": 0.564234160369611
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "ms": 0.5731011916372186
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lightning_gpu",
+      "ms": 4.304716958116991
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "qulacs_1t",
+      "ms": 33.71734405465702
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "aer_cpu",
+      "ms": 591.8153453286279
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "aer_gpu",
+      "ms": 14.082532428102198
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc",
+      "ms": 0.5822468333481944
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "ms": 0.598779923339953
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lightning_gpu",
+      "ms": 7.894476435096125
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "qulacs_1t",
+      "ms": 730.2246563864791
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "aer_cpu",
+      "ms": 6808.914563068391
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "aer_gpu",
+      "ms": 29.306949887832857
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc",
+      "ms": 0.4121747042493025
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "ms": 0.39901273542833193
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lightning_gpu",
+      "ms": 77.37622388171127
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "qulacs_1t",
+      "ms": 10496.06719826705
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "aer_cpu",
+      "ms": 30480.429700614703
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "aer_gpu",
+      "ms": 78.82327112339685
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc",
+      "ms": 0.3935450875490635
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "ms": 0.38425125878778854
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lightning_gpu",
+      "ms": 315.7014730224641
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "aer_cpu",
+      "ms": 152304.66237804652
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "aer_gpu",
+      "ms": 317.5381337299938
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc",
+      "ms": 0.41355143821657786
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "ms": 0.4097045453085674
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lightning_gpu",
+      "ms": 1332.191431676773
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "aer_cpu",
+      "ms": 9.47619986601465
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "aer_gpu",
+      "ms": 7.4089273992407305
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc",
+      "ms": 1.3544325567262476
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "ms": 1.3479296101288079
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lightning_gpu",
+      "ms": 2.028937214315909
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "qulacs_1t",
+      "ms": 1.3252018018211416
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "aer_cpu",
+      "ms": 30.98660920815958
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "aer_gpu",
+      "ms": 7.947267488606759
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc",
+      "ms": 1.9126443624320233
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "ms": 1.917421090662664
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lightning_gpu",
+      "ms": 3.3865991798980284
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "qulacs_1t",
+      "ms": 32.37187787301868
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "aer_cpu",
+      "ms": 395.81157490261336
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "aer_gpu",
+      "ms": 8.379968578540137
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc",
+      "ms": 2.354061229400374
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "ms": 2.353306128640726
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lightning_gpu",
+      "ms": 5.00152976847764
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "qulacs_1t",
+      "ms": 657.4099719227144
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "aer_cpu",
+      "ms": 4736.393025735561
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "aer_gpu",
+      "ms": 19.148889266791063
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc",
+      "ms": 1.9237747898675666
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "ms": 1.9374556644186725
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lightning_gpu",
+      "ms": 36.14030452495543
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "qulacs_1t",
+      "ms": 9919.93010496966
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "aer_cpu",
+      "ms": 20280.569045204425
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "aer_gpu",
+      "ms": 51.877864555701805
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc",
+      "ms": 1.9675487222104564
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "ms": 1.963117457186146
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lightning_gpu",
+      "ms": 138.41137591509693
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "aer_cpu",
+      "ms": 100775.80374454861
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "aer_gpu",
+      "ms": 202.5126864042746
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc",
+      "ms": 2.1247104157912906
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "ms": 2.1359653538784285
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lightning_gpu",
+      "ms": 583.6126631902621
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "aer_cpu",
+      "ms": 8.26386217479908
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "aer_gpu",
+      "ms": 6.611499709416918
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc",
+      "ms": 0.48855188767417534
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "ms": 0.4968341232725466
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lightning_gpu",
+      "ms": 1.743540513978095
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "qulacs_1t",
+      "ms": 0.6831780958849604
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "aer_cpu",
+      "ms": 23.4537677612823
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "aer_gpu",
+      "ms": 5.6262446530937495
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc",
+      "ms": 0.47875291435144285
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "ms": 0.5019293209845387
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lightning_gpu",
+      "ms": 2.532634415822386
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "qulacs_1t",
+      "ms": 14.28986818627044
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "aer_cpu",
+      "ms": 247.86770294102942
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "aer_gpu",
+      "ms": 9.886258236437683
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc",
+      "ms": 0.5076481632420233
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "ms": 0.5404980393470452
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lightning_gpu",
+      "ms": 3.672767818663739
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "qulacs_1t",
+      "ms": 291.5910317673252
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "aer_cpu",
+      "ms": 2976.4527633896846
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "aer_gpu",
+      "ms": 18.19454018073433
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc",
+      "ms": 0.34980204688080374
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "ms": 0.38561863091920234
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lightning_gpu",
+      "ms": 32.33329210952233
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "qulacs_1t",
+      "ms": 4329.883061415146
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "aer_cpu",
+      "ms": 12622.49801416946
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "aer_gpu",
+      "ms": 35.748057267040245
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc",
+      "ms": 0.35296090847146233
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "ms": 0.3582260097159334
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lightning_gpu",
+      "ms": 124.58921749378445
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "aer_cpu",
+      "ms": 62593.07500430521
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "aer_gpu",
+      "ms": 134.2601513561011
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc",
+      "ms": 0.3580547435710774
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "ms": 0.4481936443034417
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lightning_gpu",
+      "ms": 527.6461818433428
+     }
+    ],
+    "planner": [
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc",
+      "planning_ms": 1.0444455,
+      "collection_ms": 3.207313,
+      "tasks": 1,
+      "max_width": 12,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "planning_ms": 1.0562775,
+      "collection_ms": 3.237501,
+      "tasks": 1,
+      "max_width": 12,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc",
+      "planning_ms": 1.9087815,
+      "collection_ms": 63.479925,
+      "tasks": 1,
+      "max_width": 16,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "planning_ms": 3.909726,
+      "collection_ms": 26.982851,
+      "tasks": 1,
+      "max_width": 16,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc",
+      "planning_ms": 2.354055,
+      "collection_ms": 869.1110555,
+      "tasks": 1,
+      "max_width": 20,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "planning_ms": 2.1313525,
+      "collection_ms": 30.7744865,
+      "tasks": 1,
+      "max_width": 20,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc",
+      "planning_ms": 2.4618095,
+      "collection_ms": 17328.097493,
+      "tasks": 1,
+      "max_width": 24,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "planning_ms": 2.1442035,
+      "collection_ms": 56.8358185,
+      "tasks": 1,
+      "max_width": 24,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "planning_ms": 10.7906375,
+      "collection_ms": 135.25337,
+      "tasks": 1,
+      "max_width": 26,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "planning_ms": 12.7026855,
+      "collection_ms": 479.983442,
+      "tasks": 1,
+      "max_width": 28,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc",
+      "planning_ms": 0.240615,
+      "collection_ms": 2.227805,
+      "tasks": 1,
+      "max_width": 12,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.234749,
+      "collection_ms": 2.2288455,
+      "tasks": 1,
+      "max_width": 12,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc",
+      "planning_ms": 0.4197495,
+      "collection_ms": 36.246097,
+      "tasks": 1,
+      "max_width": 16,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.4906645,
+      "collection_ms": 19.4225155,
+      "tasks": 1,
+      "max_width": 16,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc",
+      "planning_ms": 0.347927,
+      "collection_ms": 468.2430715,
+      "tasks": 1,
+      "max_width": 20,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.3322725,
+      "collection_ms": 23.926445,
+      "tasks": 1,
+      "max_width": 20,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc",
+      "planning_ms": 0.3793905,
+      "collection_ms": 10586.11936,
+      "tasks": 1,
+      "max_width": 24,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.329944,
+      "collection_ms": 40.1917285,
+      "tasks": 1,
+      "max_width": 24,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "planning_ms": 1.1846695,
+      "collection_ms": 105.30767,
+      "tasks": 1,
+      "max_width": 26,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "data_reuploading",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "planning_ms": 1.440196,
+      "collection_ms": 406.0282525,
+      "tasks": 1,
+      "max_width": 28,
+      "strategy": [
+       "full"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc",
+      "planning_ms": 0.802356,
+      "collection_ms": 2.021106,
+      "tasks": 6,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.8108165,
+      "collection_ms": 2.0208865,
+      "tasks": 6,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc",
+      "planning_ms": 1.175254,
+      "collection_ms": 3.0351345,
+      "tasks": 8,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "planning_ms": 1.175622,
+      "collection_ms": 3.035926,
+      "tasks": 8,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc",
+      "planning_ms": 1.631159,
+      "collection_ms": 4.062373,
+      "tasks": 10,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "planning_ms": 1.634632,
+      "collection_ms": 4.085713,
+      "tasks": 10,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc",
+      "planning_ms": 1.4185375,
+      "collection_ms": 3.302238,
+      "tasks": 12,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "planning_ms": 1.3893685,
+      "collection_ms": 3.2398675,
+      "tasks": 12,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc",
+      "planning_ms": 1.5703315,
+      "collection_ms": 3.541836,
+      "tasks": 13,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "planning_ms": 1.583995,
+      "collection_ms": 3.5451285,
+      "tasks": 13,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc",
+      "planning_ms": 1.7690115,
+      "collection_ms": 3.8840165,
+      "tasks": 14,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "planning_ms": 2.424585,
+      "collection_ms": 5.2926235,
+      "tasks": 14,
+      "max_width": 10,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc",
+      "planning_ms": 0.188576,
+      "collection_ms": 0.3325,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.186987,
+      "collection_ms": 0.350442,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc",
+      "planning_ms": 0.2056265,
+      "collection_ms": 0.342717,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.2099145,
+      "collection_ms": 0.353861,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc",
+      "planning_ms": 0.2312565,
+      "collection_ms": 0.341904,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.2328985,
+      "collection_ms": 0.358874,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc",
+      "planning_ms": 0.170167,
+      "collection_ms": 0.235507,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.166029,
+      "collection_ms": 0.230093,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc",
+      "planning_ms": 0.161008,
+      "collection_ms": 0.217182,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.162103,
+      "collection_ms": 0.2199585,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc",
+      "planning_ms": 0.1825905,
+      "collection_ms": 0.222587,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "hardware_efficient_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.175969,
+      "collection_ms": 0.223114,
+      "tasks": 1,
+      "max_width": 6,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc",
+      "planning_ms": 0.387234,
+      "collection_ms": 0.9415665,
+      "tasks": 10,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.389147,
+      "collection_ms": 0.9421265,
+      "tasks": 10,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc",
+      "planning_ms": 0.575459,
+      "collection_ms": 1.319438,
+      "tasks": 14,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.580362,
+      "collection_ms": 1.317972,
+      "tasks": 14,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc",
+      "planning_ms": 0.748698,
+      "collection_ms": 1.585562,
+      "tasks": 17,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.749511,
+      "collection_ms": 1.594732,
+      "tasks": 17,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc",
+      "planning_ms": 0.6442495,
+      "collection_ms": 1.2654815,
+      "tasks": 21,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.6546115,
+      "collection_ms": 1.26923,
+      "tasks": 21,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc",
+      "planning_ms": 0.695332,
+      "collection_ms": 1.2523885,
+      "tasks": 22,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.687606,
+      "collection_ms": 1.266204,
+      "tasks": 22,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc",
+      "planning_ms": 0.7597825,
+      "collection_ms": 1.3437515,
+      "tasks": 24,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_local_outputs",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.756497,
+      "collection_ms": 1.365307,
+      "tasks": 24,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc",
+      "planning_ms": 0.1422885,
+      "collection_ms": 0.333818,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.141097,
+      "collection_ms": 0.3494305,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc",
+      "planning_ms": 0.146297,
+      "collection_ms": 0.3313435,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.155147,
+      "collection_ms": 0.342761,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc",
+      "planning_ms": 0.160169,
+      "collection_ms": 0.358531,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.159059,
+      "collection_ms": 0.362732,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc",
+      "planning_ms": 0.1129335,
+      "collection_ms": 0.2297415,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.1219835,
+      "collection_ms": 0.2491775,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc",
+      "planning_ms": 0.1157875,
+      "collection_ms": 0.2264925,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 26,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.116305,
+      "collection_ms": 0.2301345,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc",
+      "planning_ms": 0.1180125,
+      "collection_ms": 0.228333,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     },
+     {
+      "family": "qcnn_like_local",
+      "pattern": "same_state_shared_cone",
+      "qubits": 28,
+      "method": "lazyqc_gpu",
+      "planning_ms": 0.129058,
+      "collection_ms": 0.2429425,
+      "tasks": 1,
+      "max_width": 8,
+      "strategy": [
+       "grouped"
+      ]
+     }
+    ]
+   },
+   "jacobian": {
+    "configs": [
+     {
+      "family": "data_reuploading",
+      "qubits": 12,
+      "method": "aer_gpu_shift",
+      "ms": 396.58325584292714
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 12,
+      "method": "lazyqc",
+      "ms": 272.7044505937685
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "ms": 277.65371613809987
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 12,
+      "method": "lightning_cpu_adjoint",
+      "ms": 10.692186547880183
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 12,
+      "method": "lightning_gpu_adjoint",
+      "ms": 46.496104944894114
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 16,
+      "method": "aer_gpu_shift",
+      "ms": 1030.884708558326
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 16,
+      "method": "lazyqc",
+      "ms": 5819.560600978043
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "ms": 4333.016159659566
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 16,
+      "method": "lightning_cpu_adjoint",
+      "ms": 293.89067971565834
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 16,
+      "method": "lightning_gpu_adjoint",
+      "ms": 77.2697368249314
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 12,
+      "method": "aer_gpu_shift",
+      "ms": 402.5822868429319
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 12,
+      "method": "lazyqc",
+      "ms": 126.50744225911914
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "ms": 127.15105717044457
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 12,
+      "method": "lightning_cpu_adjoint",
+      "ms": 9.874880377904129
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 12,
+      "method": "lightning_gpu_adjoint",
+      "ms": 43.76476180956962
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 16,
+      "method": "aer_gpu_shift",
+      "ms": 747.5977625023266
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 16,
+      "method": "lazyqc",
+      "ms": 139.17397689032222
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "ms": 141.0927849387557
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 16,
+      "method": "lightning_cpu_adjoint",
+      "ms": 292.92491306230903
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 16,
+      "method": "lightning_gpu_adjoint",
+      "ms": 78.42539409694781
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 20,
+      "method": "aer_gpu_shift",
+      "ms": 1271.6112026164346
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 20,
+      "method": "lazyqc",
+      "ms": 281.36674764963345
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "ms": 270.7406178893687
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 20,
+      "method": "lightning_cpu_adjoint",
+      "ms": 9341.446318269978
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 20,
+      "method": "lightning_gpu_adjoint",
+      "ms": 223.76536775254397
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 24,
+      "method": "lazyqc",
+      "ms": 372.7507325525358
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "ms": 301.2854823546378
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 24,
+      "method": "lightning_gpu_adjoint",
+      "ms": 2743.3818950089326
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 12,
+      "method": "aer_gpu_shift",
+      "ms": 97.29673812728515
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 12,
+      "method": "lazyqc",
+      "ms": 22.603833832753946
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 12,
+      "method": "lazyqc_gpu",
+      "ms": 22.57129580768556
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 12,
+      "method": "lightning_cpu_adjoint",
+      "ms": 5.143639861318053
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 12,
+      "method": "lightning_gpu_adjoint",
+      "ms": 26.098388852786183
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 16,
+      "method": "aer_gpu_shift",
+      "ms": 209.07680181114625
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 16,
+      "method": "lazyqc",
+      "ms": 26.683746156088485
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 16,
+      "method": "lazyqc_gpu",
+      "ms": 26.856368775907658
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 16,
+      "method": "lightning_cpu_adjoint",
+      "ms": 141.1835891817299
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 16,
+      "method": "lightning_gpu_adjoint",
+      "ms": 42.286660304870985
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 20,
+      "method": "aer_gpu_shift",
+      "ms": 334.99052604319496
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 20,
+      "method": "lazyqc",
+      "ms": 35.93458204418128
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 20,
+      "method": "lazyqc_gpu",
+      "ms": 44.4769252709832
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 20,
+      "method": "lightning_cpu_adjoint",
+      "ms": 3953.28608752092
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 20,
+      "method": "lightning_gpu_adjoint",
+      "ms": 106.91756316774809
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 24,
+      "method": "lazyqc",
+      "ms": 81.96863168166023
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 24,
+      "method": "lazyqc_gpu",
+      "ms": 82.44199195187444
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 24,
+      "method": "lightning_gpu_adjoint",
+      "ms": 1218.8895938980345
+     }
+    ],
+    "cases": [
+     {
+      "family": "data_reuploading",
+      "qubits": 12,
+      "parameters": 48,
+      "programs": 97,
+      "requests": 1164,
+      "structural_zeros": 55,
+      "outputs": 12,
+      "planner_tasks": 97,
+      "planning_ms": 31.293481,
+      "collection_ms": 252.562451
+     },
+     {
+      "family": "data_reuploading",
+      "qubits": 16,
+      "parameters": 64,
+      "programs": 129,
+      "requests": 2064,
+      "structural_zeros": 105,
+      "outputs": 16,
+      "planner_tasks": 129,
+      "planning_ms": 66.906388,
+      "collection_ms": 5512.7602045
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 12,
+      "parameters": 48,
+      "programs": 97,
+      "requests": 1164,
+      "structural_zeros": 292,
+      "outputs": 12,
+      "planner_tasks": 290,
+      "planning_ms": 18.4674945,
+      "collection_ms": 107.6147305
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 16,
+      "parameters": 64,
+      "programs": 129,
+      "requests": 2064,
+      "structural_zeros": 628,
+      "outputs": 16,
+      "planner_tasks": 404,
+      "planning_ms": 20.6261865,
+      "collection_ms": 116.988304
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 20,
+      "parameters": 80,
+      "programs": 161,
+      "requests": 3220,
+      "structural_zeros": 1092,
+      "outputs": 20,
+      "planner_tasks": 518,
+      "planning_ms": 57.985105,
+      "collection_ms": 221.293698
+     },
+     {
+      "family": "hardware_efficient_local",
+      "qubits": 24,
+      "parameters": 96,
+      "programs": 193,
+      "requests": 4632,
+      "structural_zeros": 1684,
+      "outputs": 24,
+      "planner_tasks": 632,
+      "planning_ms": 81.7386765,
+      "collection_ms": 297.055792
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 12,
+      "parameters": 22,
+      "programs": 45,
+      "requests": 540,
+      "structural_zeros": 196,
+      "outputs": 12,
+      "planner_tasks": 102,
+      "planning_ms": 4.3499675,
+      "collection_ms": 18.2121725
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 16,
+      "parameters": 32,
+      "programs": 65,
+      "requests": 1040,
+      "structural_zeros": 408,
+      "outputs": 16,
+      "planner_tasks": 158,
+      "planning_ms": 5.271332,
+      "collection_ms": 21.3295155
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 20,
+      "parameters": 38,
+      "programs": 77,
+      "requests": 1540,
+      "structural_zeros": 640,
+      "outputs": 20,
+      "planner_tasks": 181,
+      "planning_ms": 7.4663945,
+      "collection_ms": 28.292696
+     },
+     {
+      "family": "qcnn_like_local",
+      "qubits": 24,
+      "parameters": 48,
+      "programs": 97,
+      "requests": 2328,
+      "structural_zeros": 996,
+      "outputs": 24,
+      "planner_tasks": 237,
+      "planning_ms": 17.6541135,
+      "collection_ms": 63.7688505
+     }
+    ],
+    "validation": [
+     {
+      "case": "hardware_efficient_local_12q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 8.881784197001252e-16
+     },
+     {
+      "case": "hardware_efficient_local_12q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 8.881784197001252e-16
+     },
+     {
+      "case": "hardware_efficient_local_12q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 8.881784197001252e-16
+     },
+     {
+      "case": "hardware_efficient_local_12q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 8.881784197001252e-16
+     },
+     {
+      "case": "qcnn_like_local_12q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 1.3322676295501878e-15
+     },
+     {
+      "case": "qcnn_like_local_12q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 1.3322676295501878e-15
+     },
+     {
+      "case": "qcnn_like_local_12q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 2.7755575615628914e-16
+     },
+     {
+      "case": "qcnn_like_local_12q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 2.7755575615628914e-16
+     },
+     {
+      "case": "data_reuploading_12q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 1.444157293750692e-15
+     },
+     {
+      "case": "data_reuploading_12q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 1.444157293750692e-15
+     },
+     {
+      "case": "data_reuploading_12q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 1.7208456881689926e-15
+     },
+     {
+      "case": "data_reuploading_12q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 1.7208456881689926e-15
+     },
+     {
+      "case": "hardware_efficient_local_16q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 4.727121472036799e-16
+     },
+     {
+      "case": "hardware_efficient_local_16q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 4.727121472036799e-16
+     },
+     {
+      "case": "hardware_efficient_local_16q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 9.43689570931383e-16
+     },
+     {
+      "case": "hardware_efficient_local_16q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 9.43689570931383e-16
+     },
+     {
+      "case": "qcnn_like_local_16q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 1.6653345369377348e-15
+     },
+     {
+      "case": "qcnn_like_local_16q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 1.6653345369377348e-15
+     },
+     {
+      "case": "qcnn_like_local_16q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 7.771561172376096e-16
+     },
+     {
+      "case": "qcnn_like_local_16q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 7.771561172376096e-16
+     },
+     {
+      "case": "data_reuploading_16q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 3.608224830031759e-16
+     },
+     {
+      "case": "data_reuploading_16q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 6.949302244763089e-15
+     },
+     {
+      "case": "data_reuploading_16q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 2.220446049250313e-16
+     },
+     {
+      "case": "data_reuploading_16q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 6.578721942207544e-15
+     },
+     {
+      "case": "hardware_efficient_local_20q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 7.771561172376096e-16
+     },
+     {
+      "case": "hardware_efficient_local_20q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 7.771561172376096e-16
+     },
+     {
+      "case": "hardware_efficient_local_20q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 8.604228440844963e-16
+     },
+     {
+      "case": "hardware_efficient_local_20q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 8.604228440844963e-16
+     },
+     {
+      "case": "qcnn_like_local_20q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 1.5543122344752192e-15
+     },
+     {
+      "case": "qcnn_like_local_20q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 1.5543122344752192e-15
+     },
+     {
+      "case": "qcnn_like_local_20q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 1.1102230246251565e-15
+     },
+     {
+      "case": "qcnn_like_local_20q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 1.1102230246251565e-15
+     },
+     {
+      "case": "hardware_efficient_local_24q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 1.4988010832439613e-15
+     },
+     {
+      "case": "hardware_efficient_local_24q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 1.4988010832439613e-15
+     },
+     {
+      "case": "hardware_efficient_local_24q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 5.828670879282072e-16
+     },
+     {
+      "case": "hardware_efficient_local_24q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 5.828670879282072e-16
+     },
+     {
+      "case": "qcnn_like_local_24q_d4_jacobian_s202",
+      "method": "lazyqc",
+      "max_abs_error": 5.551115123125783e-16
+     },
+     {
+      "case": "qcnn_like_local_24q_d4_jacobian_s202",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 5.551115123125783e-16
+     },
+     {
+      "case": "qcnn_like_local_24q_d4_jacobian_s303",
+      "method": "lazyqc",
+      "max_abs_error": 1.1102230246251565e-15
+     },
+     {
+      "case": "qcnn_like_local_24q_d4_jacobian_s303",
+      "method": "lazyqc_gpu",
+      "max_abs_error": 1.1102230246251565e-15
+     },
+     {
+      "case": "hardware_efficient_local_12q_d4_jacobian_s202",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 2.7755575615628914e-16
+     },
+     {
+      "case": "hardware_efficient_local_12q_d4_jacobian_s202",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 1.9984014443252818e-15
+     },
+     {
+      "case": "hardware_efficient_local_12q_d4_jacobian_s303",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 2.4702462297909733e-15
+     },
+     {
+      "case": "hardware_efficient_local_12q_d4_jacobian_s303",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 3.3306690738754696e-16
+     },
+     {
+      "case": "qcnn_like_local_12q_d4_jacobian_s202",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 2.4147350785597155e-15
+     },
+     {
+      "case": "qcnn_like_local_12q_d4_jacobian_s202",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 7.771561172376096e-16
+     },
+     {
+      "case": "qcnn_like_local_12q_d4_jacobian_s303",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 4.440892098500626e-16
+     },
+     {
+      "case": "qcnn_like_local_12q_d4_jacobian_s303",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 4.440892098500626e-16
+     },
+     {
+      "case": "data_reuploading_12q_d4_jacobian_s202",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 2.220446049250313e-16
+     },
+     {
+      "case": "data_reuploading_12q_d4_jacobian_s202",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 8.049116928532385e-16
+     },
+     {
+      "case": "data_reuploading_12q_d4_jacobian_s303",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 1.8648277366750676e-16
+     },
+     {
+      "case": "data_reuploading_12q_d4_jacobian_s303",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 1.1657341758564144e-15
+     },
+     {
+      "case": "hardware_efficient_local_16q_d4_jacobian_s202",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 4.3298697960381105e-15
+     },
+     {
+      "case": "hardware_efficient_local_16q_d4_jacobian_s202",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 2.7755575615628914e-16
+     },
+     {
+      "case": "hardware_efficient_local_16q_d4_jacobian_s303",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 3.3861802251067274e-15
+     },
+     {
+      "case": "hardware_efficient_local_16q_d4_jacobian_s303",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 6.106226635438361e-16
+     },
+     {
+      "case": "qcnn_like_local_16q_d4_jacobian_s202",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 3.3773150856365353e-15
+     },
+     {
+      "case": "qcnn_like_local_16q_d4_jacobian_s202",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 1.4432899320127035e-15
+     },
+     {
+      "case": "qcnn_like_local_16q_d4_jacobian_s303",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 2.3314683517128287e-15
+     },
+     {
+      "case": "qcnn_like_local_16q_d4_jacobian_s303",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 3.885780586188048e-16
+     },
+     {
+      "case": "data_reuploading_16q_d4_jacobian_s202",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 6.328271240363392e-15
+     },
+     {
+      "case": "data_reuploading_16q_d4_jacobian_s202",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 3.608224830031759e-16
+     },
+     {
+      "case": "data_reuploading_16q_d4_jacobian_s303",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 2.220446049250313e-16
+     },
+     {
+      "case": "data_reuploading_16q_d4_jacobian_s303",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 4.829470157119431e-15
+     },
+     {
+      "case": "hardware_efficient_local_20q_d4_jacobian_s202",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 4.440892098500626e-16
+     },
+     {
+      "case": "hardware_efficient_local_20q_d4_jacobian_s202",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 6.38378239159465e-15
+     },
+     {
+      "case": "hardware_efficient_local_20q_d4_jacobian_s303",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 2.7755575615628914e-16
+     },
+     {
+      "case": "hardware_efficient_local_20q_d4_jacobian_s303",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 5.3013149425851225e-15
+     },
+     {
+      "case": "qcnn_like_local_20q_d4_jacobian_s202",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 8.881784197001252e-16
+     },
+     {
+      "case": "qcnn_like_local_20q_d4_jacobian_s202",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 4.9960036108132044e-15
+     },
+     {
+      "case": "qcnn_like_local_20q_d4_jacobian_s303",
+      "method": "aer_gpu_shift",
+      "max_abs_error": 3.3306690738754696e-16
+     },
+     {
+      "case": "qcnn_like_local_20q_d4_jacobian_s303",
+      "method": "lightning_cpu_adjoint",
+      "max_abs_error": 7.172040739078511e-14
+     }
+    ],
+    "failures": []
+   },
+   "training": [
+    {
+     "qubits": 16,
+     "method": "aer_gpu_shift",
+     "parameters": 64,
+     "total_ms": 14876.249603,
+     "median_step_ms": 1504.441456,
+     "first_loss": 0.09326724136106618,
+     "last_loss": 0.08407643152131296,
+     "max_loss_difference_vs_lightning": 4.163336342344337e-17
+    },
+    {
+     "qubits": 16,
+     "method": "lazyqc",
+     "parameters": 64,
+     "total_ms": 2249.983494,
+     "median_step_ms": 221.7840375,
+     "first_loss": 0.0932672413610662,
+     "last_loss": 0.08407643152131294,
+     "max_loss_difference_vs_lightning": 5.551115123125783e-17
+    },
+    {
+     "qubits": 16,
+     "method": "lightning_gpu_vjp",
+     "parameters": 64,
+     "total_ms": 256.802033,
+     "median_step_ms": 25.6095695,
+     "first_loss": 0.09326724136106618,
+     "last_loss": 0.08407643152131292,
+     "max_loss_difference_vs_lightning": null
+    },
+    {
+     "qubits": 20,
+     "method": "lazyqc",
+     "parameters": 80,
+     "total_ms": 3308.596722,
+     "median_step_ms": 333.564838,
+     "first_loss": 0.08318679349008831,
+     "last_loss": 0.07600372211374079,
+     "max_loss_difference_vs_lightning": 4.163336342344337e-17
+    },
+    {
+     "qubits": 20,
+     "method": "lightning_gpu_vjp",
+     "parameters": 80,
+     "total_ms": 425.557736,
+     "median_step_ms": 42.5557935,
+     "first_loss": 0.08318679349008828,
+     "last_loss": 0.07600372211374079,
+     "max_loss_difference_vs_lightning": null
+    },
+    {
+     "qubits": 24,
+     "method": "lazyqc",
+     "parameters": 96,
+     "total_ms": 2952.889455,
+     "median_step_ms": 296.101356,
+     "first_loss": 0.09802845346751095,
+     "last_loss": 0.09088483801925817,
+     "max_loss_difference_vs_lightning": 6.938893903907228e-17
+    },
+    {
+     "qubits": 24,
+     "method": "lightning_gpu_vjp",
+     "parameters": 96,
+     "total_ms": 4303.587449,
+     "median_step_ms": 429.036166,
+     "first_loss": 0.09802845346751099,
+     "last_loss": 0.09088483801925816,
+     "max_loss_difference_vs_lightning": null
+    }
+   ],
+   "confirmation": {
+    "configurations": 12,
+    "median_relative_deviation": 0.0563941333429967,
+    "max_relative_deviation": 0.12716022602153654
+   }
+  }
+ }
+}

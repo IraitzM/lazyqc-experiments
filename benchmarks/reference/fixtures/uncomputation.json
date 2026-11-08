@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "status": "golden validation fixture for the P0-P2 implementation",
+  "rotation_convention": "R_P(theta) = exp(-i * theta * P / 2)",
+  "amplitude_index": "sum(bit[q] * 2**q)",
+  "absolute_tolerance": 1e-10,
+  "cases": [
+    {
+      "name": "clean_uncomputation",
+      "qubits": 3,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "H",
+          "qubits": [
+            0
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "Z",
+          "qubits": [
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            2
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            0
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            1
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "id": "z0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            }
+          ],
+          "expected": -1.0
+        },
+        {
+          "id": "z1",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ],
+          "expected": -1.0
+        },
+        {
+          "id": "z2",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ],
+          "expected": 1.0
+        }
+      ],
+      "expected_data_11_probability": 1.0
+    },
+    {
+      "name": "omitted_uncomputation_control",
+      "qubits": 3,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "H",
+          "qubits": [
+            0
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "Z",
+          "qubits": [
+            2
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            0
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            1
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "id": "z0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            }
+          ],
+          "expected": 0.0
+        },
+        {
+          "id": "z1",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ],
+          "expected": 0.0
+        },
+        {
+          "id": "z2",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ],
+          "expected": 0.0
+        }
+      ],
+      "expected_data_11_probability": 0.5
+    }
+  ]
+}

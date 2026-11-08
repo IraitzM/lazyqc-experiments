@@ -1,0 +1,37 @@
+{
+  "protocol": "qml_generalization_screen_v2",
+  "description": "Exploratory depth-4 extension with sparse same-state readout and distinct data examples; not confirmatory.",
+  "base_seed": 20261024,
+  "seed_offsets": [707, 808, 909],
+  "families": [
+    "hardware_efficient_local",
+    "qcnn_like_local",
+    "data_reuploading"
+  ],
+  "qubits": [8, 12, 16, 20],
+  "depths": [4],
+  "patterns": [
+    "sparse_local_outputs",
+    "different_examples"
+  ],
+  "strategies": [
+    "full",
+    "separate",
+    "grouped",
+    "auto"
+  ],
+  "collections_per_plan": 2,
+  "max_state_qubits": 24,
+  "max_state_bytes": 268435456,
+  "randomized_order_seed": 241024,
+  "validation": "matrix-free NumPy statevector oracle, absolute tolerance 1e-10",
+  "primary_recorded_costs": [
+    "planning",
+    "collection",
+    "two-collection lifetime",
+    "unique state evolutions",
+    "task count and widths",
+    "estimated state payload",
+    "oracle error"
+  ]
+}

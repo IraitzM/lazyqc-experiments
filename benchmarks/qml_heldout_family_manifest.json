@@ -1,0 +1,58 @@
+{
+  "protocol": "qml_heldout_family_v3",
+  "description": "Held-out-family screen for the frozen auto planner. Both families were added after the planner, its analysis budget and the v1/v2 screens were fixed; neither was used to tune any cost constant. Frozen before any timing of these families.",
+  "frozen_utc": "2026-10-24",
+  "development_families": [
+    "hardware_efficient_local",
+    "qcnn_like_local",
+    "data_reuploading"
+  ],
+  "base_seed": 20261024,
+  "seed_offsets": [1101, 1202, 1303, 1404, 1505],
+  "families": [
+    "tree_mera_like",
+    "strongly_entangling"
+  ],
+  "qubits": [8, 12, 16, 20],
+  "depths": [2, 4, 8, 16],
+  "patterns": [
+    "same_state_local_outputs",
+    "same_state_shared_cone",
+    "sparse_local_outputs"
+  ],
+  "strategies": [
+    "full",
+    "separate",
+    "grouped",
+    "auto"
+  ],
+  "direct_baseline": true,
+  "collections_per_plan": 4,
+  "sessions": [0, 1],
+  "max_state_qubits": 24,
+  "max_state_bytes": 268435456,
+  "randomized_order_seed": 331024,
+  "validation": "matrix-free NumPy statevector oracle, absolute tolerance 1e-10",
+  "analysis_plan": {
+    "lifetime": "L_m(R) = setup_m + R * median collection_m over all sessions; setup is planning for LazyQC plans and Qulacs circuit construction for direct",
+    "reuse_horizons": [1, 8, 32],
+    "selection_regret": "L_auto(R) / min over full, separate, grouped of L_m(R), per circuit instance",
+    "cross_validated_regret": "pick the forced plan with least lifetime on one session, evaluate auto against that pick on the other session; average both directions",
+    "direct_ratio": "L_auto(R) / L_direct(R), per circuit instance",
+    "strata": {
+      "cone_ratio": "grouped_max_width / qubits from the planned grouped candidate, computed before timing",
+      "narrow": "cone_ratio < 0.5",
+      "intermediate": "0.5 <= cone_ratio < 0.9",
+      "saturated": "cone_ratio >= 0.9",
+      "high_overlap": "grouped_tasks <= 0.5 * separate_tasks"
+    },
+    "intervals": "percentile bootstrap of the per-instance median ratio, resampling circuit instances, 10000 draws, 95%",
+    "criteria": {
+      "C1_direct_improvement": "in the narrow and high-overlap stratum, median direct_ratio at R=1 <= 0.90 with the upper 95% bound below 1",
+      "C2_selection_regret": "median cross-validated selection regret at R=1 <= 1.10 over all held-out instances",
+      "C3_saturation_guard": "in the saturated stratum, median direct_ratio at R=1 <= 1.10",
+      "tails": "report the 90th percentile and maximum of selection regret and direct_ratio, and every failure"
+    },
+    "decision_information": "auto uses only the request batch and its static cost model; no timing from this screen informs any plan choice"
+  }
+}

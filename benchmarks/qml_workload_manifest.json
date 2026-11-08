@@ -1,0 +1,130 @@
+{
+  "manifest_version": "1.0",
+  "date_frozen": "2026-10-24",
+  "purpose": "Separate same-state observable sharing from work across distinct QML inputs and parameter bindings.",
+  "rotation_convention": "R_P(theta) = exp(-i * theta * P / 2)",
+  "seed": 20261024,
+  "circuit_seed_offsets": [0, 101, 202, 303],
+  "families": {
+    "hardware_efficient_local": {
+      "description": "Data-encoded RY layers with alternating nearest-neighbor CX brickwork.",
+      "qubits": [8, 12],
+      "depths": [2, 4]
+    },
+    "qcnn_like_local": {
+      "description": "Local convolution and pooling-style CX blocks; a controlled QML-inspired circuit, not a canonical QCNN implementation.",
+      "qubits": [8, 12],
+      "depths": [2, 4]
+    },
+    "data_reuploading": {
+      "description": "Repeated data RX encoding, trainable RY rotations, and alternating nearest-neighbor entanglers.",
+      "qubits": [8, 12],
+      "depths": [2, 4]
+    }
+  },
+  "request_patterns": {
+    "same_state_local_outputs": {
+      "description": "One concrete prepared state; local Z outputs over all wires.",
+      "programs_per_batch": 1,
+      "observables_per_program": "all wires"
+    },
+    "same_state_shared_cone": {
+      "description": "One prepared state; distinct X/Y/Z observables on one wire share the same causal cone.",
+      "programs_per_batch": 1,
+      "observables_per_program": 3
+    },
+    "different_examples": {
+      "description": "Four distinct data encodings with shared topology; no state-evolution reuse across examples.",
+      "programs_per_batch": 4,
+      "observables_per_program": 4
+    },
+    "parameter_shift_pair": {
+      "description": "Plus/minus pi/2 changes at the same single RY occurrence; separate evolved states, shared structural shape.",
+      "programs_per_batch": 2,
+      "observables_per_program": 4
+    },
+    "parameter_trajectory": {
+      "description": "Four concrete trainable-angle points with identical topology; structural reuse only, not state reuse.",
+      "programs_per_batch": 4,
+      "observables_per_program": 4
+    }
+  },
+  "comparison": {
+    "strategies": ["full", "separate", "grouped", "auto"],
+    "workers": 1,
+    "optimization": "none",
+    "max_state_qubits": 24,
+    "max_state_bytes": 268435456,
+    "error_tolerance": 1e-10,
+    "timing_scope": "plan plus collect after deterministic workload construction; planning and collection also recorded separately",
+    "default_repeats": 8,
+    "randomized_strategy_order_seed": 20261025
+  },
+  "parallel_probe": {
+    "qubits": 12,
+    "depth": 4,
+    "seed_offsets": [202, 303],
+    "patterns": ["same_state_local_outputs", "same_state_shared_cone", "different_examples", "parameter_shift_pair"],
+    "graph_strategies": ["separate", "grouped"],
+    "workers": [1, 2, 4],
+    "repetitions": 8,
+    "pool_scope": "one warmed process pool per worker count, reused for all cases in the probe",
+    "comparison_scope": "fixed execution graph; planning is measured separately and not included in collection timing"
+  },
+  "exhaustive_oracle": {
+    "description": "Enumerate every set partition of five same-state observables; each block executes the conservative causal cone of the union support, and include an explicit full-state candidate.",
+    "families": ["hardware_efficient_local", "qcnn_like_local", "data_reuploading"],
+    "qubits": [6, 8],
+    "depths": [2, 4],
+    "seed_offsets": [0, 202],
+    "active_observables_per_case": 5,
+    "repetitions": 8,
+    "collections_per_plan": 5,
+    "excluded_transformations": ["circuit cuts", "ZX rewrites", "approximation", "parallel workers"],
+    "scope": "finite no-cut grouping portfolio; not a global simulator optimum"
+  },
+  "replay_probe": {
+    "families": ["hardware_efficient_local", "qcnn_like_local", "data_reuploading"],
+    "qubits": [8, 12],
+    "depth": 4,
+    "seed_offsets": [202, 303],
+    "patterns": ["shared_bound_trajectory", "single_occurrence_shift_pair_trajectory"],
+    "bindings_per_trajectory": 6,
+    "repetitions_per_binding": 5,
+    "planner": "auto strategy, joint bounded grouping, no cuts, no rewrite",
+    "accounting": "template creation and its seed collection are charged once; each later point compares fresh plan+collect with replay plan+collect"
+  },
+  "large_cone_probe": {
+    "description": "Scale the highest-overlap shared-observable-cone case to 20 qubits; retain data-reuploading as a cone-saturation control.",
+    "families": ["hardware_efficient_local", "qcnn_like_local", "data_reuploading"],
+    "qubits": [16, 18, 20],
+    "depth": 4,
+    "pattern": "same_state_shared_cone",
+    "seed_offsets": [202, 303],
+    "strategies": ["full", "separate", "grouped", "auto"],
+    "repetitions": 5,
+    "max_state_qubits": 24,
+    "max_state_bytes": 268435456,
+    "validation": "matrix-free NumPy statevector oracle; absolute tolerance 1e-10"
+  },
+  "ionq_noisy_probe": {
+    "description": "Noisy full/separate/grouped measurement-basis jobs for the same-state XYZ cone-sharing workload; data re-uploading is the cone-saturation control.",
+    "families": ["hardware_efficient_local", "qcnn_like_local", "data_reuploading"],
+    "qubits": 20,
+    "depth": 4,
+    "pattern": "same_state_shared_cone",
+    "seed_offset": 202,
+    "noise_model": "forte-1",
+    "noise_seeds": [73101],
+    "shots": 2000,
+    "measurement_bases": ["X", "Y", "Z"],
+    "note": "Each noncommuting Pauli is measured in its own basis; cloud/API wall time is not QPU queue or hardware execution time."
+  },
+  "raw_result_fields": [
+    "case_id", "family", "qubits", "depth", "pattern", "repetition",
+    "strategy", "selected_strategy", "planning_ns", "collection_ns", "total_ns",
+    "request_count", "unique_program_count", "unique_evolutions",
+    "task_count", "max_state_qubits", "estimated_state_bytes", "max_abs_error"
+  ],
+  "analysis_split": "Offsets 0 and 101 are development instances; offsets 202 and 303 are held-out instances. Repetitions estimate within-case timing variability only."
+}

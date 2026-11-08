@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "status": "golden validation fixture for the P0-P2 implementation",
+  "rotation_convention": "R_P(theta) = exp(-i * theta * P / 2)",
+  "amplitude_index": "sum(bit[q] * 2**q)",
+  "absolute_tolerance": 1e-10,
+  "case": {
+    "name": "independent_pairs_12q",
+    "qubits": 12,
+    "initial_state": "zero",
+    "operations": [
+      {
+        "gate": "RY",
+        "qubits": [
+          0
+        ],
+        "angle_radians": 0.241660973353061
+      },
+      {
+        "gate": "CX",
+        "qubits": [
+          0,
+          1
+        ]
+      },
+      {
+        "gate": "RY",
+        "qubits": [
+          2
+        ],
+        "angle_radians": 0.483321946706122
+      },
+      {
+        "gate": "CX",
+        "qubits": [
+          2,
+          3
+        ]
+      },
+      {
+        "gate": "RY",
+        "qubits": [
+          4
+        ],
+        "angle_radians": 0.7249829200591831
+      },
+      {
+        "gate": "CX",
+        "qubits": [
+          4,
+          5
+        ]
+      },
+      {
+        "gate": "RY",
+        "qubits": [
+          6
+        ],
+        "angle_radians": 0.966643893412244
+      },
+      {
+        "gate": "CX",
+        "qubits": [
+          6,
+          7
+        ]
+      },
+      {
+        "gate": "RY",
+        "qubits": [
+          8
+        ],
+        "angle_radians": 1.2083048667653051
+      },
+      {
+        "gate": "CX",
+        "qubits": [
+          8,
+          9
+        ]
+      },
+      {
+        "gate": "RY",
+        "qubits": [
+          10
+        ],
+        "angle_radians": 1.4499658401183662
+      },
+      {
+        "gate": "CX",
+        "qubits": [
+          10,
+          11
+        ]
+      }
+    ],
+    "requests": [
+      {
+        "id": "pair0_za",
+        "observable": [
+          {
+            "qubit": 0,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.970941817426052
+      },
+      {
+        "id": "pair0_zb",
+        "observable": [
+          {
+            "qubit": 1,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.970941817426052
+      },
+      {
+        "id": "pair0_zz",
+        "observable": [
+          {
+            "qubit": 0,
+            "pauli": "Z"
+          },
+          {
+            "qubit": 1,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 1.0
+      },
+      {
+        "id": "pair0_xx",
+        "observable": [
+          {
+            "qubit": 0,
+            "pauli": "X"
+          },
+          {
+            "qubit": 1,
+            "pauli": "X"
+          }
+        ],
+        "expected": 0.23931566428755774
+      },
+      {
+        "id": "pair1_za",
+        "observable": [
+          {
+            "qubit": 2,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.8854560256532099
+      },
+      {
+        "id": "pair1_zb",
+        "observable": [
+          {
+            "qubit": 3,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.8854560256532099
+      },
+      {
+        "id": "pair1_zz",
+        "observable": [
+          {
+            "qubit": 2,
+            "pauli": "Z"
+          },
+          {
+            "qubit": 3,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 1.0
+      },
+      {
+        "id": "pair1_xx",
+        "observable": [
+          {
+            "qubit": 2,
+            "pauli": "X"
+          },
+          {
+            "qubit": 3,
+            "pauli": "X"
+          }
+        ],
+        "expected": 0.4647231720437685
+      },
+      {
+        "id": "pair2_za",
+        "observable": [
+          {
+            "qubit": 4,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.7485107481711011
+      },
+      {
+        "id": "pair2_zb",
+        "observable": [
+          {
+            "qubit": 5,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.7485107481711011
+      },
+      {
+        "id": "pair2_zz",
+        "observable": [
+          {
+            "qubit": 4,
+            "pauli": "Z"
+          },
+          {
+            "qubit": 5,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 1.0
+      },
+      {
+        "id": "pair2_xx",
+        "observable": [
+          {
+            "qubit": 4,
+            "pauli": "X"
+          },
+          {
+            "qubit": 5,
+            "pauli": "X"
+          }
+        ],
+        "expected": 0.6631226582407952
+      },
+      {
+        "id": "pair3_za",
+        "observable": [
+          {
+            "qubit": 6,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.5680647467311559
+      },
+      {
+        "id": "pair3_zb",
+        "observable": [
+          {
+            "qubit": 7,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.5680647467311559
+      },
+      {
+        "id": "pair3_zz",
+        "observable": [
+          {
+            "qubit": 6,
+            "pauli": "Z"
+          },
+          {
+            "qubit": 7,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 1.0
+      },
+      {
+        "id": "pair3_xx",
+        "observable": [
+          {
+            "qubit": 6,
+            "pauli": "X"
+          },
+          {
+            "qubit": 7,
+            "pauli": "X"
+          }
+        ],
+        "expected": 0.8229838658936564
+      },
+      {
+        "id": "pair4_za",
+        "observable": [
+          {
+            "qubit": 8,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.35460488704253557
+      },
+      {
+        "id": "pair4_zb",
+        "observable": [
+          {
+            "qubit": 9,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.35460488704253557
+      },
+      {
+        "id": "pair4_zz",
+        "observable": [
+          {
+            "qubit": 8,
+            "pauli": "Z"
+          },
+          {
+            "qubit": 9,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 1.0
+      },
+      {
+        "id": "pair4_xx",
+        "observable": [
+          {
+            "qubit": 8,
+            "pauli": "X"
+          },
+          {
+            "qubit": 9,
+            "pauli": "X"
+          }
+        ],
+        "expected": 0.9350162426854148
+      },
+      {
+        "id": "pair5_za",
+        "observable": [
+          {
+            "qubit": 10,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.120536680255323
+      },
+      {
+        "id": "pair5_zb",
+        "observable": [
+          {
+            "qubit": 11,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 0.120536680255323
+      },
+      {
+        "id": "pair5_zz",
+        "observable": [
+          {
+            "qubit": 10,
+            "pauli": "Z"
+          },
+          {
+            "qubit": 11,
+            "pauli": "Z"
+          }
+        ],
+        "expected": 1.0
+      },
+      {
+        "id": "pair5_xx",
+        "observable": [
+          {
+            "qubit": 10,
+            "pauli": "X"
+          },
+          {
+            "qubit": 11,
+            "pauli": "X"
+          }
+        ],
+        "expected": 0.992708874098054
+      }
+    ]
+  },
+  "structural_expectations": {
+    "full": {
+      "evolutions": 1,
+      "max_state_qubits": 12
+    },
+    "separate": {
+      "evolutions": 24,
+      "max_state_qubits": 2
+    },
+    "grouped": {
+      "evolutions": 6,
+      "max_state_qubits": 2
+    }
+  }
+}

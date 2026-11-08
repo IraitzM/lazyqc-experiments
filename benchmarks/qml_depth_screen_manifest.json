@@ -1,0 +1,37 @@
+{
+  "protocol": "qml_generalization_screen_v1",
+  "description": "Exploratory local depth screen for existing generated QML-inspired families; not a confirmatory family-held-out evaluation.",
+  "base_seed": 20261024,
+  "seed_offsets": [404, 505, 606],
+  "families": [
+    "hardware_efficient_local",
+    "qcnn_like_local",
+    "data_reuploading"
+  ],
+  "qubits": [8, 12, 16, 20],
+  "depths": [2, 8, 16],
+  "patterns": [
+    "same_state_local_outputs",
+    "same_state_shared_cone"
+  ],
+  "strategies": [
+    "full",
+    "separate",
+    "grouped",
+    "auto"
+  ],
+  "collections_per_plan": 2,
+  "max_state_qubits": 24,
+  "max_state_bytes": 268435456,
+  "randomized_order_seed": 190724,
+  "validation": "matrix-free NumPy statevector oracle, absolute tolerance 1e-10",
+  "primary_recorded_costs": [
+    "planning",
+    "collection",
+    "two-collection lifetime",
+    "unique state evolutions",
+    "task count and widths",
+    "estimated state payload",
+    "oracle error"
+  ]
+}

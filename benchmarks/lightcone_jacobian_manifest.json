@@ -1,0 +1,17 @@
+{
+  "manifest_version": "1.0",
+  "date_frozen": "2026-10-25",
+  "purpose": "Measure cross-program reuse in a full parameter-shift expectation batch: per-request Qiskit LightCone + Aer with and without exact reduced-circuit deduplication versus structure-keyed LazyQC planning.",
+  "seed": 20261024,
+  "seed_offsets": [202, 303],
+  "family": "hardware_efficient_local",
+  "depth": 4,
+  "qubits": [12, 20],
+  "repetitions": {"12": 3, "20": 2},
+  "warmup": 1,
+  "parameters": "Every RY occurrence shifted independently by +-pi/2; base program plus 2P shifted programs; Z on every wire",
+  "methods": ["lightcone_separate_aer", "lightcone_dedup_aer", "lazyqc"],
+  "timing_scope": "Original circuits and DAGs are prebuilt. Each repetition includes all per-request LightCone passes, compaction, lowering, expectation setup, optional cross-program exact deduplication and one Aer job. LazyQC includes plan_all and collect. Shift-rule assembly is common and excluded.",
+  "validation": "All raw expectation values against LazyQC's single-thread Qulacs batch, tolerance 1e-9",
+  "scope": "Hardware-efficient local depth-four family, two widths and two held-out circuit seeds"
+}

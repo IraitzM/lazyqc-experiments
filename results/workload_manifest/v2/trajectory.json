@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp_utc": "2026-09-24T11:22:16.642256+00:00",
+    "source_sha256": "d83330bd9f8e6f89f629cc875408fa8b35f2d66e6a6df8cddc082a7c16a35e7d",
+    "python": "3.12.7 (main, Oct 16 2024, 04:37:19) [Clang 18.1.8 ]",
+    "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+    "cpu": "13th Gen Intel(R) Core(TM) i7-13700H",
+    "packages": {
+      "lazyqc": "0.1.0",
+      "qulacs": "0.6.14",
+      "numpy": "2.5.3"
+    },
+    "command": [
+      "benchmarks/run_trajectory.py"
+    ],
+    "failures": []
+  },
+  "summary": [
+    {
+      "case": "qaoa_path",
+      "bindings": 8,
+      "hit_rate": 1.0,
+      "decision_fidelity": true,
+      "median_full_ms": 29.803088,
+      "median_hint_ms": 4.840116,
+      "max_abs_error": 2.5673907444456745e-16
+    },
+    {
+      "case": "qaoa_star",
+      "bindings": 8,
+      "hit_rate": 1.0,
+      "decision_fidelity": true,
+      "median_full_ms": 107.069202,
+      "median_hint_ms": 4.254057,
+      "max_abs_error": 4.996003610813204e-16
+    }
+  ]
+}

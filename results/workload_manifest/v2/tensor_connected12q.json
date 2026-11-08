@@ -1,0 +1,20 @@
+{
+  "case": "connected_12q_overlap_64",
+  "seed": 42,
+  "widths": [
+    12
+  ],
+  "note": "one-off B4 probe, same family/seed as workload_manifest v1 (run_hamiltonian_batch definitions)",
+  "B4_tensor": {
+    "prep_ms": 14222.7,
+    "contract_ms": 26.1,
+    "total_ms": 14248.8,
+    "contraction_width": 8.0,
+    "max_abs_error": 1.7e-14
+  },
+  "v1_reference": {
+    "source": "results/workload_manifest/v1/evaluation.json",
+    "full_median_ms": 2.998,
+    "grouped_median_ms": 4.541
+  }
+}

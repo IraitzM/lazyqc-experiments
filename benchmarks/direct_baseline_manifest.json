@@ -1,0 +1,99 @@
+{
+ "manifest_version": "1.0",
+ "date_frozen": "2026-10-24",
+ "purpose": "Compare observable-driven planning with direct dense execution on one CPU thread, all CPU threads and a GPU, across width, past device memory, for parameter-shift Jacobians and inside a training loop.",
+ "workload_source": "benchmarks/qml_workload_support.py generators, unchanged from the QML manifest",
+ "rotation_convention": "R_P(theta) = exp(-i * theta * P / 2)",
+ "seed": 20261024,
+ "seed_offsets": [202, 303],
+ "depth": 4,
+ "planner_limits": {"max_state_qubits": 28, "max_state_bytes": 4294967296},
+ "placement": {
+  "wide_from": 14,
+  "wide_backend": "Qiskit Aer statevector, GPU, double precision, default fusion",
+  "basis": "per-task crossover between single-thread Qulacs and Aer GPU measured on this host before freezing"
+ },
+ "scaling": {
+  "families": ["hardware_efficient_local", "qcnn_like_local", "data_reuploading"],
+  "patterns": ["same_state_local_outputs", "same_state_shared_cone"],
+  "qubits": [12, 16, 20, 24, 26, 28],
+  "repetitions": {"12": 5, "16": 5, "20": 5, "24": 3, "26": 3, "28": 2},
+  "warmup": 1,
+  "methods": {
+   "lazyqc": {"threads": 1, "max_qubits_saturated": 24, "note": "auto plan plus Qulacs collection"},
+   "lazyqc_gpu": {"threads": 1, "note": "auto plan; tasks of at least wide_from qubits run on Aer GPU"},
+   "qulacs_1t": {"threads": 1, "max_qubits": 24},
+   "aer_cpu": {"threads": 20, "note": "Qiskit Aer CPU statevector with default fusion; the strongest multithreaded CPU engine measured on this host (Qulacs with 20 threads was 4.8 times slower at 24 qubits)"},
+   "aer_gpu": {"threads": 20},
+   "lightning_gpu": {"threads": 20},
+   "quimb": {"threads": 20, "note": "direct tensor-network evaluation with quimb's own light-cone simplification and auto-hq paths; a fresh circuit per run because quimb caches simplified networks on the circuit object"},
+   "lazyqc_aer_gpu": {"threads": 20, "note": "auto plan; every task on Aer GPU"},
+   "lazyqc_lightning_gpu": {"threads": 20, "note": "auto plan; every task on Lightning GPU, one device per task width reused across collections"},
+   "lazyqc_quimb": {"threads": 20, "note": "grouped cone plan; every task contracted by quimb"}
+  },
+  "backend_matrix": {
+   "purpose": "Same-backend comparison: direct execution on each backend against LazyQC with every task on that backend; the Qulacs pair is lazyqc versus qulacs_1t from the single-thread pass",
+   "qubits": [12, 16, 20, 24, 28],
+   "methods": ["aer_gpu", "lazyqc_aer_gpu", "lightning_gpu", "lazyqc_lightning_gpu", "quimb", "lazyqc_quimb"]
+  },
+  "timing_scope": "after workload construction; planner: plan plus collect; direct: state allocation, evolution and every requested expectation from a prebuilt circuit",
+  "validation": "every method against one reference per case (LazyQC cones, or Aer GPU when the cone saturates beyond 20 qubits) and the NumPy oracle up to 12 qubits; tolerance 1e-9"
+ },
+ "memory_wall": {
+  "families": ["hardware_efficient_local", "qcnn_like_local", "data_reuploading"],
+  "patterns": ["same_state_local_outputs", "same_state_shared_cone"],
+  "qubits": [32, 48, 64, 100, 128],
+  "repetitions": 5,
+  "mps_repetitions": 3,
+  "warmup": 1,
+  "extra_cases": [
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 48,
+    "depth": 6,
+    "pattern": "same_state_local_outputs",
+    "note": "intermediate cone (w=14 = w*), crossing into GPU placement"
+   },
+   {
+    "family": "hardware_efficient_local",
+    "qubits": 48,
+    "depth": 8,
+    "pattern": "same_state_local_outputs",
+    "note": "intermediate cone (w=18 > w*), where cone fits on GPU while full 48q state does not"
+   }
+  ],
+  "validation": "quimb local expectations with light-cone simplification and exact MPS (cutoff=0), tolerance 1e-9"
+ },
+ "jacobian": {
+  "families": ["hardware_efficient_local", "qcnn_like_local", "data_reuploading"],
+  "qubits": [12, 16, 20, 24],
+  "max_qubits_saturated": 16,
+  "outputs": "Z on every wire",
+  "parameters": "every RY occurrence, shifted independently by +-pi/2",
+  "repetitions": {"12": 5, "16": 5, "20": 3, "24": 2},
+  "warmup": 1,
+  "methods": {
+   "lazyqc": {"threads": 1, "note": "one plan over base and shifted programs, Qulacs collection, shift-rule assembly"},
+   "lazyqc_gpu": {"threads": 1},
+   "aer_gpu_shift": {"threads": 20, "max_qubits": 20, "note": "one Aer GPU job with every shifted circuit"},
+   "lightning_gpu_adjoint": {"threads": 20},
+   "lightning_cpu_adjoint": {"threads": 20, "max_qubits": 20}
+  },
+  "validation": "LazyQC Jacobian against the Lightning GPU adjoint Jacobian; tolerance 1e-9"
+ },
+ "training": {
+  "family": "hardware_efficient_local",
+  "qubits": [16, 20, 24],
+  "seed_offset": 202,
+  "steps": 10,
+  "learning_rate": 0.2,
+  "loss": "mean over wires of (<Z_q> - y_q)^2 with y_q drawn uniformly from [-0.5, 0.5] by seed 20261024",
+  "methods": {
+   "lazyqc": {"threads": 1, "gradient": "shift-rule Jacobian then loss chain rule"},
+   "lightning_gpu_vjp": {"threads": 20, "gradient": "forward pass, then adjoint vector-Jacobian product"},
+   "aer_gpu_shift": {"threads": 20, "max_qubits": 16}
+  },
+  "timing_scope": "whole step including program or tape construction for the current parameters",
+  "validation": "loss trajectories agree across methods within 1e-8"
+ }
+}

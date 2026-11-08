@@ -1,0 +1,840 @@
+{
+  "input": "results/workload_manifest/v2/evaluation_heldout.json",
+  "train": [
+    0,
+    1,
+    2
+  ],
+  "test": [
+    3,
+    4
+  ],
+  "cases": [
+    {
+      "case": "disjoint_batch64",
+      "H_ns": {
+        "B3": [
+          14229505,
+          629686
+        ],
+        "B5": [
+          34236842,
+          627852
+        ]
+      },
+      "H_test_ns": {
+        "B3": [
+          13557265.0,
+          579468.0
+        ],
+        "B5": [
+          35876423.0,
+          734700.0
+        ]
+      },
+      "R_star_train": null,
+      "S_inc_pred_ns": 212933.3642534378,
+      "S_joint_pred_ns": 212933.3642534378,
+      "R": [
+        {
+          "R": 1,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 22474390.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 2,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 22629622.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 4,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 22940086.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 8,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 23561014.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 16,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 24802870.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 32,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 27286582.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 64,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 32254006.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 128,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 42188854.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 256,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 62058550.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 512,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 101797942.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "case": "local_pauli_batch16",
+      "H_ns": {
+        "B3": [
+          184441079,
+          1028160
+        ],
+        "B5": [
+          522056291,
+          840562
+        ]
+      },
+      "H_test_ns": {
+        "B3": [
+          194344651.5,
+          2661939.5
+        ],
+        "B5": [
+          552243850.5,
+          1216365.5
+        ]
+      },
+      "R_star_train": null,
+      "S_inc_pred_ns": 836471.7807185252,
+      "S_joint_pred_ns": 794337.7000218864,
+      "R": [
+        {
+          "R": 1,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 356453625.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 2,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 355008051.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 4,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 352116903.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 8,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 346334607.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 16,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 334770015.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 32,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 311640831.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 64,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 265382463.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 128,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 172865727.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 256,
+          "oracle": "B5",
+          "always_B3": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 12167745.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 12167745.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 12167745.0
+          }
+        },
+        {
+          "R": 512,
+          "oracle": "B5",
+          "always_B3": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 382234689.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 382234689.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 382234689.0
+          }
+        }
+      ]
+    },
+    {
+      "case": "overlapping_uncut_batch16",
+      "H_ns": {
+        "B3": [
+          14676218,
+          566987
+        ],
+        "B5": [
+          40541010,
+          475988
+        ]
+      },
+      "H_test_ns": {
+        "B3": [
+          16896648.0,
+          777111.5
+        ],
+        "B5": [
+          46194643.0,
+          390665.0
+        ]
+      },
+      "R_star_train": 512,
+      "S_inc_pred_ns": 234049.3474489697,
+      "S_joint_pred_ns": 120462.98080850636,
+      "R": [
+        {
+          "R": 1,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 28911548.5
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 2,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 28525102.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 4,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 27752209.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 8,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 26206423.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 16,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 23114851.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 32,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 16931707.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 64,
+          "oracle": "B3",
+          "always_B3": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": true,
+            "regret_ns": 4565419.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 128,
+          "oracle": "B5",
+          "always_B3": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 20167157.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 20167157.0
+          },
+          "score_predicted": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 20167157.0
+          }
+        },
+        {
+          "R": 256,
+          "oracle": "B5",
+          "always_B3": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 69632309.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "R_threshold": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 69632309.0
+          },
+          "score_predicted": {
+            "pick": "B5",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        },
+        {
+          "R": 512,
+          "oracle": "B5",
+          "always_B3": {
+            "pick": "B3",
+            "error": true,
+            "regret_ns": 168562613.0
+          },
+          "always_B5": {
+            "pick": "B5",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "R_threshold": {
+            "pick": "B5",
+            "error": false,
+            "regret_ns": 0.0
+          },
+          "score_predicted": {
+            "pick": "B5",
+            "error": false,
+            "regret_ns": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "always_B3": {
+      "selection_error_rate": 0.16666666666666666,
+      "mean_regret_ms": 21.7588171,
+      "max_regret_ms": 382.234689
+    },
+    "always_B5": {
+      "selection_error_rate": 0.8333333333333334,
+      "mean_regret_ms": 101.08577991666667,
+      "max_regret_ms": 356.453625
+    },
+    "R_threshold": {
+      "selection_error_rate": 0.13333333333333333,
+      "mean_regret_ms": 16.140063333333334,
+      "max_regret_ms": 382.234689
+    },
+    "score_predicted": {
+      "selection_error_rate": 0.1,
+      "mean_regret_ms": 13.818986366666667,
+      "max_regret_ms": 382.234689
+    }
+  }
+}

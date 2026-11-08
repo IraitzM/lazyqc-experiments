@@ -1,0 +1,145 @@
+{
+ "metadata": {
+  "timestamp_utc": "2026-11-03T22:18:37.457903+00:00",
+  "manifest_sha256": "2d6847850894bfac9f4409e59c8fd1b1db1b7bcf980ddb8b2fb82762a4fc9f29",
+  "command": [
+   "benchmarks/run_gradient_baselines.py",
+   "--study",
+   "training",
+   "--threads",
+   "1",
+   "--methods",
+   "lazyqc",
+   "--output",
+   "results/direct/training_1t.json"
+  ],
+  "threads": 1,
+  "methods": [
+   "lazyqc"
+  ],
+  "study": "training",
+  "smoke": false,
+  "environment": {
+   "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+   "cpu": "13th Gen Intel(R) Core(TM) i7-13700H",
+   "logical_cpus": 20,
+   "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 595.84, 3105 MHz, [N/A]",
+   "python": "3.12.7",
+   "threads": {
+    "QULACS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+   },
+   "packages": {
+    "qulacs": "0.6.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.1",
+    "qiskit-aer-gpu": "0.18.0",
+    "pennylane": "0.45.1",
+    "pennylane-lightning": "0.45.0",
+    "pennylane-lightning-gpu": "0.45.0",
+    "custatevec-cu12": "1.6.0.post1"
+   }
+  }
+ },
+ "failures": [],
+ "rows": [],
+ "loops": [
+  {
+   "family": "hardware_efficient_local",
+   "qubits": 16,
+   "method": "lazyqc",
+   "threads": 1,
+   "parameters": 64,
+   "step_ns": [
+    97480949,
+    93730488,
+    96366858,
+    94299812,
+    100737824,
+    97380482,
+    93763799,
+    93719428,
+    96368363,
+    93333869
+   ],
+   "loss": [
+    0.0932672413610662,
+    0.09213086367404807,
+    0.09102535051683222,
+    0.08994979103693815,
+    0.08890328879635187,
+    0.08788496320891093,
+    0.08689395073594616,
+    0.0859294058642484,
+    0.08499050188882762,
+    0.08407643152131294
+   ]
+  },
+  {
+   "family": "hardware_efficient_local",
+   "qubits": 20,
+   "method": "lazyqc",
+   "threads": 1,
+   "parameters": 80,
+   "step_ns": [
+    140199828,
+    137608395,
+    141053610,
+    136374243,
+    141632030,
+    140855594,
+    132689107,
+    142455032,
+    139769996,
+    144774061
+   ],
+   "loss": [
+    0.08318679349008831,
+    0.08232626113880528,
+    0.08148208039675948,
+    0.08065393396599706,
+    0.07984150122512974,
+    0.07904445934582119,
+    0.07826248432458097,
+    0.07749525193170079,
+    0.07674243857966123,
+    0.07600372211374079
+   ]
+  },
+  {
+   "family": "hardware_efficient_local",
+   "qubits": 24,
+   "method": "lazyqc",
+   "threads": 1,
+   "parameters": 96,
+   "step_ns": [
+    192613564,
+    194036557,
+    192797627,
+    193080065,
+    196746234,
+    188870370,
+    192992115,
+    194876061,
+    192635032,
+    195272589
+   ],
+   "loss": [
+    0.09802845346751095,
+    0.09718964958318793,
+    0.09636244763916363,
+    0.09554670518016924,
+    0.09474227895932086,
+    0.09394902506733456,
+    0.09316679905381209,
+    0.09239545604147803,
+    0.09163485083416427,
+    0.09088483801925817
+   ]
+  }
+ ]
+}

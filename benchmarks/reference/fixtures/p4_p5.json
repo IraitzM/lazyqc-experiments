@@ -1,0 +1,2742 @@
+{
+  "schema_version": 1,
+  "rotation_convention": "R_P(theta) = exp(-i * theta * P / 2)",
+  "amplitude_index": "sum(bit[q] * 2**q)",
+  "absolute_tolerance": 1e-10,
+  "seed": 9107,
+  "purpose": "Frozen small validation suite, not a scalability study",
+  "cut_limits": {
+    "max_branches": 100,
+    "max_cut_candidates": 32,
+    "beam_width": 4,
+    "max_search_states": 256,
+    "soft_timeout_ms": 1000
+  },
+  "cases": [
+    {
+      "name": "bell_1q_fragments",
+      "qubits": 2,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "H",
+          "qubits": [
+            0
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "X"
+            },
+            {
+              "qubit": 1,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Y"
+            },
+            {
+              "qubit": 1,
+              "pauli": "Y"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 1,
+      "max_cuts": 2
+    },
+    {
+      "name": "two_cut_chain",
+      "qubits": 3,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "RY",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.4
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.7
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.3
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "X"
+            },
+            {
+              "qubit": 2,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 1,
+      "max_cuts": 2
+    },
+    {
+      "name": "qaoa_path",
+      "qubits": 4,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "H",
+          "qubits": [
+            0
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            1
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            2
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            3
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.53
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.53
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.53
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.53
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 2,
+      "max_cuts": 2
+    },
+    {
+      "name": "qaoa_star",
+      "qubits": 4,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "H",
+          "qubits": [
+            0
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            1
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            2
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            3
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            2
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            3
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            3
+          ]
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.53
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.53
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.53
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.53
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 3,
+      "max_cuts": 2
+    },
+    {
+      "name": "qaoa_ring_negative",
+      "qubits": 4,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "H",
+          "qubits": [
+            0
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            1
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            2
+          ]
+        },
+        {
+          "gate": "H",
+          "qubits": [
+            3
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            3,
+            0
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.37
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            3,
+            0
+          ]
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.53
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.53
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.53
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.53
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 2,
+      "max_cuts": 2
+    },
+    {
+      "name": "local_pauli_batch16",
+      "qubits": 5,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "RY",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.284426955050439
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            0
+          ],
+          "angle_radians": -0.8450697957965303
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": -0.14631460246501504
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            1
+          ],
+          "angle_radians": -0.1487747644467987
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": -0.412218613346659
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.9324101344851863
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": -0.136726319451288
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.1861494606874743
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            4
+          ],
+          "angle_radians": -0.46941114845181375
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            4
+          ],
+          "angle_radians": 0.17404718104183248
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": -0.7821580670327155
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            3,
+            4
+          ]
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            4
+          ],
+          "angle_radians": -0.9839775288071739
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": -0.1735165538565786
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.8516415196097546
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "X"
+            },
+            {
+              "qubit": 2,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Y"
+            },
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 4,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "X"
+            },
+            {
+              "qubit": 0,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "Y"
+            },
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 2,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "X"
+            },
+            {
+              "qubit": 3,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Y"
+            },
+            {
+              "qubit": 4,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 0,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "X"
+            },
+            {
+              "qubit": 1,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Y"
+            },
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 3,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "X"
+            },
+            {
+              "qubit": 4,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Y"
+            },
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 1,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "X"
+            },
+            {
+              "qubit": 2,
+              "pauli": "Y"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 3,
+      "max_cuts": 2
+    },
+    {
+      "name": "changing_angle_encoding",
+      "qubits": 5,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "RY",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.284426955050439
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            0
+          ],
+          "angle_radians": -0.8450697957965303
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": -0.14631460246501504
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            1
+          ],
+          "angle_radians": -0.1487747644467987
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": -0.412218613346659
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.9324101344851863
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": -0.136726319451288
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.1861494606874743
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            4
+          ],
+          "angle_radians": -0.46941114845181375
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            4
+          ],
+          "angle_radians": 0.17404718104183248
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": -0.7821580670327155
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            3,
+            4
+          ]
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            4
+          ],
+          "angle_radians": -0.9839775288071739
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": -0.1735165538565786
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.8516415196097546
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "X"
+            },
+            {
+              "qubit": 2,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Y"
+            },
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 4,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "X"
+            },
+            {
+              "qubit": 0,
+              "pauli": "Y"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 3,
+      "max_cuts": 2,
+      "binding_deltas": [
+        0.0,
+        0.23,
+        -0.31
+      ]
+    },
+    {
+      "name": "overlapping_uncut_batch16",
+      "qubits": 8,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "RY",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.17
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.2
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.23
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.26
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            4
+          ],
+          "angle_radians": 0.29000000000000004
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            5
+          ],
+          "angle_radians": 0.32
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            6
+          ],
+          "angle_radians": 0.35
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            7
+          ],
+          "angle_radians": 0.38
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.31
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.31
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.31
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            3,
+            4
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            4
+          ],
+          "angle_radians": 0.31
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            4,
+            5
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            5
+          ],
+          "angle_radians": 0.31
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            5,
+            6
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            6
+          ],
+          "angle_radians": 0.31
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            6,
+            7
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            7
+          ],
+          "angle_radians": 0.31
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "Z"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 8,
+      "max_cuts": 0
+    },
+    {
+      "name": "disjoint_batch64",
+      "qubits": 8,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "RY",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.13
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.2
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.27
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.34
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            4
+          ],
+          "angle_radians": 0.41000000000000003
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            5
+          ],
+          "angle_radians": 0.48000000000000004
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            6
+          ],
+          "angle_radians": 0.55
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            7
+          ],
+          "angle_radians": 0.6200000000000001
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "17",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "18",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "20",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "21",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "23",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "24",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "26",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "27",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "29",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "30",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "31",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "32",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "33",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "34",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "35",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "36",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "38",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "39",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "40",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "41",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "42",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "43",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "44",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "45",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "46",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "47",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "48",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "49",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "50",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "51",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "52",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "53",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "54",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "55",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "X"
+            }
+          ]
+        },
+        {
+          "id": "56",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "57",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "58",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "59",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "60",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "61",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "62",
+          "observable": [
+            {
+              "qubit": 6,
+              "pauli": "Y"
+            }
+          ]
+        },
+        {
+          "id": "63",
+          "observable": [
+            {
+              "qubit": 7,
+              "pauli": "Y"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 1,
+      "max_cuts": 0
+    },
+    {
+      "name": "dense_negative",
+      "qubits": 4,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "RX",
+          "qubits": [
+            0
+          ],
+          "angle_radians": -0.9772178363219153
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 1.8318639168327135
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 1.7816835406017004
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.6987619433895156
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            2
+          ],
+          "angle_radians": -0.6150772522795402
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 1.6427770261726544
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 1.652191992993465
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.6284527179371349
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            3
+          ]
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            0
+          ],
+          "angle_radians": -1.3651683451484322
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.4757893834007896
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.16880297552606693
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.5916237909691091
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            2
+          ],
+          "angle_radians": -1.870640563405157
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": -1.911889586558365
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.301653810688729
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.9882651254042574
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            3
+          ]
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 1.0278654536818315
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            0
+          ],
+          "angle_radians": -0.08770110749683147
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.41380315098896725
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": -1.5293872195277225
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 1.4509898135969594
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.6912369182022244
+        },
+        {
+          "gate": "RX",
+          "qubits": [
+            3
+          ],
+          "angle_radians": -0.8869209385519081
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": -1.9652639866528805
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            3
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            },
+            {
+              "qubit": 3,
+              "pauli": "X"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 2,
+      "max_cuts": 2
+    },
+    {
+      "name": "clifford_phase_network",
+      "qubits": 6,
+      "initial_state": "zero",
+      "operations": [
+        {
+          "gate": "RY",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.21
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.24
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.27
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.3
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            4
+          ],
+          "angle_radians": 0.32999999999999996
+        },
+        {
+          "gate": "RY",
+          "qubits": [
+            5
+          ],
+          "angle_radians": 0.36
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            3,
+            4
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            4,
+            5
+          ]
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.7853981633974483
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            0
+          ],
+          "angle_radians": 0.39269908169872414
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.7853981633974483
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            1
+          ],
+          "angle_radians": 0.39269908169872414
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.7853981633974483
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            2
+          ],
+          "angle_radians": 0.39269908169872414
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.7853981633974483
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            3
+          ],
+          "angle_radians": 0.39269908169872414
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            4
+          ],
+          "angle_radians": 0.7853981633974483
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            4
+          ],
+          "angle_radians": 0.39269908169872414
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            5
+          ],
+          "angle_radians": 0.7853981633974483
+        },
+        {
+          "gate": "RZ",
+          "qubits": [
+            5
+          ],
+          "angle_radians": 0.39269908169872414
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            4,
+            5
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            3,
+            4
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            2,
+            3
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            1,
+            2
+          ]
+        },
+        {
+          "gate": "CX",
+          "qubits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "id": "0",
+          "observable": [
+            {
+              "qubit": 0,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "observable": [
+            {
+              "qubit": 1,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "observable": [
+            {
+              "qubit": 2,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "observable": [
+            {
+              "qubit": 3,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "observable": [
+            {
+              "qubit": 4,
+              "pauli": "Z"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "observable": [
+            {
+              "qubit": 5,
+              "pauli": "Z"
+            }
+          ]
+        }
+      ],
+      "fragment_width": 3,
+      "max_cuts": 2
+    }
+  ]
+}

@@ -1,0 +1,2843 @@
+{
+ "host": {
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.12.7",
+  "threads": "1"
+ },
+ "summary": {
+  "dense_ns": [
+   55428.132850031776,
+   1263.626926945346,
+   1.162347687406658,
+   4.768537291382809
+  ],
+  "dense_terms": [
+   "per program",
+   "per gate",
+   "per amplitude-gate",
+   "per amplitude-output"
+  ],
+  "analysis_ns": [
+   5675.8418263172225,
+   224.2217368889586
+  ],
+  "analysis_terms": [
+   "per call",
+   "per request gate"
+  ],
+  "dense_median_abs_relative_error": 0.1753940118254118,
+  "analysis_median_abs_relative_error": 0.24769477759040248,
+  "rows": 312
+ },
+ "rows": [
+  {
+   "qubits": 2,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 72311,
+   "analysis_ns": 7386
+  },
+  {
+   "qubits": 2,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 134271,
+   "analysis_ns": 21790
+  },
+  {
+   "qubits": 2,
+   "gates": 8,
+   "outputs_per_program": 2,
+   "programs": 1,
+   "request_gates": 16,
+   "dense_ns": 62386,
+   "analysis_ns": 8209
+  },
+  {
+   "qubits": 2,
+   "gates": 8,
+   "outputs_per_program": 2,
+   "programs": 3,
+   "request_gates": 48,
+   "dense_ns": 124172,
+   "analysis_ns": 27253
+  },
+  {
+   "qubits": 2,
+   "gates": 8,
+   "outputs_per_program": 6,
+   "programs": 1,
+   "request_gates": 48,
+   "dense_ns": 91298,
+   "analysis_ns": 25967
+  },
+  {
+   "qubits": 2,
+   "gates": 8,
+   "outputs_per_program": 6,
+   "programs": 3,
+   "request_gates": 144,
+   "dense_ns": 255637,
+   "analysis_ns": 103650
+  },
+  {
+   "qubits": 2,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 113617,
+   "analysis_ns": 12892
+  },
+  {
+   "qubits": 2,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 209447,
+   "analysis_ns": 36285
+  },
+  {
+   "qubits": 2,
+   "gates": 32,
+   "outputs_per_program": 2,
+   "programs": 1,
+   "request_gates": 64,
+   "dense_ns": 119516,
+   "analysis_ns": 35326
+  },
+  {
+   "qubits": 2,
+   "gates": 32,
+   "outputs_per_program": 2,
+   "programs": 3,
+   "request_gates": 192,
+   "dense_ns": 350011,
+   "analysis_ns": 69750
+  },
+  {
+   "qubits": 2,
+   "gates": 32,
+   "outputs_per_program": 6,
+   "programs": 1,
+   "request_gates": 192,
+   "dense_ns": 120938,
+   "analysis_ns": 45924
+  },
+  {
+   "qubits": 2,
+   "gates": 32,
+   "outputs_per_program": 6,
+   "programs": 3,
+   "request_gates": 576,
+   "dense_ns": 342756,
+   "analysis_ns": 117464
+  },
+  {
+   "qubits": 2,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 181437,
+   "analysis_ns": 41560
+  },
+  {
+   "qubits": 2,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 628485,
+   "analysis_ns": 93597
+  },
+  {
+   "qubits": 2,
+   "gates": 128,
+   "outputs_per_program": 2,
+   "programs": 1,
+   "request_gates": 256,
+   "dense_ns": 214414,
+   "analysis_ns": 42707
+  },
+  {
+   "qubits": 2,
+   "gates": 128,
+   "outputs_per_program": 2,
+   "programs": 3,
+   "request_gates": 768,
+   "dense_ns": 655140,
+   "analysis_ns": 225888
+  },
+  {
+   "qubits": 2,
+   "gates": 128,
+   "outputs_per_program": 6,
+   "programs": 1,
+   "request_gates": 768,
+   "dense_ns": 209052,
+   "analysis_ns": 90313
+  },
+  {
+   "qubits": 2,
+   "gates": 128,
+   "outputs_per_program": 6,
+   "programs": 3,
+   "request_gates": 2304,
+   "dense_ns": 581967,
+   "analysis_ns": 330317
+  },
+  {
+   "qubits": 2,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 354676,
+   "analysis_ns": 75878
+  },
+  {
+   "qubits": 2,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 1217289,
+   "analysis_ns": 417019
+  },
+  {
+   "qubits": 2,
+   "gates": 320,
+   "outputs_per_program": 2,
+   "programs": 1,
+   "request_gates": 640,
+   "dense_ns": 944107,
+   "analysis_ns": 87923
+  },
+  {
+   "qubits": 2,
+   "gates": 320,
+   "outputs_per_program": 2,
+   "programs": 3,
+   "request_gates": 1920,
+   "dense_ns": 1120936,
+   "analysis_ns": 579177
+  },
+  {
+   "qubits": 2,
+   "gates": 320,
+   "outputs_per_program": 6,
+   "programs": 1,
+   "request_gates": 1920,
+   "dense_ns": 365727,
+   "analysis_ns": 131953
+  },
+  {
+   "qubits": 2,
+   "gates": 320,
+   "outputs_per_program": 6,
+   "programs": 3,
+   "request_gates": 5760,
+   "dense_ns": 1251410,
+   "analysis_ns": 792037
+  },
+  {
+   "qubits": 3,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 69081,
+   "analysis_ns": 7141
+  },
+  {
+   "qubits": 3,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 125585,
+   "analysis_ns": 20614
+  },
+  {
+   "qubits": 3,
+   "gates": 8,
+   "outputs_per_program": 3,
+   "programs": 1,
+   "request_gates": 24,
+   "dense_ns": 75532,
+   "analysis_ns": 18645
+  },
+  {
+   "qubits": 3,
+   "gates": 8,
+   "outputs_per_program": 3,
+   "programs": 3,
+   "request_gates": 72,
+   "dense_ns": 158555,
+   "analysis_ns": 47413
+  },
+  {
+   "qubits": 3,
+   "gates": 8,
+   "outputs_per_program": 9,
+   "programs": 1,
+   "request_gates": 72,
+   "dense_ns": 104651,
+   "analysis_ns": 30566
+  },
+  {
+   "qubits": 3,
+   "gates": 8,
+   "outputs_per_program": 9,
+   "programs": 3,
+   "request_gates": 216,
+   "dense_ns": 249448,
+   "analysis_ns": 83826
+  },
+  {
+   "qubits": 3,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 89774,
+   "analysis_ns": 12558
+  },
+  {
+   "qubits": 3,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 184798,
+   "analysis_ns": 47867
+  },
+  {
+   "qubits": 3,
+   "gates": 32,
+   "outputs_per_program": 3,
+   "programs": 1,
+   "request_gates": 96,
+   "dense_ns": 115916,
+   "analysis_ns": 35546
+  },
+  {
+   "qubits": 3,
+   "gates": 32,
+   "outputs_per_program": 3,
+   "programs": 3,
+   "request_gates": 288,
+   "dense_ns": 304065,
+   "analysis_ns": 73723
+  },
+  {
+   "qubits": 3,
+   "gates": 32,
+   "outputs_per_program": 9,
+   "programs": 1,
+   "request_gates": 288,
+   "dense_ns": 124234,
+   "analysis_ns": 66978
+  },
+  {
+   "qubits": 3,
+   "gates": 32,
+   "outputs_per_program": 9,
+   "programs": 3,
+   "request_gates": 864,
+   "dense_ns": 380888,
+   "analysis_ns": 277079
+  },
+  {
+   "qubits": 3,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 168444,
+   "analysis_ns": 28411
+  },
+  {
+   "qubits": 3,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 481075,
+   "analysis_ns": 130193
+  },
+  {
+   "qubits": 3,
+   "gates": 128,
+   "outputs_per_program": 3,
+   "programs": 1,
+   "request_gates": 384,
+   "dense_ns": 247033,
+   "analysis_ns": 117688
+  },
+  {
+   "qubits": 3,
+   "gates": 128,
+   "outputs_per_program": 3,
+   "programs": 3,
+   "request_gates": 1152,
+   "dense_ns": 568371,
+   "analysis_ns": 309737
+  },
+  {
+   "qubits": 3,
+   "gates": 128,
+   "outputs_per_program": 9,
+   "programs": 1,
+   "request_gates": 1152,
+   "dense_ns": 243470,
+   "analysis_ns": 144172
+  },
+  {
+   "qubits": 3,
+   "gates": 128,
+   "outputs_per_program": 9,
+   "programs": 3,
+   "request_gates": 3456,
+   "dense_ns": 682182,
+   "analysis_ns": 678185
+  },
+  {
+   "qubits": 3,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 412662,
+   "analysis_ns": 98376
+  },
+  {
+   "qubits": 3,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 1149161,
+   "analysis_ns": 310882
+  },
+  {
+   "qubits": 3,
+   "gates": 320,
+   "outputs_per_program": 3,
+   "programs": 1,
+   "request_gates": 960,
+   "dense_ns": 451075,
+   "analysis_ns": 256701
+  },
+  {
+   "qubits": 3,
+   "gates": 320,
+   "outputs_per_program": 3,
+   "programs": 3,
+   "request_gates": 2880,
+   "dense_ns": 1160523,
+   "analysis_ns": 884830
+  },
+  {
+   "qubits": 3,
+   "gates": 320,
+   "outputs_per_program": 9,
+   "programs": 1,
+   "request_gates": 2880,
+   "dense_ns": 464062,
+   "analysis_ns": 495925
+  },
+  {
+   "qubits": 3,
+   "gates": 320,
+   "outputs_per_program": 9,
+   "programs": 3,
+   "request_gates": 8640,
+   "dense_ns": 1291920,
+   "analysis_ns": 1444035
+  },
+  {
+   "qubits": 4,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 74743,
+   "analysis_ns": 9133
+  },
+  {
+   "qubits": 4,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 142786,
+   "analysis_ns": 22193
+  },
+  {
+   "qubits": 4,
+   "gates": 8,
+   "outputs_per_program": 4,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 98213,
+   "analysis_ns": 29090
+  },
+  {
+   "qubits": 4,
+   "gates": 8,
+   "outputs_per_program": 4,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 220597,
+   "analysis_ns": 67529
+  },
+  {
+   "qubits": 4,
+   "gates": 8,
+   "outputs_per_program": 12,
+   "programs": 1,
+   "request_gates": 96,
+   "dense_ns": 164748,
+   "analysis_ns": 56390
+  },
+  {
+   "qubits": 4,
+   "gates": 8,
+   "outputs_per_program": 12,
+   "programs": 3,
+   "request_gates": 288,
+   "dense_ns": 356852,
+   "analysis_ns": 111101
+  },
+  {
+   "qubits": 4,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 83746,
+   "analysis_ns": 12094
+  },
+  {
+   "qubits": 4,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 222452,
+   "analysis_ns": 45380
+  },
+  {
+   "qubits": 4,
+   "gates": 32,
+   "outputs_per_program": 4,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 131628,
+   "analysis_ns": 43729
+  },
+  {
+   "qubits": 4,
+   "gates": 32,
+   "outputs_per_program": 4,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 266119,
+   "analysis_ns": 149955
+  },
+  {
+   "qubits": 4,
+   "gates": 32,
+   "outputs_per_program": 12,
+   "programs": 1,
+   "request_gates": 384,
+   "dense_ns": 208933,
+   "analysis_ns": 99286
+  },
+  {
+   "qubits": 4,
+   "gates": 32,
+   "outputs_per_program": 12,
+   "programs": 3,
+   "request_gates": 1152,
+   "dense_ns": 551527,
+   "analysis_ns": 316594
+  },
+  {
+   "qubits": 4,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 177481,
+   "analysis_ns": 30718
+  },
+  {
+   "qubits": 4,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 644720,
+   "analysis_ns": 119039
+  },
+  {
+   "qubits": 4,
+   "gates": 128,
+   "outputs_per_program": 4,
+   "programs": 1,
+   "request_gates": 512,
+   "dense_ns": 189714,
+   "analysis_ns": 182499
+  },
+  {
+   "qubits": 4,
+   "gates": 128,
+   "outputs_per_program": 4,
+   "programs": 3,
+   "request_gates": 1536,
+   "dense_ns": 546129,
+   "analysis_ns": 421501
+  },
+  {
+   "qubits": 4,
+   "gates": 128,
+   "outputs_per_program": 12,
+   "programs": 1,
+   "request_gates": 1536,
+   "dense_ns": 289066,
+   "analysis_ns": 325438
+  },
+  {
+   "qubits": 4,
+   "gates": 128,
+   "outputs_per_program": 12,
+   "programs": 3,
+   "request_gates": 4608,
+   "dense_ns": 691503,
+   "analysis_ns": 918113
+  },
+  {
+   "qubits": 4,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 415081,
+   "analysis_ns": 93815
+  },
+  {
+   "qubits": 4,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 1159276,
+   "analysis_ns": 316700
+  },
+  {
+   "qubits": 4,
+   "gates": 320,
+   "outputs_per_program": 4,
+   "programs": 1,
+   "request_gates": 1280,
+   "dense_ns": 427080,
+   "analysis_ns": 318137
+  },
+  {
+   "qubits": 4,
+   "gates": 320,
+   "outputs_per_program": 4,
+   "programs": 3,
+   "request_gates": 3840,
+   "dense_ns": 1251255,
+   "analysis_ns": 1059602
+  },
+  {
+   "qubits": 4,
+   "gates": 320,
+   "outputs_per_program": 12,
+   "programs": 1,
+   "request_gates": 3840,
+   "dense_ns": 533229,
+   "analysis_ns": 587487
+  },
+  {
+   "qubits": 4,
+   "gates": 320,
+   "outputs_per_program": 12,
+   "programs": 3,
+   "request_gates": 11520,
+   "dense_ns": 1340161,
+   "analysis_ns": 2304652
+  },
+  {
+   "qubits": 5,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 66038,
+   "analysis_ns": 6536
+  },
+  {
+   "qubits": 5,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 126895,
+   "analysis_ns": 16424
+  },
+  {
+   "qubits": 5,
+   "gates": 8,
+   "outputs_per_program": 5,
+   "programs": 1,
+   "request_gates": 40,
+   "dense_ns": 89262,
+   "analysis_ns": 25294
+  },
+  {
+   "qubits": 5,
+   "gates": 8,
+   "outputs_per_program": 5,
+   "programs": 3,
+   "request_gates": 120,
+   "dense_ns": 196328,
+   "analysis_ns": 75241
+  },
+  {
+   "qubits": 5,
+   "gates": 8,
+   "outputs_per_program": 15,
+   "programs": 1,
+   "request_gates": 120,
+   "dense_ns": 142986,
+   "analysis_ns": 64907
+  },
+  {
+   "qubits": 5,
+   "gates": 8,
+   "outputs_per_program": 15,
+   "programs": 3,
+   "request_gates": 360,
+   "dense_ns": 342354,
+   "analysis_ns": 161172
+  },
+  {
+   "qubits": 5,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 87136,
+   "analysis_ns": 9664
+  },
+  {
+   "qubits": 5,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 202099,
+   "analysis_ns": 31520
+  },
+  {
+   "qubits": 5,
+   "gates": 32,
+   "outputs_per_program": 5,
+   "programs": 1,
+   "request_gates": 160,
+   "dense_ns": 115576,
+   "analysis_ns": 51307
+  },
+  {
+   "qubits": 5,
+   "gates": 32,
+   "outputs_per_program": 5,
+   "programs": 3,
+   "request_gates": 480,
+   "dense_ns": 287994,
+   "analysis_ns": 140299
+  },
+  {
+   "qubits": 5,
+   "gates": 32,
+   "outputs_per_program": 15,
+   "programs": 1,
+   "request_gates": 480,
+   "dense_ns": 179281,
+   "analysis_ns": 142782
+  },
+  {
+   "qubits": 5,
+   "gates": 32,
+   "outputs_per_program": 15,
+   "programs": 3,
+   "request_gates": 1440,
+   "dense_ns": 442244,
+   "analysis_ns": 307421
+  },
+  {
+   "qubits": 5,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 208884,
+   "analysis_ns": 42357
+  },
+  {
+   "qubits": 5,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 540208,
+   "analysis_ns": 178019
+  },
+  {
+   "qubits": 5,
+   "gates": 128,
+   "outputs_per_program": 5,
+   "programs": 1,
+   "request_gates": 640,
+   "dense_ns": 212481,
+   "analysis_ns": 114098
+  },
+  {
+   "qubits": 5,
+   "gates": 128,
+   "outputs_per_program": 5,
+   "programs": 3,
+   "request_gates": 1920,
+   "dense_ns": 611372,
+   "analysis_ns": 463872
+  },
+  {
+   "qubits": 5,
+   "gates": 128,
+   "outputs_per_program": 15,
+   "programs": 1,
+   "request_gates": 1920,
+   "dense_ns": 308423,
+   "analysis_ns": 423462
+  },
+  {
+   "qubits": 5,
+   "gates": 128,
+   "outputs_per_program": 15,
+   "programs": 3,
+   "request_gates": 5760,
+   "dense_ns": 759057,
+   "analysis_ns": 1063097
+  },
+  {
+   "qubits": 5,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 419222,
+   "analysis_ns": 93482
+  },
+  {
+   "qubits": 5,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 1195298,
+   "analysis_ns": 332487
+  },
+  {
+   "qubits": 5,
+   "gates": 320,
+   "outputs_per_program": 5,
+   "programs": 1,
+   "request_gates": 1600,
+   "dense_ns": 535864,
+   "analysis_ns": 505096
+  },
+  {
+   "qubits": 5,
+   "gates": 320,
+   "outputs_per_program": 5,
+   "programs": 3,
+   "request_gates": 4800,
+   "dense_ns": 1276529,
+   "analysis_ns": 1137712
+  },
+  {
+   "qubits": 5,
+   "gates": 320,
+   "outputs_per_program": 15,
+   "programs": 1,
+   "request_gates": 4800,
+   "dense_ns": 658194,
+   "analysis_ns": 691691
+  },
+  {
+   "qubits": 5,
+   "gates": 320,
+   "outputs_per_program": 15,
+   "programs": 3,
+   "request_gates": 14400,
+   "dense_ns": 1656109,
+   "analysis_ns": 2790640
+  },
+  {
+   "qubits": 6,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 69078,
+   "analysis_ns": 6002
+  },
+  {
+   "qubits": 6,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 138445,
+   "analysis_ns": 24824
+  },
+  {
+   "qubits": 6,
+   "gates": 8,
+   "outputs_per_program": 6,
+   "programs": 1,
+   "request_gates": 48,
+   "dense_ns": 127590,
+   "analysis_ns": 39103
+  },
+  {
+   "qubits": 6,
+   "gates": 8,
+   "outputs_per_program": 6,
+   "programs": 3,
+   "request_gates": 144,
+   "dense_ns": 301937,
+   "analysis_ns": 111093
+  },
+  {
+   "qubits": 6,
+   "gates": 8,
+   "outputs_per_program": 18,
+   "programs": 1,
+   "request_gates": 144,
+   "dense_ns": 200687,
+   "analysis_ns": 57116
+  },
+  {
+   "qubits": 6,
+   "gates": 8,
+   "outputs_per_program": 18,
+   "programs": 3,
+   "request_gates": 432,
+   "dense_ns": 522244,
+   "analysis_ns": 192246
+  },
+  {
+   "qubits": 6,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 105075,
+   "analysis_ns": 20766
+  },
+  {
+   "qubits": 6,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 237311,
+   "analysis_ns": 37492
+  },
+  {
+   "qubits": 6,
+   "gates": 32,
+   "outputs_per_program": 6,
+   "programs": 1,
+   "request_gates": 192,
+   "dense_ns": 164959,
+   "analysis_ns": 71805
+  },
+  {
+   "qubits": 6,
+   "gates": 32,
+   "outputs_per_program": 6,
+   "programs": 3,
+   "request_gates": 576,
+   "dense_ns": 379482,
+   "analysis_ns": 230056
+  },
+  {
+   "qubits": 6,
+   "gates": 32,
+   "outputs_per_program": 18,
+   "programs": 1,
+   "request_gates": 576,
+   "dense_ns": 231315,
+   "analysis_ns": 193263
+  },
+  {
+   "qubits": 6,
+   "gates": 32,
+   "outputs_per_program": 18,
+   "programs": 3,
+   "request_gates": 1728,
+   "dense_ns": 593278,
+   "analysis_ns": 511243
+  },
+  {
+   "qubits": 6,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 212001,
+   "analysis_ns": 39808
+  },
+  {
+   "qubits": 6,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 531060,
+   "analysis_ns": 136297
+  },
+  {
+   "qubits": 6,
+   "gates": 128,
+   "outputs_per_program": 6,
+   "programs": 1,
+   "request_gates": 768,
+   "dense_ns": 231668,
+   "analysis_ns": 235917
+  },
+  {
+   "qubits": 6,
+   "gates": 128,
+   "outputs_per_program": 6,
+   "programs": 3,
+   "request_gates": 2304,
+   "dense_ns": 638054,
+   "analysis_ns": 790049
+  },
+  {
+   "qubits": 6,
+   "gates": 128,
+   "outputs_per_program": 18,
+   "programs": 1,
+   "request_gates": 2304,
+   "dense_ns": 447021,
+   "analysis_ns": 456341
+  },
+  {
+   "qubits": 6,
+   "gates": 128,
+   "outputs_per_program": 18,
+   "programs": 3,
+   "request_gates": 6912,
+   "dense_ns": 989827,
+   "analysis_ns": 1265534
+  },
+  {
+   "qubits": 6,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 468097,
+   "analysis_ns": 93215
+  },
+  {
+   "qubits": 6,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 1537460,
+   "analysis_ns": 375333
+  },
+  {
+   "qubits": 6,
+   "gates": 320,
+   "outputs_per_program": 6,
+   "programs": 1,
+   "request_gates": 1920,
+   "dense_ns": 638170,
+   "analysis_ns": 606173
+  },
+  {
+   "qubits": 6,
+   "gates": 320,
+   "outputs_per_program": 6,
+   "programs": 3,
+   "request_gates": 5760,
+   "dense_ns": 1707007,
+   "analysis_ns": 1691073
+  },
+  {
+   "qubits": 6,
+   "gates": 320,
+   "outputs_per_program": 18,
+   "programs": 1,
+   "request_gates": 5760,
+   "dense_ns": 647554,
+   "analysis_ns": 1234010
+  },
+  {
+   "qubits": 6,
+   "gates": 320,
+   "outputs_per_program": 18,
+   "programs": 3,
+   "request_gates": 17280,
+   "dense_ns": 2158827,
+   "analysis_ns": 4266255
+  },
+  {
+   "qubits": 7,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 75110,
+   "analysis_ns": 6724
+  },
+  {
+   "qubits": 7,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 191903,
+   "analysis_ns": 17861
+  },
+  {
+   "qubits": 7,
+   "gates": 8,
+   "outputs_per_program": 7,
+   "programs": 1,
+   "request_gates": 56,
+   "dense_ns": 135422,
+   "analysis_ns": 40568
+  },
+  {
+   "qubits": 7,
+   "gates": 8,
+   "outputs_per_program": 7,
+   "programs": 3,
+   "request_gates": 168,
+   "dense_ns": 340845,
+   "analysis_ns": 103392
+  },
+  {
+   "qubits": 7,
+   "gates": 8,
+   "outputs_per_program": 21,
+   "programs": 1,
+   "request_gates": 168,
+   "dense_ns": 229832,
+   "analysis_ns": 86622
+  },
+  {
+   "qubits": 7,
+   "gates": 8,
+   "outputs_per_program": 21,
+   "programs": 3,
+   "request_gates": 504,
+   "dense_ns": 504815,
+   "analysis_ns": 227995
+  },
+  {
+   "qubits": 7,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 126043,
+   "analysis_ns": 11421
+  },
+  {
+   "qubits": 7,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 271667,
+   "analysis_ns": 42180
+  },
+  {
+   "qubits": 7,
+   "gates": 32,
+   "outputs_per_program": 7,
+   "programs": 1,
+   "request_gates": 224,
+   "dense_ns": 185462,
+   "analysis_ns": 99481
+  },
+  {
+   "qubits": 7,
+   "gates": 32,
+   "outputs_per_program": 7,
+   "programs": 3,
+   "request_gates": 672,
+   "dense_ns": 349709,
+   "analysis_ns": 232039
+  },
+  {
+   "qubits": 7,
+   "gates": 32,
+   "outputs_per_program": 21,
+   "programs": 1,
+   "request_gates": 672,
+   "dense_ns": 240471,
+   "analysis_ns": 168275
+  },
+  {
+   "qubits": 7,
+   "gates": 32,
+   "outputs_per_program": 21,
+   "programs": 3,
+   "request_gates": 2016,
+   "dense_ns": 694391,
+   "analysis_ns": 562925
+  },
+  {
+   "qubits": 7,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 216894,
+   "analysis_ns": 29802
+  },
+  {
+   "qubits": 7,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 687951,
+   "analysis_ns": 135223
+  },
+  {
+   "qubits": 7,
+   "gates": 128,
+   "outputs_per_program": 7,
+   "programs": 1,
+   "request_gates": 896,
+   "dense_ns": 236022,
+   "analysis_ns": 340105
+  },
+  {
+   "qubits": 7,
+   "gates": 128,
+   "outputs_per_program": 7,
+   "programs": 3,
+   "request_gates": 2688,
+   "dense_ns": 771362,
+   "analysis_ns": 811835
+  },
+  {
+   "qubits": 7,
+   "gates": 128,
+   "outputs_per_program": 21,
+   "programs": 1,
+   "request_gates": 2688,
+   "dense_ns": 449084,
+   "analysis_ns": 570483
+  },
+  {
+   "qubits": 7,
+   "gates": 128,
+   "outputs_per_program": 21,
+   "programs": 3,
+   "request_gates": 8064,
+   "dense_ns": 1162024,
+   "analysis_ns": 1835168
+  },
+  {
+   "qubits": 7,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 600014,
+   "analysis_ns": 102432
+  },
+  {
+   "qubits": 7,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 1209089,
+   "analysis_ns": 346923
+  },
+  {
+   "qubits": 7,
+   "gates": 320,
+   "outputs_per_program": 7,
+   "programs": 1,
+   "request_gates": 2240,
+   "dense_ns": 482378,
+   "analysis_ns": 484436
+  },
+  {
+   "qubits": 7,
+   "gates": 320,
+   "outputs_per_program": 7,
+   "programs": 3,
+   "request_gates": 6720,
+   "dense_ns": 1426554,
+   "analysis_ns": 1834016
+  },
+  {
+   "qubits": 7,
+   "gates": 320,
+   "outputs_per_program": 21,
+   "programs": 1,
+   "request_gates": 6720,
+   "dense_ns": 615743,
+   "analysis_ns": 1285325
+  },
+  {
+   "qubits": 7,
+   "gates": 320,
+   "outputs_per_program": 21,
+   "programs": 3,
+   "request_gates": 20160,
+   "dense_ns": 1809287,
+   "analysis_ns": 4162125
+  },
+  {
+   "qubits": 8,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 72807,
+   "analysis_ns": 6816
+  },
+  {
+   "qubits": 8,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 136338,
+   "analysis_ns": 15534
+  },
+  {
+   "qubits": 8,
+   "gates": 8,
+   "outputs_per_program": 8,
+   "programs": 1,
+   "request_gates": 64,
+   "dense_ns": 116437,
+   "analysis_ns": 39873
+  },
+  {
+   "qubits": 8,
+   "gates": 8,
+   "outputs_per_program": 8,
+   "programs": 3,
+   "request_gates": 192,
+   "dense_ns": 275254,
+   "analysis_ns": 99260
+  },
+  {
+   "qubits": 8,
+   "gates": 8,
+   "outputs_per_program": 24,
+   "programs": 1,
+   "request_gates": 192,
+   "dense_ns": 203789,
+   "analysis_ns": 73884
+  },
+  {
+   "qubits": 8,
+   "gates": 8,
+   "outputs_per_program": 24,
+   "programs": 3,
+   "request_gates": 576,
+   "dense_ns": 597669,
+   "analysis_ns": 296559
+  },
+  {
+   "qubits": 8,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 93734,
+   "analysis_ns": 8998
+  },
+  {
+   "qubits": 8,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 255591,
+   "analysis_ns": 39567
+  },
+  {
+   "qubits": 8,
+   "gates": 32,
+   "outputs_per_program": 8,
+   "programs": 1,
+   "request_gates": 256,
+   "dense_ns": 126457,
+   "analysis_ns": 57117
+  },
+  {
+   "qubits": 8,
+   "gates": 32,
+   "outputs_per_program": 8,
+   "programs": 3,
+   "request_gates": 768,
+   "dense_ns": 388419,
+   "analysis_ns": 236696
+  },
+  {
+   "qubits": 8,
+   "gates": 32,
+   "outputs_per_program": 24,
+   "programs": 1,
+   "request_gates": 768,
+   "dense_ns": 283592,
+   "analysis_ns": 141006
+  },
+  {
+   "qubits": 8,
+   "gates": 32,
+   "outputs_per_program": 24,
+   "programs": 3,
+   "request_gates": 2304,
+   "dense_ns": 718849,
+   "analysis_ns": 451791
+  },
+  {
+   "qubits": 8,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 286131,
+   "analysis_ns": 46412
+  },
+  {
+   "qubits": 8,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 660592,
+   "analysis_ns": 103005
+  },
+  {
+   "qubits": 8,
+   "gates": 128,
+   "outputs_per_program": 8,
+   "programs": 1,
+   "request_gates": 1024,
+   "dense_ns": 281724,
+   "analysis_ns": 191485
+  },
+  {
+   "qubits": 8,
+   "gates": 128,
+   "outputs_per_program": 8,
+   "programs": 3,
+   "request_gates": 3072,
+   "dense_ns": 800845,
+   "analysis_ns": 793916
+  },
+  {
+   "qubits": 8,
+   "gates": 128,
+   "outputs_per_program": 24,
+   "programs": 1,
+   "request_gates": 3072,
+   "dense_ns": 404311,
+   "analysis_ns": 575122
+  },
+  {
+   "qubits": 8,
+   "gates": 128,
+   "outputs_per_program": 24,
+   "programs": 3,
+   "request_gates": 9216,
+   "dense_ns": 1493015,
+   "analysis_ns": 1697093
+  },
+  {
+   "qubits": 8,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 518907,
+   "analysis_ns": 121339
+  },
+  {
+   "qubits": 8,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 1723539,
+   "analysis_ns": 331269
+  },
+  {
+   "qubits": 8,
+   "gates": 320,
+   "outputs_per_program": 8,
+   "programs": 1,
+   "request_gates": 2560,
+   "dense_ns": 634362,
+   "analysis_ns": 546848
+  },
+  {
+   "qubits": 8,
+   "gates": 320,
+   "outputs_per_program": 8,
+   "programs": 3,
+   "request_gates": 7680,
+   "dense_ns": 1836359,
+   "analysis_ns": 2547196
+  },
+  {
+   "qubits": 8,
+   "gates": 320,
+   "outputs_per_program": 24,
+   "programs": 1,
+   "request_gates": 7680,
+   "dense_ns": 829899,
+   "analysis_ns": 1733306
+  },
+  {
+   "qubits": 8,
+   "gates": 320,
+   "outputs_per_program": 24,
+   "programs": 3,
+   "request_gates": 23040,
+   "dense_ns": 2260062,
+   "analysis_ns": 5535368
+  },
+  {
+   "qubits": 9,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 79062,
+   "analysis_ns": 5974
+  },
+  {
+   "qubits": 9,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 145209,
+   "analysis_ns": 14115
+  },
+  {
+   "qubits": 9,
+   "gates": 8,
+   "outputs_per_program": 9,
+   "programs": 1,
+   "request_gates": 72,
+   "dense_ns": 143373,
+   "analysis_ns": 63302
+  },
+  {
+   "qubits": 9,
+   "gates": 8,
+   "outputs_per_program": 9,
+   "programs": 3,
+   "request_gates": 216,
+   "dense_ns": 456120,
+   "analysis_ns": 127447
+  },
+  {
+   "qubits": 9,
+   "gates": 8,
+   "outputs_per_program": 27,
+   "programs": 1,
+   "request_gates": 216,
+   "dense_ns": 340244,
+   "analysis_ns": 81418
+  },
+  {
+   "qubits": 9,
+   "gates": 8,
+   "outputs_per_program": 27,
+   "programs": 3,
+   "request_gates": 648,
+   "dense_ns": 794194,
+   "analysis_ns": 338491
+  },
+  {
+   "qubits": 9,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 100269,
+   "analysis_ns": 8071
+  },
+  {
+   "qubits": 9,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 219251,
+   "analysis_ns": 29188
+  },
+  {
+   "qubits": 9,
+   "gates": 32,
+   "outputs_per_program": 9,
+   "programs": 1,
+   "request_gates": 288,
+   "dense_ns": 151283,
+   "analysis_ns": 98366
+  },
+  {
+   "qubits": 9,
+   "gates": 32,
+   "outputs_per_program": 9,
+   "programs": 3,
+   "request_gates": 864,
+   "dense_ns": 462073,
+   "analysis_ns": 276073
+  },
+  {
+   "qubits": 9,
+   "gates": 32,
+   "outputs_per_program": 27,
+   "programs": 1,
+   "request_gates": 864,
+   "dense_ns": 384820,
+   "analysis_ns": 192301
+  },
+  {
+   "qubits": 9,
+   "gates": 32,
+   "outputs_per_program": 27,
+   "programs": 3,
+   "request_gates": 2592,
+   "dense_ns": 1090352,
+   "analysis_ns": 733692
+  },
+  {
+   "qubits": 9,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 354302,
+   "analysis_ns": 40268
+  },
+  {
+   "qubits": 9,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 881842,
+   "analysis_ns": 127636
+  },
+  {
+   "qubits": 9,
+   "gates": 128,
+   "outputs_per_program": 9,
+   "programs": 1,
+   "request_gates": 1152,
+   "dense_ns": 404543,
+   "analysis_ns": 230471
+  },
+  {
+   "qubits": 9,
+   "gates": 128,
+   "outputs_per_program": 9,
+   "programs": 3,
+   "request_gates": 3456,
+   "dense_ns": 973875,
+   "analysis_ns": 1118417
+  },
+  {
+   "qubits": 9,
+   "gates": 128,
+   "outputs_per_program": 27,
+   "programs": 1,
+   "request_gates": 3456,
+   "dense_ns": 627576,
+   "analysis_ns": 847705
+  },
+  {
+   "qubits": 9,
+   "gates": 128,
+   "outputs_per_program": 27,
+   "programs": 3,
+   "request_gates": 10368,
+   "dense_ns": 1751775,
+   "analysis_ns": 2028830
+  },
+  {
+   "qubits": 9,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 666448,
+   "analysis_ns": 66953
+  },
+  {
+   "qubits": 9,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 2059870,
+   "analysis_ns": 183936
+  },
+  {
+   "qubits": 9,
+   "gates": 320,
+   "outputs_per_program": 9,
+   "programs": 1,
+   "request_gates": 2880,
+   "dense_ns": 827475,
+   "analysis_ns": 713380
+  },
+  {
+   "qubits": 9,
+   "gates": 320,
+   "outputs_per_program": 9,
+   "programs": 3,
+   "request_gates": 8640,
+   "dense_ns": 2127208,
+   "analysis_ns": 2890596
+  },
+  {
+   "qubits": 9,
+   "gates": 320,
+   "outputs_per_program": 27,
+   "programs": 1,
+   "request_gates": 8640,
+   "dense_ns": 808804,
+   "analysis_ns": 1486628
+  },
+  {
+   "qubits": 9,
+   "gates": 320,
+   "outputs_per_program": 27,
+   "programs": 3,
+   "request_gates": 25920,
+   "dense_ns": 2816904,
+   "analysis_ns": 6057615
+  },
+  {
+   "qubits": 10,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 85778,
+   "analysis_ns": 5921
+  },
+  {
+   "qubits": 10,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 224739,
+   "analysis_ns": 21423
+  },
+  {
+   "qubits": 10,
+   "gates": 8,
+   "outputs_per_program": 10,
+   "programs": 1,
+   "request_gates": 80,
+   "dense_ns": 195293,
+   "analysis_ns": 47692
+  },
+  {
+   "qubits": 10,
+   "gates": 8,
+   "outputs_per_program": 10,
+   "programs": 3,
+   "request_gates": 240,
+   "dense_ns": 518277,
+   "analysis_ns": 126037
+  },
+  {
+   "qubits": 10,
+   "gates": 8,
+   "outputs_per_program": 30,
+   "programs": 1,
+   "request_gates": 240,
+   "dense_ns": 459272,
+   "analysis_ns": 137503
+  },
+  {
+   "qubits": 10,
+   "gates": 8,
+   "outputs_per_program": 30,
+   "programs": 3,
+   "request_gates": 720,
+   "dense_ns": 1307734,
+   "analysis_ns": 437903
+  },
+  {
+   "qubits": 10,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 174067,
+   "analysis_ns": 14446
+  },
+  {
+   "qubits": 10,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 447392,
+   "analysis_ns": 43458
+  },
+  {
+   "qubits": 10,
+   "gates": 32,
+   "outputs_per_program": 10,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 287193,
+   "analysis_ns": 92927
+  },
+  {
+   "qubits": 10,
+   "gates": 32,
+   "outputs_per_program": 10,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 815217,
+   "analysis_ns": 301988
+  },
+  {
+   "qubits": 10,
+   "gates": 32,
+   "outputs_per_program": 30,
+   "programs": 1,
+   "request_gates": 960,
+   "dense_ns": 546856,
+   "analysis_ns": 259099
+  },
+  {
+   "qubits": 10,
+   "gates": 32,
+   "outputs_per_program": 30,
+   "programs": 3,
+   "request_gates": 2880,
+   "dense_ns": 1558834,
+   "analysis_ns": 723776
+  },
+  {
+   "qubits": 10,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 445411,
+   "analysis_ns": 57007
+  },
+  {
+   "qubits": 10,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 1281564,
+   "analysis_ns": 127502
+  },
+  {
+   "qubits": 10,
+   "gates": 128,
+   "outputs_per_program": 10,
+   "programs": 1,
+   "request_gates": 1280,
+   "dense_ns": 574991,
+   "analysis_ns": 310968
+  },
+  {
+   "qubits": 10,
+   "gates": 128,
+   "outputs_per_program": 10,
+   "programs": 3,
+   "request_gates": 3840,
+   "dense_ns": 1663549,
+   "analysis_ns": 1114611
+  },
+  {
+   "qubits": 10,
+   "gates": 128,
+   "outputs_per_program": 30,
+   "programs": 1,
+   "request_gates": 3840,
+   "dense_ns": 787762,
+   "analysis_ns": 775874
+  },
+  {
+   "qubits": 10,
+   "gates": 128,
+   "outputs_per_program": 30,
+   "programs": 3,
+   "request_gates": 11520,
+   "dense_ns": 2483355,
+   "analysis_ns": 2802196
+  },
+  {
+   "qubits": 10,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 979468,
+   "analysis_ns": 127013
+  },
+  {
+   "qubits": 10,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 2827470,
+   "analysis_ns": 395476
+  },
+  {
+   "qubits": 10,
+   "gates": 320,
+   "outputs_per_program": 10,
+   "programs": 1,
+   "request_gates": 3200,
+   "dense_ns": 1109232,
+   "analysis_ns": 963577
+  },
+  {
+   "qubits": 10,
+   "gates": 320,
+   "outputs_per_program": 10,
+   "programs": 3,
+   "request_gates": 9600,
+   "dense_ns": 3325677,
+   "analysis_ns": 2690864
+  },
+  {
+   "qubits": 10,
+   "gates": 320,
+   "outputs_per_program": 30,
+   "programs": 1,
+   "request_gates": 9600,
+   "dense_ns": 1518673,
+   "analysis_ns": 1882480
+  },
+  {
+   "qubits": 10,
+   "gates": 320,
+   "outputs_per_program": 30,
+   "programs": 3,
+   "request_gates": 28800,
+   "dense_ns": 4299170,
+   "analysis_ns": 6988389
+  },
+  {
+   "qubits": 11,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 126505,
+   "analysis_ns": 8040
+  },
+  {
+   "qubits": 11,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 281790,
+   "analysis_ns": 19985
+  },
+  {
+   "qubits": 11,
+   "gates": 8,
+   "outputs_per_program": 11,
+   "programs": 1,
+   "request_gates": 88,
+   "dense_ns": 265966,
+   "analysis_ns": 68498
+  },
+  {
+   "qubits": 11,
+   "gates": 8,
+   "outputs_per_program": 11,
+   "programs": 3,
+   "request_gates": 264,
+   "dense_ns": 739133,
+   "analysis_ns": 193025
+  },
+  {
+   "qubits": 11,
+   "gates": 8,
+   "outputs_per_program": 33,
+   "programs": 1,
+   "request_gates": 264,
+   "dense_ns": 669349,
+   "analysis_ns": 161377
+  },
+  {
+   "qubits": 11,
+   "gates": 8,
+   "outputs_per_program": 33,
+   "programs": 3,
+   "request_gates": 792,
+   "dense_ns": 1911613,
+   "analysis_ns": 440171
+  },
+  {
+   "qubits": 11,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 233476,
+   "analysis_ns": 14085
+  },
+  {
+   "qubits": 11,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 622199,
+   "analysis_ns": 31749
+  },
+  {
+   "qubits": 11,
+   "gates": 32,
+   "outputs_per_program": 11,
+   "programs": 1,
+   "request_gates": 352,
+   "dense_ns": 362432,
+   "analysis_ns": 116618
+  },
+  {
+   "qubits": 11,
+   "gates": 32,
+   "outputs_per_program": 11,
+   "programs": 3,
+   "request_gates": 1056,
+   "dense_ns": 1117544,
+   "analysis_ns": 379201
+  },
+  {
+   "qubits": 11,
+   "gates": 32,
+   "outputs_per_program": 33,
+   "programs": 1,
+   "request_gates": 1056,
+   "dense_ns": 820429,
+   "analysis_ns": 233363
+  },
+  {
+   "qubits": 11,
+   "gates": 32,
+   "outputs_per_program": 33,
+   "programs": 3,
+   "request_gates": 3168,
+   "dense_ns": 2225533,
+   "analysis_ns": 817093
+  },
+  {
+   "qubits": 11,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 667609,
+   "analysis_ns": 47097
+  },
+  {
+   "qubits": 11,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 1923723,
+   "analysis_ns": 153966
+  },
+  {
+   "qubits": 11,
+   "gates": 128,
+   "outputs_per_program": 11,
+   "programs": 1,
+   "request_gates": 1408,
+   "dense_ns": 899107,
+   "analysis_ns": 402241
+  },
+  {
+   "qubits": 11,
+   "gates": 128,
+   "outputs_per_program": 11,
+   "programs": 3,
+   "request_gates": 4224,
+   "dense_ns": 2496748,
+   "analysis_ns": 1203616
+  },
+  {
+   "qubits": 11,
+   "gates": 128,
+   "outputs_per_program": 33,
+   "programs": 1,
+   "request_gates": 4224,
+   "dense_ns": 1282384,
+   "analysis_ns": 1185895
+  },
+  {
+   "qubits": 11,
+   "gates": 128,
+   "outputs_per_program": 33,
+   "programs": 3,
+   "request_gates": 12672,
+   "dense_ns": 4041890,
+   "analysis_ns": 2957385
+  },
+  {
+   "qubits": 11,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 1430185,
+   "analysis_ns": 133590
+  },
+  {
+   "qubits": 11,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 4108780,
+   "analysis_ns": 372202
+  },
+  {
+   "qubits": 11,
+   "gates": 320,
+   "outputs_per_program": 11,
+   "programs": 1,
+   "request_gates": 3520,
+   "dense_ns": 2080770,
+   "analysis_ns": 2621483
+  },
+  {
+   "qubits": 11,
+   "gates": 320,
+   "outputs_per_program": 11,
+   "programs": 3,
+   "request_gates": 10560,
+   "dense_ns": 10838258,
+   "analysis_ns": 5935858
+  },
+  {
+   "qubits": 11,
+   "gates": 320,
+   "outputs_per_program": 33,
+   "programs": 1,
+   "request_gates": 10560,
+   "dense_ns": 3535284,
+   "analysis_ns": 2239842
+  },
+  {
+   "qubits": 11,
+   "gates": 320,
+   "outputs_per_program": 33,
+   "programs": 3,
+   "request_gates": 31680,
+   "dense_ns": 5087566,
+   "analysis_ns": 6883472
+  },
+  {
+   "qubits": 12,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 93411,
+   "analysis_ns": 6691
+  },
+  {
+   "qubits": 12,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 265664,
+   "analysis_ns": 11543
+  },
+  {
+   "qubits": 12,
+   "gates": 8,
+   "outputs_per_program": 12,
+   "programs": 1,
+   "request_gates": 96,
+   "dense_ns": 421885,
+   "analysis_ns": 49164
+  },
+  {
+   "qubits": 12,
+   "gates": 8,
+   "outputs_per_program": 12,
+   "programs": 3,
+   "request_gates": 288,
+   "dense_ns": 1130332,
+   "analysis_ns": 162292
+  },
+  {
+   "qubits": 12,
+   "gates": 8,
+   "outputs_per_program": 36,
+   "programs": 1,
+   "request_gates": 288,
+   "dense_ns": 672304,
+   "analysis_ns": 100487
+  },
+  {
+   "qubits": 12,
+   "gates": 8,
+   "outputs_per_program": 36,
+   "programs": 3,
+   "request_gates": 864,
+   "dense_ns": 2558721,
+   "analysis_ns": 299805
+  },
+  {
+   "qubits": 12,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 202201,
+   "analysis_ns": 6520
+  },
+  {
+   "qubits": 12,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 717139,
+   "analysis_ns": 56109
+  },
+  {
+   "qubits": 12,
+   "gates": 32,
+   "outputs_per_program": 12,
+   "programs": 1,
+   "request_gates": 384,
+   "dense_ns": 449241,
+   "analysis_ns": 124120
+  },
+  {
+   "qubits": 12,
+   "gates": 32,
+   "outputs_per_program": 12,
+   "programs": 3,
+   "request_gates": 1152,
+   "dense_ns": 1138559,
+   "analysis_ns": 291435
+  },
+  {
+   "qubits": 12,
+   "gates": 32,
+   "outputs_per_program": 36,
+   "programs": 1,
+   "request_gates": 1152,
+   "dense_ns": 881978,
+   "analysis_ns": 226775
+  },
+  {
+   "qubits": 12,
+   "gates": 32,
+   "outputs_per_program": 36,
+   "programs": 3,
+   "request_gates": 3456,
+   "dense_ns": 2679846,
+   "analysis_ns": 901522
+  },
+  {
+   "qubits": 12,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 752325,
+   "analysis_ns": 33929
+  },
+  {
+   "qubits": 12,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 2180924,
+   "analysis_ns": 99271
+  },
+  {
+   "qubits": 12,
+   "gates": 128,
+   "outputs_per_program": 12,
+   "programs": 1,
+   "request_gates": 1536,
+   "dense_ns": 1175600,
+   "analysis_ns": 295719
+  },
+  {
+   "qubits": 12,
+   "gates": 128,
+   "outputs_per_program": 12,
+   "programs": 3,
+   "request_gates": 4608,
+   "dense_ns": 3116988,
+   "analysis_ns": 1036316
+  },
+  {
+   "qubits": 12,
+   "gates": 128,
+   "outputs_per_program": 36,
+   "programs": 1,
+   "request_gates": 4608,
+   "dense_ns": 1626431,
+   "analysis_ns": 780910
+  },
+  {
+   "qubits": 12,
+   "gates": 128,
+   "outputs_per_program": 36,
+   "programs": 3,
+   "request_gates": 13824,
+   "dense_ns": 4766129,
+   "analysis_ns": 2950416
+  },
+  {
+   "qubits": 12,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 2438701,
+   "analysis_ns": 64540
+  },
+  {
+   "qubits": 12,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 5485033,
+   "analysis_ns": 237269
+  },
+  {
+   "qubits": 12,
+   "gates": 320,
+   "outputs_per_program": 12,
+   "programs": 1,
+   "request_gates": 3840,
+   "dense_ns": 2155891,
+   "analysis_ns": 887365
+  },
+  {
+   "qubits": 12,
+   "gates": 320,
+   "outputs_per_program": 12,
+   "programs": 3,
+   "request_gates": 11520,
+   "dense_ns": 6418840,
+   "analysis_ns": 2950545
+  },
+  {
+   "qubits": 12,
+   "gates": 320,
+   "outputs_per_program": 36,
+   "programs": 1,
+   "request_gates": 11520,
+   "dense_ns": 2585826,
+   "analysis_ns": 4750860
+  },
+  {
+   "qubits": 12,
+   "gates": 320,
+   "outputs_per_program": 36,
+   "programs": 3,
+   "request_gates": 34560,
+   "dense_ns": 8922662,
+   "analysis_ns": 6597800
+  },
+  {
+   "qubits": 13,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 214795,
+   "analysis_ns": 6651
+  },
+  {
+   "qubits": 13,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 623390,
+   "analysis_ns": 12432
+  },
+  {
+   "qubits": 13,
+   "gates": 8,
+   "outputs_per_program": 13,
+   "programs": 1,
+   "request_gates": 104,
+   "dense_ns": 700966,
+   "analysis_ns": 63347
+  },
+  {
+   "qubits": 13,
+   "gates": 8,
+   "outputs_per_program": 13,
+   "programs": 3,
+   "request_gates": 312,
+   "dense_ns": 1823487,
+   "analysis_ns": 159857
+  },
+  {
+   "qubits": 13,
+   "gates": 8,
+   "outputs_per_program": 39,
+   "programs": 1,
+   "request_gates": 312,
+   "dense_ns": 1441450,
+   "analysis_ns": 125885
+  },
+  {
+   "qubits": 13,
+   "gates": 8,
+   "outputs_per_program": 39,
+   "programs": 3,
+   "request_gates": 936,
+   "dense_ns": 3675309,
+   "analysis_ns": 345354
+  },
+  {
+   "qubits": 13,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 344442,
+   "analysis_ns": 10779
+  },
+  {
+   "qubits": 13,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 1123362,
+   "analysis_ns": 26129
+  },
+  {
+   "qubits": 13,
+   "gates": 32,
+   "outputs_per_program": 13,
+   "programs": 1,
+   "request_gates": 416,
+   "dense_ns": 782964,
+   "analysis_ns": 82690
+  },
+  {
+   "qubits": 13,
+   "gates": 32,
+   "outputs_per_program": 13,
+   "programs": 3,
+   "request_gates": 1248,
+   "dense_ns": 2104228,
+   "analysis_ns": 331539
+  },
+  {
+   "qubits": 13,
+   "gates": 32,
+   "outputs_per_program": 39,
+   "programs": 1,
+   "request_gates": 1248,
+   "dense_ns": 1511644,
+   "analysis_ns": 225055
+  },
+  {
+   "qubits": 13,
+   "gates": 32,
+   "outputs_per_program": 39,
+   "programs": 3,
+   "request_gates": 3744,
+   "dense_ns": 4785387,
+   "analysis_ns": 668968
+  },
+  {
+   "qubits": 13,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 1184865,
+   "analysis_ns": 35817
+  },
+  {
+   "qubits": 13,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 4049294,
+   "analysis_ns": 93629
+  },
+  {
+   "qubits": 13,
+   "gates": 128,
+   "outputs_per_program": 13,
+   "programs": 1,
+   "request_gates": 1664,
+   "dense_ns": 1782229,
+   "analysis_ns": 354561
+  },
+  {
+   "qubits": 13,
+   "gates": 128,
+   "outputs_per_program": 13,
+   "programs": 3,
+   "request_gates": 4992,
+   "dense_ns": 5524623,
+   "analysis_ns": 1128957
+  },
+  {
+   "qubits": 13,
+   "gates": 128,
+   "outputs_per_program": 39,
+   "programs": 1,
+   "request_gates": 4992,
+   "dense_ns": 2946676,
+   "analysis_ns": 800036
+  },
+  {
+   "qubits": 13,
+   "gates": 128,
+   "outputs_per_program": 39,
+   "programs": 3,
+   "request_gates": 14976,
+   "dense_ns": 10871846,
+   "analysis_ns": 2897455
+  },
+  {
+   "qubits": 13,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 3174724,
+   "analysis_ns": 91949
+  },
+  {
+   "qubits": 13,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 9389110,
+   "analysis_ns": 313463
+  },
+  {
+   "qubits": 13,
+   "gates": 320,
+   "outputs_per_program": 13,
+   "programs": 1,
+   "request_gates": 4160,
+   "dense_ns": 4224123,
+   "analysis_ns": 1327339
+  },
+  {
+   "qubits": 13,
+   "gates": 320,
+   "outputs_per_program": 13,
+   "programs": 3,
+   "request_gates": 12480,
+   "dense_ns": 11605838,
+   "analysis_ns": 3353314
+  },
+  {
+   "qubits": 13,
+   "gates": 320,
+   "outputs_per_program": 39,
+   "programs": 1,
+   "request_gates": 12480,
+   "dense_ns": 4718437,
+   "analysis_ns": 3085397
+  },
+  {
+   "qubits": 13,
+   "gates": 320,
+   "outputs_per_program": 39,
+   "programs": 3,
+   "request_gates": 37440,
+   "dense_ns": 15073818,
+   "analysis_ns": 6797301
+  },
+  {
+   "qubits": 14,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 8,
+   "dense_ns": 277858,
+   "analysis_ns": 4907
+  },
+  {
+   "qubits": 14,
+   "gates": 8,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 24,
+   "dense_ns": 684296,
+   "analysis_ns": 19497
+  },
+  {
+   "qubits": 14,
+   "gates": 8,
+   "outputs_per_program": 14,
+   "programs": 1,
+   "request_gates": 112,
+   "dense_ns": 1061204,
+   "analysis_ns": 52404
+  },
+  {
+   "qubits": 14,
+   "gates": 8,
+   "outputs_per_program": 14,
+   "programs": 3,
+   "request_gates": 336,
+   "dense_ns": 2941560,
+   "analysis_ns": 151640
+  },
+  {
+   "qubits": 14,
+   "gates": 8,
+   "outputs_per_program": 42,
+   "programs": 1,
+   "request_gates": 336,
+   "dense_ns": 2599996,
+   "analysis_ns": 181999
+  },
+  {
+   "qubits": 14,
+   "gates": 8,
+   "outputs_per_program": 42,
+   "programs": 3,
+   "request_gates": 1008,
+   "dense_ns": 7941771,
+   "analysis_ns": 425833
+  },
+  {
+   "qubits": 14,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 32,
+   "dense_ns": 681461,
+   "analysis_ns": 8496
+  },
+  {
+   "qubits": 14,
+   "gates": 32,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 96,
+   "dense_ns": 2110372,
+   "analysis_ns": 24571
+  },
+  {
+   "qubits": 14,
+   "gates": 32,
+   "outputs_per_program": 14,
+   "programs": 1,
+   "request_gates": 448,
+   "dense_ns": 1515002,
+   "analysis_ns": 131619
+  },
+  {
+   "qubits": 14,
+   "gates": 32,
+   "outputs_per_program": 14,
+   "programs": 3,
+   "request_gates": 1344,
+   "dense_ns": 4496629,
+   "analysis_ns": 293306
+  },
+  {
+   "qubits": 14,
+   "gates": 32,
+   "outputs_per_program": 42,
+   "programs": 1,
+   "request_gates": 1344,
+   "dense_ns": 3872531,
+   "analysis_ns": 231076
+  },
+  {
+   "qubits": 14,
+   "gates": 32,
+   "outputs_per_program": 42,
+   "programs": 3,
+   "request_gates": 4032,
+   "dense_ns": 10498481,
+   "analysis_ns": 1235466
+  },
+  {
+   "qubits": 14,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 128,
+   "dense_ns": 2966443,
+   "analysis_ns": 18704
+  },
+  {
+   "qubits": 14,
+   "gates": 128,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 384,
+   "dense_ns": 10113491,
+   "analysis_ns": 89167
+  },
+  {
+   "qubits": 14,
+   "gates": 128,
+   "outputs_per_program": 14,
+   "programs": 1,
+   "request_gates": 1792,
+   "dense_ns": 3622022,
+   "analysis_ns": 361107
+  },
+  {
+   "qubits": 14,
+   "gates": 128,
+   "outputs_per_program": 14,
+   "programs": 3,
+   "request_gates": 5376,
+   "dense_ns": 12468356,
+   "analysis_ns": 1755088
+  },
+  {
+   "qubits": 14,
+   "gates": 128,
+   "outputs_per_program": 42,
+   "programs": 1,
+   "request_gates": 5376,
+   "dense_ns": 5095520,
+   "analysis_ns": 1026081
+  },
+  {
+   "qubits": 14,
+   "gates": 128,
+   "outputs_per_program": 42,
+   "programs": 3,
+   "request_gates": 16128,
+   "dense_ns": 19256813,
+   "analysis_ns": 3131859
+  },
+  {
+   "qubits": 14,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 1,
+   "request_gates": 320,
+   "dense_ns": 6374227,
+   "analysis_ns": 77528
+  },
+  {
+   "qubits": 14,
+   "gates": 320,
+   "outputs_per_program": 1,
+   "programs": 3,
+   "request_gates": 960,
+   "dense_ns": 18202888,
+   "analysis_ns": 418883
+  },
+  {
+   "qubits": 14,
+   "gates": 320,
+   "outputs_per_program": 14,
+   "programs": 1,
+   "request_gates": 4480,
+   "dense_ns": 6462929,
+   "analysis_ns": 878681
+  },
+  {
+   "qubits": 14,
+   "gates": 320,
+   "outputs_per_program": 14,
+   "programs": 3,
+   "request_gates": 13440,
+   "dense_ns": 22968679,
+   "analysis_ns": 3702893
+  },
+  {
+   "qubits": 14,
+   "gates": 320,
+   "outputs_per_program": 42,
+   "programs": 1,
+   "request_gates": 13440,
+   "dense_ns": 11850520,
+   "analysis_ns": 2577427
+  },
+  {
+   "qubits": 14,
+   "gates": 320,
+   "outputs_per_program": 42,
+   "programs": 3,
+   "request_gates": 40320,
+   "dense_ns": 29256944,
+   "analysis_ns": 7087947
+  }
+ ]
+}

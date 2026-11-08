@@ -1,0 +1,3 @@
+ 16q lazyqc               total     2250.0 ms loss 0.093267 -> 0.084076
+ 20q lazyqc               total     3308.6 ms loss 0.083187 -> 0.076004
+ 24q lazyqc               total     2952.9 ms loss 0.098028 -> 0.090885

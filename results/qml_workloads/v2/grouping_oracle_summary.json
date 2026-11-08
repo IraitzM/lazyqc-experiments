@@ -1,0 +1,1120 @@
+{
+  "source_artifact": "results/qml_workloads/grouping_oracle.json",
+  "finite_portfolio": "finite no-cut grouping portfolio; not a global simulator optimum",
+  "raw_rows": 10784,
+  "failures": 0,
+  "max_abs_error": 6.106226635438361e-16,
+  "repetitions": 8,
+  "collections_per_plan": 5,
+  "enumeration_cost_treatment": "reported separately; exhaustive execution minimum is a finite-portfolio reference, not a zero-cost policy",
+  "aggregates": [
+    {
+      "split": "development",
+      "case_count": 12,
+      "candidate_count_median": 52.0,
+      "enumeration_ms_median": 5.8500535,
+      "auto_graph_coverage": 12,
+      "geomean_auto_execution_regret": 1.2390855633489122,
+      "geomean_auto_total_regret_R1": 2.914775637525986,
+      "geomean_auto_total_regret_R5": 1.5763433296272291,
+      "geomean_auto_total_regret_R32": 1.2919383209908368,
+      "auto_execution_wins": 0,
+      "auto_R5_wins": 0
+    },
+    {
+      "split": "heldout",
+      "case_count": 12,
+      "candidate_count_median": 52.0,
+      "enumeration_ms_median": 5.8370565,
+      "auto_graph_coverage": 12,
+      "geomean_auto_execution_regret": 1.2617722261779585,
+      "geomean_auto_total_regret_R1": 3.0005923488444206,
+      "geomean_auto_total_regret_R5": 1.6128578067289625,
+      "geomean_auto_total_regret_R32": 1.3168743673882657,
+      "auto_execution_wins": 0,
+      "auto_R5_wins": 0
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "hardware_efficient_local_6q_d2_s0",
+      "family": "hardware_efficient_local",
+      "qubits": 6,
+      "depth": 2,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 5829540,
+      "best_enumerated_collection_ns": 90617.8,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 44494.0,
+          "collection_ns": 92456.2,
+          "total_ns": 507636.5
+        },
+        "separate": {
+          "planning_ns": 116801.5,
+          "collection_ns": 205962.90000000002,
+          "total_ns": 1131634.5
+        },
+        "grouped": {
+          "planning_ns": 131892.5,
+          "collection_ns": 137406.9,
+          "total_ns": 818927.0
+        },
+        "auto": {
+          "planning_ns": 159396.0,
+          "collection_ns": 99480.9,
+          "total_ns": 662130.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.0978074947747571,
+      "auto_total_regret_at_R1": 2.856799657462441,
+      "auto_total_regret_at_R5": 1.449605927312294,
+      "auto_total_regret_at_R32": 1.1527759998587472
+    },
+    {
+      "case_id": "hardware_efficient_local_6q_d2_s202",
+      "family": "hardware_efficient_local",
+      "qubits": 6,
+      "depth": 2,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 5655385,
+      "best_enumerated_collection_ns": 95311.3,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 50773.0,
+          "collection_ns": 81904.3,
+          "total_ns": 457721.5
+        },
+        "separate": {
+          "planning_ns": 128116.5,
+          "collection_ns": 227044.90000000002,
+          "total_ns": 1273591.5
+        },
+        "grouped": {
+          "planning_ns": 139589.5,
+          "collection_ns": 151386.5,
+          "total_ns": 903062.5
+        },
+        "auto": {
+          "planning_ns": 172369.5,
+          "collection_ns": 102424.5,
+          "total_ns": 692887.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.0746312347014466,
+      "auto_total_regret_at_R1": 2.883120889128571,
+      "auto_total_regret_at_R5": 1.4363291655868717,
+      "auto_total_regret_at_R32": 1.1311465364022943
+    },
+    {
+      "case_id": "hardware_efficient_local_6q_d4_s0",
+      "family": "hardware_efficient_local",
+      "qubits": 6,
+      "depth": 4,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 8999462,
+      "best_enumerated_collection_ns": 130521.1,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 59612.5,
+          "collection_ns": 140961.8,
+          "total_ns": 772520.5
+        },
+        "separate": {
+          "planning_ns": 195607.5,
+          "collection_ns": 407820.30000000005,
+          "total_ns": 2220317.0
+        },
+        "grouped": {
+          "planning_ns": 197231.0,
+          "collection_ns": 239317.9,
+          "total_ns": 1386761.0
+        },
+        "auto": {
+          "planning_ns": 218114.0,
+          "collection_ns": 133004.40000000002,
+          "total_ns": 886549.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.0190260425325868,
+      "auto_total_regret_at_R1": 2.690127496626982,
+      "auto_total_regret_at_R5": 1.353246333351466,
+      "auto_total_regret_at_R32": 1.0712479629730367
+    },
+    {
+      "case_id": "hardware_efficient_local_6q_d4_s202",
+      "family": "hardware_efficient_local",
+      "qubits": 6,
+      "depth": 4,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 10222895,
+      "best_enumerated_collection_ns": 113916.6,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 55475.5,
+          "collection_ns": 137501.1,
+          "total_ns": 747784.0
+        },
+        "separate": {
+          "planning_ns": 189276.5,
+          "collection_ns": 405051.9,
+          "total_ns": 2253750.5
+        },
+        "grouped": {
+          "planning_ns": 209155.0,
+          "collection_ns": 282658.5,
+          "total_ns": 1640561.5
+        },
+        "auto": {
+          "planning_ns": 210035.0,
+          "collection_ns": 128776.3,
+          "total_ns": 841015.0
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.1304436754608196,
+      "auto_total_regret_at_R1": 2.9742048129947696,
+      "auto_total_regret_at_R5": 1.4991959029676096,
+      "auto_total_regret_at_R32": 1.1880612110087554
+    },
+    {
+      "case_id": "hardware_efficient_local_8q_d2_s0",
+      "family": "hardware_efficient_local",
+      "qubits": 8,
+      "depth": 2,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 53,
+      "enumeration_ns": 5870567,
+      "best_enumerated_collection_ns": 114275.6,
+      "best_enumerated_candidate_id": "partition-52",
+      "auto_selected_candidate_id": "partition-18",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 59180.0,
+          "collection_ns": 139592.6,
+          "total_ns": 767350.0
+        },
+        "separate": {
+          "planning_ns": 144836.0,
+          "collection_ns": 260226.59999999998,
+          "total_ns": 1445969.0
+        },
+        "grouped": {
+          "planning_ns": 152291.0,
+          "collection_ns": 162647.8,
+          "total_ns": 981635.0
+        },
+        "auto": {
+          "planning_ns": 211647.0,
+          "collection_ns": 167496.8,
+          "total_ns": 1061833.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.465726716814438,
+      "auto_total_regret_at_R1": 3.3178018754659786,
+      "auto_total_regret_at_R5": 1.8361417485447462,
+      "auto_total_regret_at_R32": 1.5236040655222984
+    },
+    {
+      "case_id": "hardware_efficient_local_8q_d2_s202",
+      "family": "hardware_efficient_local",
+      "qubits": 8,
+      "depth": 2,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 53,
+      "enumeration_ns": 5101218,
+      "best_enumerated_collection_ns": 115576.70000000001,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-18",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 57492.0,
+          "collection_ns": 130916.29999999999,
+          "total_ns": 711598.5
+        },
+        "separate": {
+          "planning_ns": 151141.0,
+          "collection_ns": 225605.90000000002,
+          "total_ns": 1248762.5
+        },
+        "grouped": {
+          "planning_ns": 162961.5,
+          "collection_ns": 148944.9,
+          "total_ns": 906963.5
+        },
+        "auto": {
+          "planning_ns": 164941.5,
+          "collection_ns": 172186.1,
+          "total_ns": 1045118.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.4897994145878883,
+      "auto_total_regret_at_R1": 2.916916644963907,
+      "auto_total_regret_at_R5": 1.7752228606630922,
+      "auto_total_regret_at_R32": 1.534396828037139
+    },
+    {
+      "case_id": "hardware_efficient_local_8q_d4_s0",
+      "family": "hardware_efficient_local",
+      "qubits": 8,
+      "depth": 4,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 53,
+      "enumeration_ns": 11322859,
+      "best_enumerated_collection_ns": 183232.5,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-52",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 77168.5,
+          "collection_ns": 189739.09999999998,
+          "total_ns": 1018270.0
+        },
+        "separate": {
+          "planning_ns": 233759.0,
+          "collection_ns": 462376.4,
+          "total_ns": 2568931.5
+        },
+        "grouped": {
+          "planning_ns": 220165.0,
+          "collection_ns": 325388.4,
+          "total_ns": 1866242.0
+        },
+        "auto": {
+          "planning_ns": 229223.0,
+          "collection_ns": 205418.4,
+          "total_ns": 1291422.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.1210805943268798,
+      "auto_total_regret_at_R1": 2.372075914480237,
+      "auto_total_regret_at_R5": 1.3712796583575513,
+      "auto_total_regret_at_R32": 1.1601741980816722
+    },
+    {
+      "case_id": "hardware_efficient_local_8q_d4_s202",
+      "family": "hardware_efficient_local",
+      "qubits": 8,
+      "depth": 4,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 53,
+      "enumeration_ns": 16831229,
+      "best_enumerated_collection_ns": 176957.59999999998,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-52",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 74920.0,
+          "collection_ns": 201491.4,
+          "total_ns": 1088352.0
+        },
+        "separate": {
+          "planning_ns": 222646.0,
+          "collection_ns": 521686.0,
+          "total_ns": 2831424.0
+        },
+        "grouped": {
+          "planning_ns": 243414.5,
+          "collection_ns": 389188.4,
+          "total_ns": 2192313.0
+        },
+        "auto": {
+          "planning_ns": 277359.5,
+          "collection_ns": 225129.4,
+          "total_ns": 1396421.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.2722222724539665,
+      "auto_total_regret_at_R1": 2.839600559682094,
+      "auto_total_regret_at_R5": 1.585697929899592,
+      "auto_total_regret_at_R32": 1.3212028439298455
+    },
+    {
+      "case_id": "qcnn_like_local_6q_d2_s0",
+      "family": "qcnn_like_local",
+      "qubits": 6,
+      "depth": 2,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 3010072,
+      "best_enumerated_collection_ns": 71518.6,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-2",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 49029.5,
+          "collection_ns": 80319.4,
+          "total_ns": 459878.0
+        },
+        "separate": {
+          "planning_ns": 94807.5,
+          "collection_ns": 147618.3,
+          "total_ns": 828184.0
+        },
+        "grouped": {
+          "planning_ns": 80495.5,
+          "collection_ns": 98058.79999999999,
+          "total_ns": 583864.0
+        },
+        "auto": {
+          "planning_ns": 139973.0,
+          "collection_ns": 123968.2,
+          "total_ns": 748265.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.7333700603759021,
+      "auto_total_regret_at_R1": 3.690525261959826,
+      "auto_total_regret_at_R5": 2.124801100692687,
+      "auto_total_regret_at_R32": 1.7945311604253997
+    },
+    {
+      "case_id": "qcnn_like_local_6q_d2_s202",
+      "family": "qcnn_like_local",
+      "qubits": 6,
+      "depth": 2,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 3207114,
+      "best_enumerated_collection_ns": 62897.8,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-2",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 52880.5,
+          "collection_ns": 78784.4,
+          "total_ns": 442427.0
+        },
+        "separate": {
+          "planning_ns": 99971.0,
+          "collection_ns": 141954.7,
+          "total_ns": 815010.5
+        },
+        "grouped": {
+          "planning_ns": 100808.5,
+          "collection_ns": 94415.7,
+          "total_ns": 559645.0
+        },
+        "auto": {
+          "planning_ns": 129450.0,
+          "collection_ns": 115866.29999999999,
+          "total_ns": 712236.0
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.8421359729593083,
+      "auto_total_regret_at_R1": 3.900236574252199,
+      "auto_total_regret_at_R5": 2.253756093217887,
+      "auto_total_regret_at_R32": 1.9064516167497112
+    },
+    {
+      "case_id": "qcnn_like_local_6q_d4_s0",
+      "family": "qcnn_like_local",
+      "qubits": 6,
+      "depth": 4,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 5127855,
+      "best_enumerated_collection_ns": 92535.4,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 56841.0,
+          "collection_ns": 89319.29999999999,
+          "total_ns": 502617.0
+        },
+        "separate": {
+          "planning_ns": 119765.5,
+          "collection_ns": 199302.2,
+          "total_ns": 1116418.5
+        },
+        "grouped": {
+          "planning_ns": 128107.5,
+          "collection_ns": 164347.2,
+          "total_ns": 948585.0
+        },
+        "auto": {
+          "planning_ns": 141974.5,
+          "collection_ns": 100015.3,
+          "total_ns": 640116.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.080832848834068,
+      "auto_total_regret_at_R1": 2.6151051381417276,
+      "auto_total_regret_at_R5": 1.3876873066955997,
+      "auto_total_regret_at_R32": 1.1287788578749323
+    },
+    {
+      "case_id": "qcnn_like_local_6q_d4_s202",
+      "family": "qcnn_like_local",
+      "qubits": 6,
+      "depth": 4,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 4245608,
+      "best_enumerated_collection_ns": 82952.9,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 54466.5,
+          "collection_ns": 97378.7,
+          "total_ns": 528789.0
+        },
+        "separate": {
+          "planning_ns": 114108.0,
+          "collection_ns": 194810.0,
+          "total_ns": 1099760.5
+        },
+        "grouped": {
+          "planning_ns": 112462.5,
+          "collection_ns": 148185.2,
+          "total_ns": 884232.0
+        },
+        "auto": {
+          "planning_ns": 168087.5,
+          "collection_ns": 101484.6,
+          "total_ns": 685292.0
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.223400266898445,
+      "auto_total_regret_at_R1": 3.2497007337898975,
+      "auto_total_regret_at_R5": 1.6286603602767353,
+      "auto_total_regret_at_R32": 1.286722156488803
+    },
+    {
+      "case_id": "qcnn_like_local_8q_d2_s0",
+      "family": "qcnn_like_local",
+      "qubits": 8,
+      "depth": 2,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 4074192,
+      "best_enumerated_collection_ns": 86469.79999999999,
+      "best_enumerated_candidate_id": "partition-22",
+      "auto_selected_candidate_id": "partition-2",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 48412.0,
+          "collection_ns": 110018.2,
+          "total_ns": 591542.5
+        },
+        "separate": {
+          "planning_ns": 93933.0,
+          "collection_ns": 140740.3,
+          "total_ns": 791722.5
+        },
+        "grouped": {
+          "planning_ns": 106745.5,
+          "collection_ns": 121957.0,
+          "total_ns": 707617.5
+        },
+        "auto": {
+          "planning_ns": 131385.5,
+          "collection_ns": 123197.6,
+          "total_ns": 748801.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.4247471371507743,
+      "auto_total_regret_at_R1": 2.9441851374699612,
+      "auto_total_regret_at_R5": 1.7286347372146116,
+      "auto_total_regret_at_R32": 1.4722295746607488
+    },
+    {
+      "case_id": "qcnn_like_local_8q_d2_s202",
+      "family": "qcnn_like_local",
+      "qubits": 8,
+      "depth": 2,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 4322252,
+      "best_enumerated_collection_ns": 96689.70000000001,
+      "best_enumerated_candidate_id": "partition-25",
+      "auto_selected_candidate_id": "partition-2",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 51983.5,
+          "collection_ns": 106667.8,
+          "total_ns": 585449.5
+        },
+        "separate": {
+          "planning_ns": 120057.0,
+          "collection_ns": 157859.6,
+          "total_ns": 914815.5
+        },
+        "grouped": {
+          "planning_ns": 123655.0,
+          "collection_ns": 119295.2,
+          "total_ns": 718270.0
+        },
+        "auto": {
+          "planning_ns": 138662.0,
+          "collection_ns": 127292.4,
+          "total_ns": 778019.0
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.3165042398518143,
+      "auto_total_regret_at_R1": 2.7505970129186457,
+      "auto_total_regret_at_R5": 1.6033227944651807,
+      "auto_total_regret_at_R32": 1.361319639010153
+    },
+    {
+      "case_id": "qcnn_like_local_8q_d4_s0",
+      "family": "qcnn_like_local",
+      "qubits": 8,
+      "depth": 4,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 5100756,
+      "best_enumerated_collection_ns": 108308.70000000001,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-4",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 57110.0,
+          "collection_ns": 120574.0,
+          "total_ns": 668780.0
+        },
+        "separate": {
+          "planning_ns": 121983.5,
+          "collection_ns": 220673.8,
+          "total_ns": 1221129.0
+        },
+        "grouped": {
+          "planning_ns": 129673.5,
+          "collection_ns": 173930.3,
+          "total_ns": 1006190.0
+        },
+        "auto": {
+          "planning_ns": 162479.5,
+          "collection_ns": 171513.3,
+          "total_ns": 1009810.0
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.583559769436804,
+      "auto_total_regret_at_R1": 3.083711650125982,
+      "auto_total_regret_at_R5": 1.88359014557464,
+      "auto_total_regret_at_R32": 1.630439515708341
+    },
+    {
+      "case_id": "qcnn_like_local_8q_d4_s202",
+      "family": "qcnn_like_local",
+      "qubits": 8,
+      "depth": 4,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 5387645,
+      "best_enumerated_collection_ns": 113988.1,
+      "best_enumerated_candidate_id": "partition-33",
+      "auto_selected_candidate_id": "partition-4",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 53077.5,
+          "collection_ns": 100982.4,
+          "total_ns": 557008.0
+        },
+        "separate": {
+          "planning_ns": 136538.0,
+          "collection_ns": 209361.0,
+          "total_ns": 1181704.5
+        },
+        "grouped": {
+          "planning_ns": 111961.5,
+          "collection_ns": 144437.7,
+          "total_ns": 835620.5
+        },
+        "auto": {
+          "planning_ns": 146367.5,
+          "collection_ns": 160142.0,
+          "total_ns": 930249.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.4049010379153613,
+      "auto_total_regret_at_R1": 2.6889605142992994,
+      "auto_total_regret_at_R5": 1.661712933192149,
+      "auto_total_regret_at_R32": 1.4450278965523593
+    },
+    {
+      "case_id": "data_reuploading_6q_d2_s0",
+      "family": "data_reuploading",
+      "qubits": 6,
+      "depth": 2,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 5229607,
+      "best_enumerated_collection_ns": 92655.7,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 45202.0,
+          "collection_ns": 97604.29999999999,
+          "total_ns": 548674.5
+        },
+        "separate": {
+          "planning_ns": 143806.5,
+          "collection_ns": 268303.1,
+          "total_ns": 1475826.0
+        },
+        "grouped": {
+          "planning_ns": 143679.5,
+          "collection_ns": 203938.6,
+          "total_ns": 1171111.5
+        },
+        "auto": {
+          "planning_ns": 157621.0,
+          "collection_ns": 98594.29999999999,
+          "total_ns": 650592.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.0640931966408973,
+      "auto_total_regret_at_R1": 2.7652405626421257,
+      "auto_total_regret_at_R5": 1.404322669841143,
+      "auto_total_regret_at_R32": 1.1172540518284357
+    },
+    {
+      "case_id": "data_reuploading_6q_d2_s202",
+      "family": "data_reuploading",
+      "qubits": 6,
+      "depth": 2,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 6018728,
+      "best_enumerated_collection_ns": 88239.5,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 47770.5,
+          "collection_ns": 86502.29999999999,
+          "total_ns": 480722.5
+        },
+        "separate": {
+          "planning_ns": 129352.0,
+          "collection_ns": 275453.2,
+          "total_ns": 1495622.5
+        },
+        "grouped": {
+          "planning_ns": 122548.0,
+          "collection_ns": 200418.2,
+          "total_ns": 1138204.5
+        },
+        "auto": {
+          "planning_ns": 166419.0,
+          "collection_ns": 96829.1,
+          "total_ns": 652877.0
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.0973441599283769,
+      "auto_total_regret_at_R1": 2.98333626097156,
+      "auto_total_regret_at_R5": 1.4745425801370136,
+      "auto_total_regret_at_R32": 1.1562814130859762
+    },
+    {
+      "case_id": "data_reuploading_6q_d4_s0",
+      "family": "data_reuploading",
+      "qubits": 6,
+      "depth": 4,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 10578839,
+      "best_enumerated_collection_ns": 128035.20000000001,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 71360.5,
+          "collection_ns": 139992.1,
+          "total_ns": 779013.5
+        },
+        "separate": {
+          "planning_ns": 211900.5,
+          "collection_ns": 473773.3,
+          "total_ns": 2572958.5
+        },
+        "grouped": {
+          "planning_ns": 216865.0,
+          "collection_ns": 355079.3,
+          "total_ns": 2012037.5
+        },
+        "auto": {
+          "planning_ns": 252560.5,
+          "collection_ns": 142148.7,
+          "total_ns": 974926.0
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.1102314051135938,
+      "auto_total_regret_at_R1": 3.082817850091225,
+      "auto_total_regret_at_R5": 1.50474869410912,
+      "auto_total_regret_at_R32": 1.1718747315191447
+    },
+    {
+      "case_id": "data_reuploading_6q_d4_s202",
+      "family": "data_reuploading",
+      "qubits": 6,
+      "depth": 4,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 10368898,
+      "best_enumerated_collection_ns": 123443.3,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 83148.5,
+          "collection_ns": 143192.9,
+          "total_ns": 783771.5
+        },
+        "separate": {
+          "planning_ns": 229835.0,
+          "collection_ns": 467717.0,
+          "total_ns": 2542166.5
+        },
+        "grouped": {
+          "planning_ns": 227761.0,
+          "collection_ns": 354782.9,
+          "total_ns": 1998399.5
+        },
+        "auto": {
+          "planning_ns": 251112.5,
+          "collection_ns": 133785.5,
+          "total_ns": 907015.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.0837809747471105,
+      "auto_total_regret_at_R1": 3.11801450544501,
+      "auto_total_regret_at_R5": 1.4906276808866905,
+      "auto_total_regret_at_R32": 1.14735077258142
+    },
+    {
+      "case_id": "data_reuploading_8q_d2_s0",
+      "family": "data_reuploading",
+      "qubits": 8,
+      "depth": 2,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 6833555,
+      "best_enumerated_collection_ns": 118327.7,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 62516.5,
+          "collection_ns": 138474.90000000002,
+          "total_ns": 756718.0
+        },
+        "separate": {
+          "planning_ns": 167790.5,
+          "collection_ns": 416152.5,
+          "total_ns": 2260878.0
+        },
+        "grouped": {
+          "planning_ns": 152900.5,
+          "collection_ns": 350906.5,
+          "total_ns": 1910428.0
+        },
+        "auto": {
+          "planning_ns": 189075.0,
+          "collection_ns": 129735.20000000001,
+          "total_ns": 848958.0
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.0964059979193377,
+      "auto_total_regret_at_R1": 2.6942989680353797,
+      "auto_total_regret_at_R5": 1.415984591942546,
+      "auto_total_regret_at_R32": 1.146340153235464
+    },
+    {
+      "case_id": "data_reuploading_8q_d2_s202",
+      "family": "data_reuploading",
+      "qubits": 8,
+      "depth": 2,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 7557212,
+      "best_enumerated_collection_ns": 115919.4,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 63903.0,
+          "collection_ns": 130439.6,
+          "total_ns": 708345.0
+        },
+        "separate": {
+          "planning_ns": 160883.5,
+          "collection_ns": 366851.5,
+          "total_ns": 2007128.0
+        },
+        "grouped": {
+          "planning_ns": 182385.5,
+          "collection_ns": 327599.7,
+          "total_ns": 1823002.0
+        },
+        "auto": {
+          "planning_ns": 198539.0,
+          "collection_ns": 137499.5,
+          "total_ns": 891667.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.186164697194775,
+      "auto_total_regret_at_R1": 2.898897854888828,
+      "auto_total_regret_at_R5": 1.5287113287335856,
+      "auto_total_regret_at_R32": 1.2396876083727142
+    },
+    {
+      "case_id": "data_reuploading_8q_d4_s0",
+      "family": "data_reuploading",
+      "qubits": 8,
+      "depth": 4,
+      "seed_offset": 0,
+      "seed": 20261024,
+      "candidate_count": 52,
+      "enumeration_ns": 12295779,
+      "best_enumerated_collection_ns": 163639.90000000002,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 75855.0,
+          "collection_ns": 191825.90000000002,
+          "total_ns": 1076974.0
+        },
+        "separate": {
+          "planning_ns": 265491.0,
+          "collection_ns": 759174.4,
+          "total_ns": 4059662.0
+        },
+        "grouped": {
+          "planning_ns": 271400.5,
+          "collection_ns": 590364.3999999999,
+          "total_ns": 3214205.0
+        },
+        "auto": {
+          "planning_ns": 292595.0,
+          "collection_ns": 212969.2,
+          "total_ns": 1344882.5
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.3014503186570023,
+      "auto_total_regret_at_R1": 3.089492232640083,
+      "auto_total_regret_at_R5": 1.6590587014536184,
+      "auto_total_regret_at_R32": 1.3573266284689736
+    },
+    {
+      "case_id": "data_reuploading_8q_d4_s202",
+      "family": "data_reuploading",
+      "qubits": 8,
+      "depth": 4,
+      "seed_offset": 202,
+      "seed": 20261226,
+      "candidate_count": 52,
+      "enumeration_ns": 13405368,
+      "best_enumerated_collection_ns": 167801.9,
+      "best_enumerated_candidate_id": "partition-51",
+      "auto_selected_candidate_id": "partition-51",
+      "policy_medians_ns": {
+        "full": {
+          "planning_ns": 72991.0,
+          "collection_ns": 202417.0,
+          "total_ns": 1091920.0
+        },
+        "separate": {
+          "planning_ns": 252186.0,
+          "collection_ns": 739680.5,
+          "total_ns": 3943024.5
+        },
+        "grouped": {
+          "planning_ns": 247685.5,
+          "collection_ns": 619464.9,
+          "total_ns": 3368913.5
+        },
+        "auto": {
+          "planning_ns": 296031.5,
+          "collection_ns": 201828.09999999998,
+          "total_ns": 1310044.0
+        }
+      },
+      "policy_graph_coverage": {
+        "full": true,
+        "separate": true,
+        "grouped": true,
+        "auto": true
+      },
+      "auto_collection_regret": 1.2027760114754362,
+      "auto_total_regret_at_R1": 2.9669485268045235,
+      "auto_total_regret_at_R5": 1.5556105145412538,
+      "auto_total_regret_at_R32": 1.2579064025794702
+    }
+  ]
+}

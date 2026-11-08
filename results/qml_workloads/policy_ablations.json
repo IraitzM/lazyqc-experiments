@@ -1,0 +1,90 @@
+{
+  "protocol": {
+    "source": [
+      "results/qml_workloads/qml_heldout_family_session0.json",
+      "results/qml_workloads/qml_heldout_family_session1.json"
+    ],
+    "cases": 480,
+    "timing": "No new timings; medians of setup and collection per strategy and session.",
+    "cross_validation": "Best forced plan chosen on one session and charged on the other; geometric mean of both directions.",
+    "simple_selector_cost": "Auto analysis time plus selected candidate collection time.",
+    "reference": "Best of full, separate and grouped; errors use the pooled best forced plan.",
+    "false_positive": "Selected separate/grouped when full was the pooled best forced plan.",
+    "false_negative": "Selected full when separate/grouped was the pooled best forced plan.",
+    "best_full_cases": 290,
+    "best_cone_cases": 190,
+    "threshold_status": "Illustrative fixed rules, not fitted on these held-out instances."
+  },
+  "policies": [
+    {
+      "policy": "LazyQC auto",
+      "median_regret": 1.0474040248107055,
+      "p90_regret": 1.4919734207787083,
+      "max_regret": 2.3916480363772097,
+      "narrow_direct": 0.004411714725703353,
+      "saturated_direct": 1.094406206894871,
+      "false_positive": 16,
+      "false_negative": 6
+    },
+    {
+      "policy": "Always full (dense)",
+      "median_regret": 1.0,
+      "p90_regret": 4.810814020675045,
+      "max_regret": 708.5877866183462,
+      "narrow_direct": 1.0783681796218751,
+      "saturated_direct": 1.0753250983309437,
+      "false_positive": 0,
+      "false_negative": 190
+    },
+    {
+      "policy": "Always separate",
+      "median_regret": 2.7822309965756267,
+      "p90_regret": 7.347866581584308,
+      "max_regret": 16.046581260169184,
+      "narrow_direct": 0.004134103137116254,
+      "saturated_direct": 3.1743337816560224,
+      "false_positive": 290,
+      "false_negative": 0
+    },
+    {
+      "policy": "Always grouped",
+      "median_regret": 1.8005518429171148,
+      "p90_regret": 5.895868041938262,
+      "max_regret": 12.755353336016972,
+      "narrow_direct": 0.004076902787832466,
+      "saturated_direct": 2.7964278162786753,
+      "false_positive": 290,
+      "false_negative": 0
+    },
+    {
+      "policy": "Reduce iff w < n",
+      "median_regret": 1.1346269824299737,
+      "p90_regret": 1.5510524128475462,
+      "max_regret": 2.4394130089233603,
+      "narrow_direct": 0.00441908733822617,
+      "saturated_direct": 1.1427764057365823,
+      "false_positive": 10,
+      "false_negative": 125
+    },
+    {
+      "policy": "Reduce iff w <= n/2",
+      "median_regret": 1.1589370867338782,
+      "p90_regret": 1.659432806558062,
+      "max_regret": 14.50650031766817,
+      "narrow_direct": 0.00441908733822617,
+      "saturated_direct": 1.1427764057365823,
+      "false_positive": 0,
+      "false_negative": 155
+    },
+    {
+      "policy": "Reduce iff w <= 10",
+      "median_regret": 1.143420787700626,
+      "p90_regret": 3.3546997213711522,
+      "max_regret": 14.50650031766817,
+      "narrow_direct": 0.00441908733822617,
+      "saturated_direct": 1.1510067771497308,
+      "false_positive": 97,
+      "false_negative": 122
+    }
+  ]
+}

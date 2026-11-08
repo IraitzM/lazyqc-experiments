@@ -1,0 +1,30 @@
+{
+  "protocol": "trained_iris_qml_screen_v3",
+  "description": "Exploratory binary Iris QML classifier replicated over stratified splits, two ansatze, two depths and two initializations.",
+  "dataset": "scikit-learn bundled Iris dataset; class 0 versus class 1 only; no download",
+  "split_seeds": [461, 517, 593],
+  "test_fraction": 0.2,
+  "feature_map": "standardize using training split only, then angle=pi*tanh(z/2); for 8 qubits repeat the four encoded features twice",
+  "ansatze": ["ring", "brickwork"],
+  "ansatz_depths": [2, 4],
+  "readout_paulis": ["X", "Z"],
+  "base_seed": 20261024,
+  "seed_offsets": [1616, 1717],
+  "qubits": [4, 8],
+  "train_batch_size": 8,
+  "training_steps": 30,
+  "learning_rate": 0.2,
+  "strategies": ["direct_qulacs", "full", "separate", "grouped", "auto"],
+  "max_state_qubits": 12,
+  "max_state_bytes": 268435456,
+  "oracle_tolerance": 1e-10,
+  "randomized_strategy_order_seed": 241030,
+  "notes": [
+    "Binary target is Iris class 1 versus class 0.",
+    "Each split is stratified; standardization statistics are fitted on its training split only. Split 461 is the v2 split.",
+    "ring applies a CX ring after every trainable RY layer, so cones saturate; brickwork applies one alternating nearest-neighbour CX sublayer per layer, so cones stay local.",
+    "The quantum model outputs X and Z expectations on every wire; a classical affine head supplies the logit.",
+    "Every trainable RY occurrence receives an independent parameter and exact two-term parameter shift.",
+    "This exploratory small-data screen does not establish general QML training performance."
+  ]
+}

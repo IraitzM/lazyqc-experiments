@@ -1,0 +1,966 @@
+2026-11-03T22:05:15Z start scaling_1t
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 qulacs_1t             0.971 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 lazyqc                1.139 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 lazyqc_gpu            1.183 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 lazyqc_gpu            1.328 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 lazyqc                1.398 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 qulacs_1t             1.090 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 qulacs_1t             0.763 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 lazyqc_gpu            0.217 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 lazyqc                0.202 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 qulacs_1t             0.674 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 lazyqc                0.202 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 lazyqc_gpu            0.211 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       qulacs_1t             0.510 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       lazyqc_gpu            0.487 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       lazyqc                0.473 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       lazyqc                0.479 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       qulacs_1t             0.514 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       lazyqc_gpu            0.502 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         lazyqc                0.176 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         qulacs_1t             0.271 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         lazyqc_gpu            0.173 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         qulacs_1t             0.268 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         lazyqc                0.178 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         lazyqc_gpu            0.176 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      qulacs_1t             1.134 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      lazyqc_gpu            1.942 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      lazyqc                1.880 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      lazyqc_gpu            2.126 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      qulacs_1t             1.073 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      lazyqc                1.879 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        lazyqc_gpu            1.053 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        qulacs_1t             0.662 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        lazyqc                1.048 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        lazyqc                1.038 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        qulacs_1t             0.685 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        lazyqc_gpu            1.083 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 qulacs_1t            29.367 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 lazyqc_gpu            1.913 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 lazyqc                1.897 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 lazyqc_gpu            2.024 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 lazyqc                1.828 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 qulacs_1t            29.619 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 qulacs_1t            16.543 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 lazyqc                0.204 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 lazyqc_gpu            0.223 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 lazyqc                0.209 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 qulacs_1t            16.685 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 lazyqc_gpu            0.207 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       lazyqc_gpu            0.730 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       lazyqc                0.682 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       qulacs_1t            16.416 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       qulacs_1t            15.728 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       lazyqc                0.703 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       lazyqc_gpu            0.728 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         lazyqc_gpu            0.180 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         qulacs_1t             7.029 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         lazyqc                0.177 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         lazyqc                0.178 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         lazyqc_gpu            0.182 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         qulacs_1t             6.911 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      lazyqc               31.708 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      qulacs_1t            30.269 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      lazyqc_gpu            7.442 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      lazyqc               31.358 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      lazyqc_gpu            7.898 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      qulacs_1t            28.614 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        lazyqc               17.216 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        qulacs_1t            16.203 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        lazyqc_gpu            5.457 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        lazyqc               17.260 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        lazyqc_gpu            5.417 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        qulacs_1t            16.023 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 qulacs_1t           586.638 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 lazyqc                2.577 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 lazyqc_gpu            2.417 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 lazyqc                2.762 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 lazyqc_gpu            2.540 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 qulacs_1t           589.812 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 lazyqc                0.240 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 lazyqc_gpu            0.215 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 qulacs_1t           330.953 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 lazyqc_gpu            0.243 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 qulacs_1t           330.681 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 lazyqc                0.214 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       lazyqc_gpu            0.971 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       lazyqc                0.837 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       qulacs_1t           308.348 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       qulacs_1t           308.625 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       lazyqc                0.841 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       lazyqc_gpu            0.830 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         qulacs_1t           129.478 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         lazyqc_gpu            0.190 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         lazyqc                0.188 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         lazyqc                0.204 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         qulacs_1t           130.905 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         lazyqc_gpu            0.189 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      lazyqc              614.242 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      lazyqc_gpu           31.127 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      qulacs_1t           597.629 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      lazyqc_gpu           30.950 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      qulacs_1t           593.127 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      lazyqc              605.521 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        qulacs_1t           329.293 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        lazyqc_gpu           26.599 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        lazyqc              341.463 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        lazyqc_gpu           26.583 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        lazyqc              342.089 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        qulacs_1t           328.608 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 qulacs_1t         11725.905 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 lazyqc                3.209 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 lazyqc_gpu            3.193 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 lazyqc_gpu            3.381 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 qulacs_1t         11588.521 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 lazyqc                3.059 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 lazyqc_gpu            0.256 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 lazyqc                0.229 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 qulacs_1t          6677.875 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 lazyqc_gpu            0.228 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 lazyqc                0.245 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 qulacs_1t          6628.265 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       qulacs_1t          6144.352 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       lazyqc_gpu            1.141 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       lazyqc                1.065 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       lazyqc_gpu            1.085 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       qulacs_1t          6128.834 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       lazyqc                1.068 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         lazyqc                0.231 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         qulacs_1t          2756.390 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         lazyqc_gpu            0.208 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         qulacs_1t          2751.115 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         lazyqc_gpu            0.206 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         lazyqc                0.202 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      qulacs_1t         11607.238 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      lazyqc_gpu          412.862 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      lazyqc            11739.895 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      lazyqc            11680.175 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      qulacs_1t         11429.443 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      lazyqc_gpu          413.293 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        lazyqc             6780.194 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        qulacs_1t          6583.556 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        lazyqc_gpu          372.974 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        lazyqc             6769.346 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        lazyqc_gpu          372.853 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        qulacs_1t          6621.222 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s202 lazyqc                3.675 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s202 lazyqc_gpu            3.384 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s303 lazyqc                3.750 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s303 lazyqc_gpu            3.561 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s202 lazyqc                0.262 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s202 lazyqc_gpu            0.251 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s303 lazyqc                0.290 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s303 lazyqc_gpu            0.235 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s202       lazyqc                1.179 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s202       lazyqc_gpu            1.141 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s303       lazyqc_gpu            1.259 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s303       lazyqc                1.142 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s202         lazyqc                0.240 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s202         lazyqc_gpu            0.201 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s303         lazyqc_gpu            0.234 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s303         lazyqc                0.212 ms
+data_reuploading_26q_d4_same_state_local_outputs_s202      lazyqc_gpu         1772.249 ms
+data_reuploading_26q_d4_same_state_local_outputs_s303      lazyqc_gpu         1780.354 ms
+data_reuploading_26q_d4_same_state_shared_cone_s202        lazyqc_gpu         1616.407 ms
+data_reuploading_26q_d4_same_state_shared_cone_s303        lazyqc_gpu         1616.171 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 lazyqc_gpu            3.603 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 lazyqc                3.624 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 lazyqc                3.821 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 lazyqc_gpu            3.748 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 lazyqc                0.244 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 lazyqc_gpu            0.277 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 lazyqc_gpu            0.245 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 lazyqc                0.274 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       lazyqc_gpu            1.284 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       lazyqc                1.292 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       lazyqc                1.388 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       lazyqc_gpu            1.278 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         lazyqc_gpu            0.271 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         lazyqc                0.225 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         lazyqc                0.273 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         lazyqc_gpu            0.270 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      lazyqc_gpu         7741.447 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      lazyqc_gpu         7740.052 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        lazyqc_gpu         7037.045 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        lazyqc_gpu         7037.436 ms
+rows 748 failures 0
+2026-11-03T22:17:26Z start jacobian_1t
+hardware_efficient_local_12q_d4_jacobian_s202        lazyqc                       54.58 ms
+hardware_efficient_local_12q_d4_jacobian_s202        lazyqc_gpu                   54.10 ms
+hardware_efficient_local_12q_d4_jacobian_s303        lazyqc_gpu                   54.08 ms
+hardware_efficient_local_12q_d4_jacobian_s303        lazyqc                       54.09 ms
+qcnn_like_local_12q_d4_jacobian_s202                 lazyqc                        8.13 ms
+qcnn_like_local_12q_d4_jacobian_s202                 lazyqc_gpu                    8.19 ms
+qcnn_like_local_12q_d4_jacobian_s303                 lazyqc_gpu                    8.22 ms
+qcnn_like_local_12q_d4_jacobian_s303                 lazyqc                        8.21 ms
+data_reuploading_12q_d4_jacobian_s202                lazyqc_gpu                  155.60 ms
+data_reuploading_12q_d4_jacobian_s202                lazyqc                      155.15 ms
+data_reuploading_12q_d4_jacobian_s303                lazyqc_gpu                  157.19 ms
+data_reuploading_12q_d4_jacobian_s303                lazyqc                      156.79 ms
+hardware_efficient_local_16q_d4_jacobian_s202        lazyqc                       93.29 ms
+hardware_efficient_local_16q_d4_jacobian_s202        lazyqc_gpu                   93.60 ms
+hardware_efficient_local_16q_d4_jacobian_s303        lazyqc                       93.00 ms
+hardware_efficient_local_16q_d4_jacobian_s303        lazyqc_gpu                   93.73 ms
+qcnn_like_local_16q_d4_jacobian_s202                 lazyqc                       15.54 ms
+qcnn_like_local_16q_d4_jacobian_s202                 lazyqc_gpu                   15.66 ms
+qcnn_like_local_16q_d4_jacobian_s303                 lazyqc_gpu                   15.74 ms
+qcnn_like_local_16q_d4_jacobian_s303                 lazyqc                       15.99 ms
+data_reuploading_16q_d4_jacobian_s202                lazyqc_gpu                  902.29 ms
+data_reuploading_16q_d4_jacobian_s202                lazyqc                     3783.58 ms
+data_reuploading_16q_d4_jacobian_s303                lazyqc_gpu                  907.66 ms
+data_reuploading_16q_d4_jacobian_s303                lazyqc                     3786.08 ms
+hardware_efficient_local_20q_d4_jacobian_s202        lazyqc_gpu                  146.08 ms
+hardware_efficient_local_20q_d4_jacobian_s202        lazyqc                      135.57 ms
+hardware_efficient_local_20q_d4_jacobian_s303        lazyqc_gpu                  134.72 ms
+hardware_efficient_local_20q_d4_jacobian_s303        lazyqc                      136.45 ms
+qcnn_like_local_20q_d4_jacobian_s202                 lazyqc_gpu                   19.22 ms
+qcnn_like_local_20q_d4_jacobian_s202                 lazyqc                       19.19 ms
+qcnn_like_local_20q_d4_jacobian_s303                 lazyqc                       18.81 ms
+qcnn_like_local_20q_d4_jacobian_s303                 lazyqc_gpu                   19.32 ms
+hardware_efficient_local_24q_d4_jacobian_s202        lazyqc_gpu                  185.64 ms
+hardware_efficient_local_24q_d4_jacobian_s202        lazyqc                      191.56 ms
+hardware_efficient_local_24q_d4_jacobian_s303        lazyqc_gpu                  181.00 ms
+hardware_efficient_local_24q_d4_jacobian_s303        lazyqc                      185.42 ms
+qcnn_like_local_24q_d4_jacobian_s202                 lazyqc                       28.86 ms
+qcnn_like_local_24q_d4_jacobian_s202                 lazyqc_gpu                   29.06 ms
+qcnn_like_local_24q_d4_jacobian_s303                 lazyqc                       28.91 ms
+qcnn_like_local_24q_d4_jacobian_s303                 lazyqc_gpu                   28.88 ms
+rows 160 failures 0
+2026-11-03T22:18:37Z start training_1t
+ 16q lazyqc               total      957.2 ms loss 0.093267 -> 0.084076
+ 20q lazyqc               total     1397.4 ms loss 0.083187 -> 0.076004
+ 24q lazyqc               total     1933.9 ms loss 0.098028 -> 0.090885
+2026-11-03T22:18:42Z start scaling_mt
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 aer_gpu               2.736 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 lightning_gpu         1.527 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 aer_cpu               2.998 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 lightning_gpu         1.535 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 aer_cpu               3.073 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 aer_gpu               2.873 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 lightning_gpu         1.334 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 aer_cpu               2.824 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 aer_gpu               2.629 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 aer_cpu               2.811 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 lightning_gpu         1.329 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 aer_gpu               2.564 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       lightning_gpu         0.901 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       aer_cpu               1.618 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       aer_gpu               1.570 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       aer_cpu               1.499 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       lightning_gpu         0.889 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       aer_gpu               1.542 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         aer_cpu               1.583 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         aer_gpu               1.310 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         lightning_gpu         0.798 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         lightning_gpu         0.642 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         aer_cpu               1.421 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         aer_gpu               1.273 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      lightning_gpu         1.542 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      aer_gpu               2.802 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      aer_cpu               3.057 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      aer_gpu               2.861 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      aer_cpu               3.070 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      lightning_gpu         1.569 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        lightning_gpu         1.282 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        aer_cpu               2.871 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        aer_gpu               2.502 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        aer_cpu               2.789 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        lightning_gpu         1.317 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        aer_gpu               2.478 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 aer_gpu               4.185 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 lightning_gpu         3.051 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 aer_cpu               6.371 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 aer_cpu               6.546 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 lightning_gpu         3.127 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 aer_gpu               4.241 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 aer_cpu             345.923 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 aer_gpu               3.783 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 lightning_gpu         2.760 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 lightning_gpu         2.735 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 aer_gpu               3.838 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 aer_cpu               5.608 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       aer_cpu               4.636 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       aer_gpu               2.233 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       lightning_gpu         1.585 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       aer_gpu               2.425 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       lightning_gpu         1.583 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       aer_cpu               3.213 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         aer_cpu             156.960 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         aer_gpu               1.945 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         lightning_gpu         1.282 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         lightning_gpu         1.306 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         aer_cpu               2.568 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         aer_gpu               1.897 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      aer_gpu               5.024 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      lightning_gpu         3.204 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      aer_cpu               7.564 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      aer_gpu               4.996 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      aer_cpu               7.537 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      lightning_gpu         3.105 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        aer_gpu               4.563 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        aer_cpu               6.807 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        lightning_gpu         2.745 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        aer_cpu             214.316 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        lightning_gpu         2.753 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        aer_gpu               4.461 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 aer_cpu              34.135 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 lightning_gpu        25.093 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 aer_gpu              15.310 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 aer_gpu              15.271 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 lightning_gpu        22.066 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 aer_cpu              33.811 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 lightning_gpu        20.998 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 aer_gpu              13.172 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 aer_cpu              28.112 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 lightning_gpu        20.933 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 aer_gpu              13.148 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 aer_cpu              25.707 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       lightning_gpu         9.338 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       aer_gpu               8.212 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       aer_cpu              20.763 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       aer_cpu             337.001 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       lightning_gpu        10.469 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       aer_gpu               9.162 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         aer_gpu               6.818 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         lightning_gpu         9.151 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         aer_cpu              11.228 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         lightning_gpu         9.051 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         aer_cpu              11.322 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         aer_gpu               6.534 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      aer_cpu              79.584 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      aer_gpu              27.854 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      lightning_gpu        22.111 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      lightning_gpu        22.150 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      aer_cpu             496.858 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      aer_gpu              28.118 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        lightning_gpu        21.056 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        aer_cpu              44.389 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        aer_gpu              22.522 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        aer_gpu              22.833 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        aer_cpu              53.742 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        lightning_gpu        20.957 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 aer_cpu             721.703 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 lightning_gpu       600.070 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 aer_gpu             234.575 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 lightning_gpu       600.513 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 aer_cpu             740.732 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 aer_gpu             234.829 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 aer_gpu             197.145 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 lightning_gpu       576.961 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 aer_cpu             599.119 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 aer_cpu             535.423 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 aer_gpu             197.008 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 lightning_gpu       576.978 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       lightning_gpu       259.594 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       aer_gpu             125.645 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       aer_cpu             434.253 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       lightning_gpu       259.780 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       aer_cpu             425.138 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       aer_gpu             125.446 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         aer_cpu             241.630 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         aer_gpu              88.367 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         lightning_gpu       236.617 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         aer_gpu              88.384 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         aer_cpu             243.526 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         lightning_gpu       236.568 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      lightning_gpu       600.507 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      aer_cpu            1049.850 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      aer_gpu             409.951 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      lightning_gpu       600.492 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      aer_cpu            1091.697 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      aer_gpu             410.784 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        aer_gpu             372.946 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        aer_cpu             946.031 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        lightning_gpu       576.733 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        aer_cpu             846.805 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        aer_gpu             372.684 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        lightning_gpu       577.269 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s202 aer_cpu            3550.717 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s202 aer_gpu            1001.573 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s202 lightning_gpu      2593.922 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s303 aer_cpu            3484.311 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s303 lightning_gpu      2594.078 ms
+hardware_efficient_local_26q_d4_same_state_local_outputs_s303 aer_gpu            1001.403 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s202 aer_gpu             838.969 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s202 aer_cpu            2750.005 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s202 lightning_gpu      2495.807 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s303 lightning_gpu      2495.888 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s303 aer_cpu            2608.392 ms
+hardware_efficient_local_26q_d4_same_state_shared_cone_s303 aer_gpu             838.841 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s202       aer_cpu            2120.354 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s202       lightning_gpu      1081.898 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s202       aer_gpu             521.236 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s303       lightning_gpu      1081.360 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s303       aer_cpu            2033.112 ms
+qcnn_like_local_26q_d4_same_state_local_outputs_s303       aer_gpu             521.516 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s202         lightning_gpu       981.633 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s202         aer_cpu            1139.181 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s202         aer_gpu             359.289 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s303         lightning_gpu       982.223 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s303         aer_gpu             359.443 ms
+qcnn_like_local_26q_d4_same_state_shared_cone_s303         aer_cpu            1126.351 ms
+data_reuploading_26q_d4_same_state_local_outputs_s202      lightning_gpu      2594.057 ms
+data_reuploading_26q_d4_same_state_local_outputs_s202      aer_cpu            5256.123 ms
+data_reuploading_26q_d4_same_state_local_outputs_s202      aer_gpu            1777.630 ms
+data_reuploading_26q_d4_same_state_local_outputs_s303      lightning_gpu      2594.381 ms
+data_reuploading_26q_d4_same_state_local_outputs_s303      aer_cpu            5040.685 ms
+data_reuploading_26q_d4_same_state_local_outputs_s303      aer_gpu            1777.895 ms
+data_reuploading_26q_d4_same_state_shared_cone_s202        aer_cpu            4091.044 ms
+data_reuploading_26q_d4_same_state_shared_cone_s202        lightning_gpu      2494.848 ms
+data_reuploading_26q_d4_same_state_shared_cone_s202        aer_gpu            1614.389 ms
+data_reuploading_26q_d4_same_state_shared_cone_s303        lightning_gpu      2494.614 ms
+data_reuploading_26q_d4_same_state_shared_cone_s303        aer_cpu            4197.677 ms
+data_reuploading_26q_d4_same_state_shared_cone_s303        aer_gpu            1614.439 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 aer_gpu            4345.753 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 aer_cpu           14424.837 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 lightning_gpu     11179.921 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 lightning_gpu     11177.793 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 aer_cpu           14407.602 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 aer_gpu            4345.940 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 lightning_gpu     10747.026 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 aer_gpu            3640.453 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 aer_cpu           10945.955 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 lightning_gpu     10756.757 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 aer_gpu            3655.213 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 aer_cpu           10971.875 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       aer_gpu            2314.227 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       lightning_gpu      4664.253 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       aer_cpu            8719.460 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       aer_cpu            8731.725 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       lightning_gpu      4667.551 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       aer_gpu            2304.186 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         lightning_gpu      4235.254 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         aer_gpu            1601.142 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         aer_cpu            4526.577 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         aer_cpu            4542.325 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         aer_gpu            1599.763 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         lightning_gpu      4236.696 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      lightning_gpu     11181.143 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      aer_gpu            7776.055 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      aer_cpu           21152.449 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      lightning_gpu     11180.922 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      aer_cpu           20936.496 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      aer_gpu            7741.143 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        aer_cpu           16913.598 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        lightning_gpu     10749.700 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        aer_gpu            7035.687 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        aer_cpu           16788.410 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        lightning_gpu     10752.410 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        aer_gpu            7037.249 ms
+rows 828 failures 0
+2026-11-03T22:41:51Z start jacobian_mt
+hardware_efficient_local_12q_d4_jacobian_s202        aer_gpu_shift               240.14 ms
+hardware_efficient_local_12q_d4_jacobian_s202        lightning_gpu_adjoint        24.85 ms
+hardware_efficient_local_12q_d4_jacobian_s202        lightning_cpu_adjoint         4.65 ms
+hardware_efficient_local_12q_d4_jacobian_s303        lightning_gpu_adjoint        24.14 ms
+hardware_efficient_local_12q_d4_jacobian_s303        lightning_cpu_adjoint         5.05 ms
+hardware_efficient_local_12q_d4_jacobian_s303        aer_gpu_shift               261.89 ms
+qcnn_like_local_12q_d4_jacobian_s202                 lightning_cpu_adjoint         2.27 ms
+qcnn_like_local_12q_d4_jacobian_s202                 lightning_gpu_adjoint        13.10 ms
+qcnn_like_local_12q_d4_jacobian_s202                 aer_gpu_shift                59.07 ms
+qcnn_like_local_12q_d4_jacobian_s303                 aer_gpu_shift                59.12 ms
+qcnn_like_local_12q_d4_jacobian_s303                 lightning_gpu_adjoint        13.21 ms
+qcnn_like_local_12q_d4_jacobian_s303                 lightning_cpu_adjoint         2.47 ms
+data_reuploading_12q_d4_jacobian_s202                lightning_gpu_adjoint        23.92 ms
+data_reuploading_12q_d4_jacobian_s202                aer_gpu_shift               259.24 ms
+data_reuploading_12q_d4_jacobian_s202                lightning_cpu_adjoint         4.67 ms
+data_reuploading_12q_d4_jacobian_s303                aer_gpu_shift               259.64 ms
+data_reuploading_12q_d4_jacobian_s303                lightning_gpu_adjoint        24.02 ms
+data_reuploading_12q_d4_jacobian_s303                lightning_cpu_adjoint         4.65 ms
+hardware_efficient_local_16q_d4_jacobian_s202        lightning_cpu_adjoint        69.62 ms
+hardware_efficient_local_16q_d4_jacobian_s202        aer_gpu_shift               524.59 ms
+hardware_efficient_local_16q_d4_jacobian_s202        lightning_gpu_adjoint        59.74 ms
+hardware_efficient_local_16q_d4_jacobian_s303        lightning_gpu_adjoint        59.54 ms
+hardware_efficient_local_16q_d4_jacobian_s303        aer_gpu_shift               515.93 ms
+hardware_efficient_local_16q_d4_jacobian_s303        lightning_cpu_adjoint       280.72 ms
+qcnn_like_local_16q_d4_jacobian_s202                 aer_gpu_shift               134.19 ms
+qcnn_like_local_16q_d4_jacobian_s202                 lightning_gpu_adjoint        32.85 ms
+qcnn_like_local_16q_d4_jacobian_s202                 lightning_cpu_adjoint        35.77 ms
+qcnn_like_local_16q_d4_jacobian_s303                 aer_gpu_shift               128.78 ms
+qcnn_like_local_16q_d4_jacobian_s303                 lightning_gpu_adjoint        31.39 ms
+qcnn_like_local_16q_d4_jacobian_s303                 lightning_cpu_adjoint        35.22 ms
+data_reuploading_16q_d4_jacobian_s202                lightning_cpu_adjoint       678.91 ms
+data_reuploading_16q_d4_jacobian_s202                lightning_gpu_adjoint        60.12 ms
+data_reuploading_16q_d4_jacobian_s202                aer_gpu_shift               621.82 ms
+data_reuploading_16q_d4_jacobian_s303                aer_gpu_shift               619.17 ms
+data_reuploading_16q_d4_jacobian_s303                lightning_gpu_adjoint        59.03 ms
+data_reuploading_16q_d4_jacobian_s303                lightning_cpu_adjoint       879.06 ms
+hardware_efficient_local_20q_d4_jacobian_s202        lightning_gpu_adjoint       846.23 ms
+hardware_efficient_local_20q_d4_jacobian_s202        aer_gpu_shift              2488.95 ms
+hardware_efficient_local_20q_d4_jacobian_s202        lightning_cpu_adjoint      3306.94 ms
+hardware_efficient_local_20q_d4_jacobian_s303        lightning_gpu_adjoint       846.52 ms
+hardware_efficient_local_20q_d4_jacobian_s303        aer_gpu_shift              2493.85 ms
+hardware_efficient_local_20q_d4_jacobian_s303        lightning_cpu_adjoint      3315.02 ms
+qcnn_like_local_20q_d4_jacobian_s202                 lightning_gpu_adjoint       364.34 ms
+qcnn_like_local_20q_d4_jacobian_s202                 lightning_cpu_adjoint      1418.53 ms
+qcnn_like_local_20q_d4_jacobian_s202                 aer_gpu_shift               624.33 ms
+qcnn_like_local_20q_d4_jacobian_s303                 lightning_cpu_adjoint      1373.03 ms
+qcnn_like_local_20q_d4_jacobian_s303                 aer_gpu_shift               631.80 ms
+qcnn_like_local_20q_d4_jacobian_s303                 lightning_gpu_adjoint       364.30 ms
+hardware_efficient_local_24q_d4_jacobian_s202        lightning_gpu_adjoint     23856.32 ms
+hardware_efficient_local_24q_d4_jacobian_s303        lightning_gpu_adjoint     23931.33 ms
+qcnn_like_local_24q_d4_jacobian_s202                 lightning_gpu_adjoint     10540.60 ms
+qcnn_like_local_24q_d4_jacobian_s303                 lightning_gpu_adjoint     10537.90 ms
+rows 224 failures 4
+2026-11-03T22:47:34Z start training_mt
+ 16q lightning_gpu_vjp    total      180.5 ms loss 0.093267 -> 0.084076
+ 16q aer_gpu_shift        total     7253.6 ms loss 0.093267 -> 0.084076
+ 20q lightning_gpu_vjp    total     1257.9 ms loss 0.083187 -> 0.076004
+ 24q lightning_gpu_vjp    total    32157.9 ms loss 0.098028 -> 0.090885
+2026-11-03T22:48:21Z start backend_matrix
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 lazyqc_lightning_gpu        6.750 ms
+/home/iraitz/.cache/uv/environments-v2/run-direct-baselines-d34cf9326b212db1/lib/python3.12/site-packages/cotengra/hyperoptimizers/hyper.py:36: UserWarning: Couldn't import `kahypar` - skipping from default hyper optimizer and using basic `labels` method instead. `kahypar` is highly recommended for the best quality contraction paths.
+  warnings.warn(
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 quimb               603.587 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 lazyqc_quimb        619.353 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 lightning_gpu         1.616 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 lazyqc_aer_gpu       11.372 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s202 aer_gpu               2.820 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 quimb               603.194 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 lazyqc_quimb        617.031 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 lazyqc_aer_gpu       11.266 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 lightning_gpu         1.598 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 lazyqc_lightning_gpu        6.945 ms
+hardware_efficient_local_12q_d4_same_state_local_outputs_s303 aer_gpu               2.579 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 quimb                32.693 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 aer_gpu               2.466 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 lazyqc_aer_gpu        1.772 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 lazyqc_quimb         20.929 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 lazyqc_lightning_gpu        1.007 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s202 lightning_gpu         1.351 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 lightning_gpu         1.297 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 lazyqc_quimb         21.390 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 quimb                31.955 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 lazyqc_aer_gpu        1.772 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 lazyqc_lightning_gpu        1.011 ms
+hardware_efficient_local_12q_d4_same_state_shared_cone_s303 aer_gpu               2.468 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       quimb                70.334 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       lazyqc_aer_gpu        6.502 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       lazyqc_quimb         77.866 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       aer_gpu               1.348 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       lightning_gpu         0.867 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s202       lazyqc_lightning_gpu        3.650 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       lazyqc_quimb         74.179 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       quimb                72.065 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       lazyqc_aer_gpu        8.370 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       aer_gpu               1.408 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       lightning_gpu         0.921 ms
+qcnn_like_local_12q_d4_same_state_local_outputs_s303       lazyqc_lightning_gpu        3.628 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         lazyqc_lightning_gpu        0.921 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         lazyqc_quimb         24.011 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         lightning_gpu         0.674 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         aer_gpu               1.212 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         quimb                23.764 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s202         lazyqc_aer_gpu        1.493 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         lazyqc_aer_gpu        1.652 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         lazyqc_quimb         23.699 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         lazyqc_lightning_gpu        0.962 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         quimb                25.633 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         aer_gpu               1.231 ms
+qcnn_like_local_12q_d4_same_state_shared_cone_s303         lightning_gpu         1.239 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      aer_gpu               2.664 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      lightning_gpu         1.587 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      lazyqc_lightning_gpu        2.939 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      lazyqc_aer_gpu        4.569 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      lazyqc_quimb        791.450 ms
+data_reuploading_12q_d4_same_state_local_outputs_s202      quimb               659.686 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      lazyqc_aer_gpu        4.432 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      lazyqc_quimb        783.978 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      quimb               649.680 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      aer_gpu               2.530 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      lightning_gpu         1.541 ms
+data_reuploading_12q_d4_same_state_local_outputs_s303      lazyqc_lightning_gpu        3.045 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        aer_gpu               2.473 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        lazyqc_lightning_gpu        2.279 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        quimb                62.605 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        lazyqc_quimb         61.754 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        lightning_gpu         1.328 ms
+data_reuploading_12q_d4_same_state_shared_cone_s202        lazyqc_aer_gpu        3.319 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        lazyqc_lightning_gpu        2.352 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        lazyqc_quimb         60.147 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        lazyqc_aer_gpu        3.337 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        quimb                60.649 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        lightning_gpu         1.331 ms
+data_reuploading_12q_d4_same_state_shared_cone_s303        aer_gpu               2.364 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 lazyqc_lightning_gpu        9.651 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 lazyqc_aer_gpu       15.171 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 lazyqc_quimb        748.847 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 lightning_gpu         3.106 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 aer_gpu               4.008 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s202 quimb               705.887 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 quimb               711.421 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 lazyqc_quimb        543.709 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 aer_gpu               3.924 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 lazyqc_lightning_gpu        9.755 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 lazyqc_aer_gpu       15.128 ms
+hardware_efficient_local_16q_d4_same_state_local_outputs_s303 lightning_gpu         3.100 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 lazyqc_aer_gpu        2.620 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 quimb                38.137 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 aer_gpu               3.650 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 lazyqc_lightning_gpu        1.015 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 lazyqc_quimb         20.941 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s202 lightning_gpu         2.790 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 lightning_gpu         2.795 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 lazyqc_quimb         21.025 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 aer_gpu               3.529 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 lazyqc_lightning_gpu        1.015 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 quimb                35.144 ms
+hardware_efficient_local_16q_d4_same_state_shared_cone_s303 lazyqc_aer_gpu        1.785 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       aer_gpu               3.136 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       lazyqc_quimb        114.018 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       lightning_gpu         1.626 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       lazyqc_aer_gpu       12.641 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       quimb               106.469 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s202       lazyqc_lightning_gpu        5.477 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       lightning_gpu         1.653 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       lazyqc_aer_gpu       11.727 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       quimb               107.386 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       lazyqc_lightning_gpu        5.349 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       aer_gpu               2.149 ms
+qcnn_like_local_16q_d4_same_state_local_outputs_s303       lazyqc_quimb        117.269 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         quimb                28.960 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         lazyqc_aer_gpu        1.480 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         lightning_gpu         1.708 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         lazyqc_lightning_gpu        0.958 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         lazyqc_quimb         23.009 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s202         aer_gpu               1.591 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         quimb                28.434 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         aer_gpu               1.584 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         lazyqc_lightning_gpu        0.927 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         lazyqc_aer_gpu        1.574 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         lazyqc_quimb         23.358 ms
+qcnn_like_local_16q_d4_same_state_shared_cone_s303         lightning_gpu         1.393 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      quimb              1230.709 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      lazyqc_aer_gpu        7.497 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      aer_gpu               4.707 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      lightning_gpu         3.060 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      lazyqc_quimb       1471.361 ms
+data_reuploading_16q_d4_same_state_local_outputs_s202      lazyqc_lightning_gpu        5.028 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      lightning_gpu         3.335 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      lazyqc_aer_gpu        7.196 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      lazyqc_lightning_gpu        5.133 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      aer_gpu               4.775 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      quimb              1220.865 ms
+data_reuploading_16q_d4_same_state_local_outputs_s303      lazyqc_quimb       1470.643 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        lightning_gpu         2.752 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        aer_gpu               4.257 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        lazyqc_quimb         84.092 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        lazyqc_aer_gpu        5.257 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        quimb                77.858 ms
+data_reuploading_16q_d4_same_state_shared_cone_s202        lazyqc_lightning_gpu        4.048 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        lazyqc_quimb         80.788 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        aer_gpu               4.294 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        lazyqc_aer_gpu        5.322 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        lazyqc_lightning_gpu        3.955 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        quimb                81.118 ms
+data_reuploading_16q_d4_same_state_shared_cone_s303        lightning_gpu         2.747 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 lazyqc_aer_gpu       19.752 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 lazyqc_quimb        847.634 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 lazyqc_lightning_gpu       12.560 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 lightning_gpu        24.988 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 aer_gpu              14.922 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s202 quimb               901.534 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 lightning_gpu        24.971 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 lazyqc_quimb        865.959 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 aer_gpu              16.654 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 lazyqc_lightning_gpu       12.562 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 quimb               843.281 ms
+hardware_efficient_local_20q_d4_same_state_local_outputs_s303 lazyqc_aer_gpu       19.207 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 lazyqc_lightning_gpu        1.029 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 lightning_gpu        23.871 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 lazyqc_aer_gpu        1.677 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 lazyqc_quimb         20.698 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 quimb                41.205 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s202 aer_gpu              12.896 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 quimb                40.713 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 lazyqc_quimb         20.829 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 aer_gpu              12.816 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 lazyqc_lightning_gpu        1.069 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 lightning_gpu        20.970 ms
+hardware_efficient_local_20q_d4_same_state_shared_cone_s303 lazyqc_aer_gpu        1.682 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       aer_gpu               8.056 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       lazyqc_lightning_gpu        6.356 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       quimb               125.401 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       lazyqc_quimb        134.328 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       lazyqc_aer_gpu       11.355 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s202       lightning_gpu        10.540 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       lazyqc_quimb        132.577 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       quimb               122.966 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       lazyqc_aer_gpu       13.686 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       lightning_gpu        10.463 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       aer_gpu               8.954 ms
+qcnn_like_local_20q_d4_same_state_local_outputs_s303       lazyqc_lightning_gpu        6.181 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         quimb                30.129 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         aer_gpu               6.131 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         lightning_gpu         8.191 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         lazyqc_quimb         23.257 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         lazyqc_lightning_gpu        0.939 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s202         lazyqc_aer_gpu        1.591 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         lazyqc_lightning_gpu        0.939 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         quimb                29.247 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         lazyqc_quimb         22.889 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         aer_gpu               5.948 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         lightning_gpu         8.202 ms
+qcnn_like_local_20q_d4_same_state_shared_cone_s303         lazyqc_aer_gpu        1.539 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      lightning_gpu        25.051 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      lazyqc_lightning_gpu       24.811 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      quimb              2120.989 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      lazyqc_quimb       2532.114 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      lazyqc_aer_gpu       31.729 ms
+data_reuploading_20q_d4_same_state_local_outputs_s202      aer_gpu              24.752 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      quimb              2151.441 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      lightning_gpu        25.060 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      lazyqc_aer_gpu       27.629 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      lazyqc_quimb       2493.436 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      lazyqc_lightning_gpu       27.617 ms
+data_reuploading_20q_d4_same_state_local_outputs_s303      aer_gpu              24.359 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        lazyqc_aer_gpu       23.541 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        aer_gpu              22.817 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        lazyqc_quimb        104.987 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        lazyqc_lightning_gpu       22.491 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        lightning_gpu        20.963 ms
+data_reuploading_20q_d4_same_state_shared_cone_s202        quimb               100.590 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        lazyqc_lightning_gpu       22.406 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        lightning_gpu        20.974 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        aer_gpu              22.299 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        quimb                98.994 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        lazyqc_aer_gpu       23.549 ms
+data_reuploading_20q_d4_same_state_shared_cone_s303        lazyqc_quimb        101.259 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 lazyqc_aer_gpu       22.483 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 lazyqc_lightning_gpu       15.241 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 lazyqc_quimb       1006.033 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 aer_gpu             234.047 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 lightning_gpu       600.154 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s202 quimb              1013.219 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 quimb               961.371 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 lazyqc_lightning_gpu       15.246 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 lightning_gpu       600.408 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 lazyqc_quimb       1010.036 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 aer_gpu             233.318 ms
+hardware_efficient_local_24q_d4_same_state_local_outputs_s303 lazyqc_aer_gpu       23.464 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 lazyqc_quimb         18.355 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 lazyqc_lightning_gpu        1.047 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 quimb                45.338 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 lightning_gpu       576.951 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 aer_gpu             196.412 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s202 lazyqc_aer_gpu        1.877 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 lightning_gpu       576.963 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 lazyqc_aer_gpu        1.870 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 lazyqc_quimb         21.378 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 quimb                46.052 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 aer_gpu             196.488 ms
+hardware_efficient_local_24q_d4_same_state_shared_cone_s303 lazyqc_lightning_gpu        1.071 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       quimb               159.895 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       aer_gpu             125.805 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       lazyqc_aer_gpu       17.939 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       lazyqc_lightning_gpu        8.019 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       lightning_gpu       259.658 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s202       lazyqc_quimb        173.420 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       quimb               166.607 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       aer_gpu             125.689 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       lightning_gpu       259.841 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       lazyqc_quimb        176.097 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       lazyqc_lightning_gpu        8.187 ms
+qcnn_like_local_24q_d4_same_state_local_outputs_s303       lazyqc_aer_gpu       18.787 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         aer_gpu              87.938 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         lazyqc_lightning_gpu        0.995 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         lightning_gpu       236.630 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         lazyqc_quimb         23.834 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         lazyqc_aer_gpu        1.430 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s202         quimb                34.323 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         lightning_gpu       236.671 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         lazyqc_aer_gpu        1.454 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         quimb                34.090 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         lazyqc_quimb         23.765 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         lazyqc_lightning_gpu        0.994 ms
+qcnn_like_local_24q_d4_same_state_shared_cone_s303         aer_gpu              87.952 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      aer_gpu             409.553 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      lazyqc_lightning_gpu      603.944 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      quimb              2976.193 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      lazyqc_quimb       3635.358 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      lightning_gpu       600.082 ms
+data_reuploading_24q_d4_same_state_local_outputs_s202      lazyqc_aer_gpu      414.131 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      lightning_gpu       599.903 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      aer_gpu             409.707 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      lazyqc_quimb       3612.761 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      lazyqc_lightning_gpu      603.921 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      quimb              2937.351 ms
+data_reuploading_24q_d4_same_state_local_outputs_s303      lazyqc_aer_gpu      413.906 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        lightning_gpu       576.904 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        lazyqc_aer_gpu      373.688 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        lazyqc_lightning_gpu      579.139 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        lazyqc_quimb        150.690 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        quimb               122.982 ms
+data_reuploading_24q_d4_same_state_shared_cone_s202        aer_gpu             371.985 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        aer_gpu             372.110 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        lazyqc_quimb        122.563 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        lazyqc_lightning_gpu      578.774 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        lazyqc_aer_gpu      373.941 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        quimb               130.504 ms
+data_reuploading_24q_d4_same_state_shared_cone_s303        lightning_gpu       577.299 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 lazyqc_quimb       1156.962 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 lazyqc_aer_gpu       27.944 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 quimb              1356.779 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 aer_gpu            4340.866 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 lightning_gpu     11178.155 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s202 lazyqc_lightning_gpu       17.744 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 aer_gpu            4345.931 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 lazyqc_lightning_gpu       17.828 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 quimb              1266.427 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 lazyqc_quimb       1205.939 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 lightning_gpu     11176.715 ms
+hardware_efficient_local_28q_d4_same_state_local_outputs_s303 lazyqc_aer_gpu       27.786 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 quimb                55.214 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 lazyqc_aer_gpu        1.890 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 aer_gpu            3642.645 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 lightning_gpu     10747.051 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 lazyqc_quimb         22.624 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s202 lazyqc_lightning_gpu        1.124 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 lazyqc_quimb         22.853 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 lazyqc_aer_gpu        1.865 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 lightning_gpu     10746.572 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 aer_gpu            3658.417 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 quimb                50.615 ms
+hardware_efficient_local_28q_d4_same_state_shared_cone_s303 lazyqc_lightning_gpu        1.119 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       lazyqc_aer_gpu       18.019 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       aer_gpu            2314.263 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       lazyqc_quimb        204.943 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       lightning_gpu      4664.256 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       lazyqc_lightning_gpu        9.369 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s202       quimb               195.895 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       lightning_gpu      4665.879 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       aer_gpu            2313.913 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       lazyqc_lightning_gpu        9.455 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       lazyqc_aer_gpu       20.007 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       quimb               194.641 ms
+qcnn_like_local_28q_d4_same_state_local_outputs_s303       lazyqc_quimb        200.409 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         lazyqc_aer_gpu        2.327 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         aer_gpu            1606.946 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         lazyqc_lightning_gpu        1.138 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         lightning_gpu      4235.448 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         lazyqc_quimb         24.882 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s202         quimb                37.133 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         lazyqc_quimb         24.865 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         quimb                37.115 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         lazyqc_aer_gpu        1.562 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         lightning_gpu      4235.233 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         aer_gpu            1607.523 ms
+qcnn_like_local_28q_d4_same_state_shared_cone_s303         lazyqc_lightning_gpu        1.041 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      aer_gpu            7774.155 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      lazyqc_quimb       5404.565 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      lazyqc_aer_gpu     7739.636 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      lightning_gpu     11175.369 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      quimb              4630.012 ms
+data_reuploading_28q_d4_same_state_local_outputs_s202      lazyqc_lightning_gpu    11183.051 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      quimb              4447.512 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      lazyqc_aer_gpu     7741.048 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      aer_gpu            7776.069 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      lightning_gpu     11180.934 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      lazyqc_lightning_gpu    11184.899 ms
+data_reuploading_28q_d4_same_state_local_outputs_s303      lazyqc_quimb       5350.271 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        lazyqc_aer_gpu     7036.547 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        lazyqc_lightning_gpu    10751.265 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        quimb               281.063 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        lightning_gpu     10747.862 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        lazyqc_quimb        158.115 ms
+data_reuploading_28q_d4_same_state_shared_cone_s202        aer_gpu            7068.011 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        lazyqc_aer_gpu     7067.943 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        quimb               151.547 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        lazyqc_quimb        152.710 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        lazyqc_lightning_gpu    10746.304 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        lightning_gpu     10752.524 ms
+data_reuploading_28q_d4_same_state_shared_cone_s303        aer_gpu            7067.858 ms
+rows 1440 failures 0
+2026-11-03T23:08:24Z start memory_wall
+Skipping Aer GPU cases: Simulation device "GPU" is not supported on this system
+qcnn_like_local_32q_d4_same_state_shared_cone_s303              0.21 ms width  8 tasks   1 | MPS    55.51 ms (bond 8) err 2.1e-15
+qcnn_like_local_32q_d4_same_state_shared_cone_s202              0.20 ms width  8 tasks   1 | MPS    42.36 ms (bond 8) err 1.5e-15
+qcnn_like_local_32q_d4_same_state_local_outputs_s303            1.66 ms width  8 tasks  28 | MPS    55.73 ms (bond 8) err 1.9e-15
+qcnn_like_local_48q_d4_same_state_local_outputs_s202            2.98 ms width  8 tasks  42 | MPS    86.24 ms (bond 8) err 1.8e-15
+data_reuploading_100q_d4_same_state_shared_cone_s303          133.05 ms width  0 tasks   1 | MPS   133.37 ms (bond 16) err 4.2e-13
+qcnn_like_local_32q_d4_same_state_local_outputs_s202            1.71 ms width  8 tasks  28 | MPS    54.85 ms (bond 8) err 2.4e-15
+hardware_efficient_local_48q_d4_same_state_local_outputs_s303      8.90 ms width 10 tasks  24 | MPS   111.16 ms (bond 32) err 7.7e-15
+data_reuploading_64q_d4_same_state_shared_cone_s303            82.93 ms width  0 tasks   1 | MPS    84.17 ms (bond 16) err 1.1e-12
+data_reuploading_64q_d4_same_state_local_outputs_s303         104.26 ms width  0 tasks   1 | MPS    96.95 ms (bond 16) err 2.3e-12
+qcnn_like_local_48q_d4_same_state_shared_cone_s202              0.20 ms width  8 tasks   1 | MPS    68.95 ms (bond 8) err 1.2e-16
+hardware_efficient_local_32q_d4_same_state_shared_cone_s202      0.24 ms width  6 tasks   1 | MPS    60.86 ms (bond 32) err 4.5e-15
+data_reuploading_48q_d4_same_state_shared_cone_s303            59.24 ms width  0 tasks   1 | MPS    58.39 ms (bond 16) err 4.9e-13
+data_reuploading_128q_d4_same_state_local_outputs_s303        227.32 ms width  0 tasks   1 | MPS   182.52 ms (bond 16) err 1.3e-11
+qcnn_like_local_64q_d4_same_state_shared_cone_s202              0.20 ms width  8 tasks   1 | MPS    88.42 ms (bond 8) err 2.2e-16
+data_reuploading_100q_d4_same_state_shared_cone_s202          118.10 ms width  0 tasks   1 | MPS   118.00 ms (bond 16) err 1.7e-12
+hardware_efficient_local_64q_d4_same_state_local_outputs_s303     12.25 ms width 10 tasks  32 | MPS   134.11 ms (bond 32) err 6.4e-15
+hardware_efficient_local_48q_d4_same_state_shared_cone_s303      0.27 ms width  6 tasks   1 | MPS    89.90 ms (bond 32) err 5.6e-16
+data_reuploading_48q_d4_same_state_shared_cone_s202            57.59 ms width  0 tasks   1 | MPS    57.21 ms (bond 16) err 9.5e-13
+hardware_efficient_local_48q_d4_same_state_local_outputs_s202      8.52 ms width 10 tasks  24 | MPS   100.45 ms (bond 32) err 4.9e-15
+hardware_efficient_local_100q_d4_same_state_local_outputs_s202     24.72 ms width 10 tasks  50 | MPS   210.34 ms (bond 32) err 8.3e-15
+data_reuploading_32q_d4_same_state_local_outputs_s303          47.36 ms width  0 tasks   1 | MPS    44.02 ms (bond 16) err 3.0e-13
+data_reuploading_48q_d4_same_state_local_outputs_s303          68.93 ms width  0 tasks   1 | MPS    66.77 ms (bond 16) err 1.7e-12
+hardware_efficient_local_64q_d4_same_state_local_outputs_s202     12.18 ms width 10 tasks  32 | MPS   130.20 ms (bond 32) err 8.1e-15
+data_reuploading_100q_d4_same_state_local_outputs_s303        167.74 ms width  0 tasks   1 | MPS   139.25 ms (bond 16) err 4.8e-12
+data_reuploading_128q_d4_same_state_shared_cone_s202          150.54 ms width  0 tasks   1 | MPS   151.32 ms (bond 16) err 1.7e-12
+data_reuploading_128q_d4_same_state_local_outputs_s202        225.16 ms width  0 tasks   1 | MPS   176.14 ms (bond 16) err 1.7e-11
+qcnn_like_local_128q_d4_same_state_shared_cone_s303             0.27 ms width  8 tasks   1 | MPS   180.19 ms (bond 8) err 1.8e-15
+data_reuploading_48q_d4_same_state_local_outputs_s202          72.43 ms width  0 tasks   1 | MPS    63.72 ms (bond 16) err 9.5e-13
+hardware_efficient_local_32q_d4_same_state_local_outputs_s202      4.59 ms width 10 tasks  16 | MPS    64.82 ms (bond 32) err 4.4e-15
+data_reuploading_32q_d4_same_state_shared_cone_s303            37.80 ms width  0 tasks   1 | MPS    38.08 ms (bond 16) err 3.3e-14
+qcnn_like_local_100q_d4_same_state_shared_cone_s303             0.24 ms width  8 tasks   1 | MPS   137.36 ms (bond 8) err 2.9e-16
+qcnn_like_local_48q_d4_same_state_local_outputs_s303            2.63 ms width  8 tasks  42 | MPS    74.86 ms (bond 8) err 1.7e-15
+hardware_efficient_local_48q_d8_same_state_local_outputs_s202   1408.92 ms width 18 tasks  24 | MPS  4628.42 ms (bond 512) err 8.1e-14
+hardware_efficient_local_128q_d4_same_state_shared_cone_s202      0.46 ms width  6 tasks   1 | MPS   234.09 ms (bond 32) err 2.2e-15
+qcnn_like_local_64q_d4_same_state_local_outputs_s202            3.92 ms width  8 tasks  56 | MPS   101.65 ms (bond 8) err 1.9e-15
+qcnn_like_local_64q_d4_same_state_local_outputs_s303            3.99 ms width  8 tasks  56 | MPS   101.43 ms (bond 8) err 1.7e-15
+hardware_efficient_local_48q_d6_same_state_local_outputs_s202     71.02 ms width 14 tasks  24 | MPS   261.31 ms (bond 128) err 3.3e-14
+hardware_efficient_local_48q_d6_same_state_local_outputs_s303     70.79 ms width 14 tasks  24 | MPS   260.66 ms (bond 128) err 2.8e-14
+qcnn_like_local_48q_d4_same_state_shared_cone_s303              0.18 ms width  8 tasks   1 | MPS    66.30 ms (bond 8) err 1.1e-15
+qcnn_like_local_100q_d4_same_state_local_outputs_s303           8.18 ms width  8 tasks  87 | MPS   155.92 ms (bond 8) err 2.2e-15
+hardware_efficient_local_32q_d4_same_state_shared_cone_s303      0.21 ms width  6 tasks   1 | MPS    59.27 ms (bond 32) err 7.8e-16
+data_reuploading_32q_d4_same_state_local_outputs_s202          47.32 ms width  0 tasks   1 | MPS    43.86 ms (bond 16) err 3.9e-13
+qcnn_like_local_128q_d4_same_state_local_outputs_s202          12.31 ms width  8 tasks 112 | MPS   206.93 ms (bond 8) err 2.1e-15
+qcnn_like_local_100q_d4_same_state_shared_cone_s202             0.25 ms width  8 tasks   1 | MPS   138.36 ms (bond 8) err 4.9e-16
+data_reuploading_64q_d4_same_state_shared_cone_s202            75.94 ms width  0 tasks   1 | MPS    75.10 ms (bond 16) err 4.6e-12
+hardware_efficient_local_100q_d4_same_state_shared_cone_s303      0.38 ms width  6 tasks   1 | MPS   188.93 ms (bond 32) err 1.1e-15
+qcnn_like_local_128q_d4_same_state_shared_cone_s202             0.28 ms width  8 tasks   1 | MPS   178.81 ms (bond 8) err 3.4e-15
+data_reuploading_32q_d4_same_state_shared_cone_s202            38.13 ms width  0 tasks   1 | MPS    37.45 ms (bond 16) err 3.9e-13
+hardware_efficient_local_128q_d4_same_state_shared_cone_s303      0.44 ms width  6 tasks   1 | MPS   241.44 ms (bond 32) err 5.3e-16
+qcnn_like_local_64q_d4_same_state_shared_cone_s303              0.22 ms width  8 tasks   1 | MPS    89.03 ms (bond 8) err 1.2e-15
+hardware_efficient_local_64q_d4_same_state_shared_cone_s303      0.29 ms width  6 tasks   1 | MPS   119.64 ms (bond 32) err 3.6e-16
+qcnn_like_local_100q_d4_same_state_local_outputs_s202           8.14 ms width  8 tasks  87 | MPS   154.76 ms (bond 8) err 1.9e-15
+hardware_efficient_local_128q_d4_same_state_local_outputs_s202     34.85 ms width 10 tasks  64 | MPS   270.82 ms (bond 32) err 9.8e-15
+hardware_efficient_local_128q_d4_same_state_local_outputs_s303     34.71 ms width 10 tasks  64 | MPS   268.93 ms (bond 32) err 8.8e-15
+hardware_efficient_local_64q_d4_same_state_shared_cone_s202      0.30 ms width  6 tasks   1 | MPS   119.76 ms (bond 32) err 1.6e-15
+hardware_efficient_local_32q_d4_same_state_local_outputs_s303      4.49 ms width 10 tasks  16 | MPS    68.04 ms (bond 32) err 7.0e-15
+data_reuploading_64q_d4_same_state_local_outputs_s202          99.10 ms width  0 tasks   1 | MPS    88.19 ms (bond 16) err 4.6e-12
+hardware_efficient_local_48q_d8_same_state_local_outputs_s303   1402.72 ms width 18 tasks  24 | MPS  4621.65 ms (bond 512) err 8.3e-14
+hardware_efficient_local_48q_d4_same_state_shared_cone_s202      0.26 ms width  6 tasks   1 | MPS    87.62 ms (bond 32) err 1.9e-15
+hardware_efficient_local_100q_d4_same_state_local_outputs_s303     23.73 ms width 10 tasks  50 | MPS   210.57 ms (bond 32) err 1.1e-14
+hardware_efficient_local_100q_d4_same_state_shared_cone_s202      0.39 ms width  6 tasks   1 | MPS   189.56 ms (bond 32) err 2.8e-15
+data_reuploading_100q_d4_same_state_local_outputs_s202        166.69 ms width  0 tasks   1 | MPS   138.16 ms (bond 16) err 8.1e-12
+qcnn_like_local_128q_d4_same_state_local_outputs_s303          12.22 ms width  8 tasks 112 | MPS   203.06 ms (bond 8) err 2.3e-15
+data_reuploading_128q_d4_same_state_shared_cone_s303          151.69 ms width  0 tasks   1 | MPS   153.07 ms (bond 16) err 3.4e-13
+cases 64 rows 300 mps_rows 192 extra_rows 20 failures 0
+2026-11-03T23:39:35Z start lightcone_ablation
+Installed 30 packages in 19ms
+hardware_efficient_local_12q_d4_Z_all_s202           {'lazyqc': 1.104643, 'lightcone_separate_aer': 27.874383, 'lightcone_dedup_aer': 29.255576}
+hardware_efficient_local_12q_d4_Z_all_s303           {'lazyqc': 1.105779, 'lightcone_dedup_aer': 29.533445, 'lightcone_separate_aer': 29.925196}
+hardware_efficient_local_16q_d4_Z_all_s202           {'lazyqc': 1.775145, 'lightcone_dedup_aer': 43.197606, 'lightcone_separate_aer': 42.794105}
+hardware_efficient_local_16q_d4_Z_all_s303           {'lazyqc': 1.73919, 'lightcone_dedup_aer': 43.72176, 'lightcone_separate_aer': 43.065786}
+hardware_efficient_local_20q_d4_Z_all_s202           {'lazyqc': 2.522165, 'lightcone_separate_aer': 56.510655, 'lightcone_dedup_aer': 58.210794}
+hardware_efficient_local_20q_d4_Z_all_s303           {'lazyqc': 2.589482, 'lightcone_dedup_aer': 57.306945, 'lightcone_separate_aer': 56.2102}
+hardware_efficient_local_24q_d4_Z_all_s202           {'lightcone_dedup_aer': 69.576852, 'lazyqc': 3.043436, 'lightcone_separate_aer': 69.175248}
+hardware_efficient_local_24q_d4_Z_all_s303           {'lightcone_separate_aer': 69.263844, 'lightcone_dedup_aer': 68.596748, 'lazyqc': 3.044458}
+hardware_efficient_local_28q_d4_Z_all_s202           {'lazyqc': 3.912701, 'lightcone_separate_aer': 83.852472, 'lightcone_dedup_aer': 83.792978}
+hardware_efficient_local_28q_d4_Z_all_s303           {'lightcone_dedup_aer': 83.240091, 'lightcone_separate_aer': 83.987243, 'lazyqc': 3.78632}
+hardware_efficient_local_32q_d4_Z_all_s202           {'lazyqc': 4.52601, 'lightcone_separate_aer': 98.943283, 'lightcone_dedup_aer': 98.960536}
+hardware_efficient_local_32q_d4_Z_all_s303           {'lightcone_separate_aer': 99.558197, 'lazyqc': 4.624853, 'lightcone_dedup_aer': 97.890358}
+hardware_efficient_local_64q_d4_Z_all_s202           {'lightcone_separate_aer': 246.050944, 'lazyqc': 12.164676, 'lightcone_dedup_aer': 242.903129}
+hardware_efficient_local_64q_d4_Z_all_s303           {'lightcone_dedup_aer': 246.649805, 'lazyqc': 12.330856, 'lightcone_separate_aer': 249.656633}
+hardware_efficient_local_128q_d4_Z_all_s202          {'lightcone_separate_aer': 784.703142, 'lightcone_dedup_aer': 782.861077, 'lazyqc': 34.97703}
+hardware_efficient_local_128q_d4_Z_all_s303          {'lightcone_dedup_aer': 780.870219, 'lightcone_separate_aer': 788.698882, 'lazyqc': 34.870565}
+cases 16 rows 144 failures 0
+2026-11-03T23:40:01Z start lightcone_jacobian_ablation
+hardware_efficient_local_12q_d4_jacobian_s202        {'lightcone_dedup_aer': {'tasks': 504, 'best_ms': 2310.710598}, 'lazyqc': {'tasks': 290, 'best_ms': 50.764495}, 'lightcone_separate_aer': {'tasks': 1164, 'best_ms': 2924.782198}}
+hardware_efficient_local_12q_d4_jacobian_s303        {'lightcone_separate_aer': {'tasks': 1164, 'best_ms': 2938.646873}, 'lightcone_dedup_aer': {'tasks': 504, 'best_ms': 2336.763411}, 'lazyqc': {'tasks': 290, 'best_ms': 52.188843}}
+hardware_efficient_local_20q_d4_jacobian_s202        {'lightcone_dedup_aer': {'tasks': 896, 'best_ms': 6921.735066}, 'lightcone_separate_aer': {'tasks': 3220, 'best_ms': 9507.783}, 'lazyqc': {'tasks': 518, 'best_ms': 125.942596}}
+hardware_efficient_local_20q_d4_jacobian_s303        {'lightcone_separate_aer': {'tasks': 3220, 'best_ms': 9457.518817}, 'lazyqc': {'tasks': 518, 'best_ms': 128.060984}, 'lightcone_dedup_aer': {'tasks': 896, 'best_ms': 7003.065567}}
+cases 4 rows 30 failures 0
+2026-11-03T23:42:24Z laptop run complete

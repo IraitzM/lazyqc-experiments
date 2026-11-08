@@ -1,0 +1,8708 @@
+{
+  "seed": 4401,
+  "widths": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8
+  ],
+  "repeats": 5,
+  "extra_mix": false,
+  "tasks": [
+    {
+      "wires": [
+        0
+      ],
+      "operations": [],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                0,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                0,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                0,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 1
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                0,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                0,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 1
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                0,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1
+      ],
+      "operations": [],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                0,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                1,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                0,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                1,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2
+      ],
+      "operations": [],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                2,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                2,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        },
+        {
+          "qubits": [
+            2
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "operations": [],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                2,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                3,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                2,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                3,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        },
+        {
+          "qubits": [
+            2
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "operations": [],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                2,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                3,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                2,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                3,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        },
+        {
+          "qubits": [
+            2
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "operations": [],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                2,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                3,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ],
+        [
+          2,
+          {
+            "factors": [
+              [
+                2,
+                "Z"
+              ]
+            ]
+          }
+        ],
+        [
+          3,
+          {
+            "factors": [
+              [
+                3,
+                "X"
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "wires": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "operations": [
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.29
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.39
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.49
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.5900000000000001
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.69
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            0
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            1
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            2
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            3
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            4
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            5
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            6
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "RY",
+          "qubits": [
+            7
+          ],
+          "angle": 0.79
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            0,
+            1
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            1,
+            2
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            2,
+            3
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            3,
+            4
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            4,
+            5
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            5,
+            6
+          ],
+          "angle": null
+        },
+        {
+          "name": "CX",
+          "qubits": [
+            6,
+            7
+          ],
+          "angle": null
+        },
+        {
+          "qubits": [
+            0
+          ],
+          "outcome": 0
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "outcome": 1
+        },
+        {
+          "qubits": [
+            2
+          ],
+          "outcome": 0
+        }
+      ],
+      "outputs": [
+        [
+          0,
+          {
+            "factors": [
+              [
+                0,
+                "X"
+              ]
+            ]
+          }
+        ],
+        [
+          1,
+          {
+            "factors": [
+              [
+                1,
+                "Y"
+              ]
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "first_calls": [
+    [
+      2652923,
+      31879,
+      4650
+    ],
+    [
+      48851,
+      12662,
+      7377
+    ],
+    [
+      22572,
+      8736,
+      3520
+    ],
+    [
+      134677,
+      9168,
+      2618
+    ],
+    [
+      35875,
+      14727,
+      5652
+    ],
+    [
+      24177,
+      8355,
+      3177
+    ],
+    [
+      8594,
+      7541,
+      1690
+    ],
+    [
+      34161,
+      12060,
+      6171
+    ],
+    [
+      27680,
+      11060,
+      3280
+    ],
+    [
+      12636,
+      6700,
+      1541
+    ],
+    [
+      31454,
+      9425,
+      5654
+    ],
+    [
+      28610,
+      10849,
+      3250
+    ],
+    [
+      7936,
+      5896,
+      1468
+    ],
+    [
+      27198,
+      8397,
+      5083
+    ],
+    [
+      31706,
+      14050,
+      3128
+    ],
+    [
+      12926,
+      7357,
+      1520
+    ],
+    [
+      33557,
+      11305,
+      5616
+    ],
+    [
+      36250,
+      12852,
+      2670
+    ],
+    [
+      8413,
+      5589,
+      1599
+    ],
+    [
+      30220,
+      9287,
+      5811
+    ],
+    [
+      38712,
+      15101,
+      2635
+    ],
+    [
+      14048,
+      7464,
+      2060
+    ],
+    [
+      37537,
+      10809,
+      5219
+    ],
+    [
+      48491,
+      17543,
+      3119
+    ],
+    [
+      8300,
+      6234,
+      2338
+    ],
+    [
+      38173,
+      15886,
+      7918
+    ],
+    [
+      66283,
+      28226,
+      5790
+    ],
+    [
+      21377,
+      10568,
+      2052
+    ],
+    [
+      51224,
+      18264,
+      8647
+    ],
+    [
+      64869,
+      32856,
+      5017
+    ],
+    [
+      10812,
+      7058,
+      2570
+    ],
+    [
+      45806,
+      25331,
+      9579
+    ],
+    [
+      74785,
+      59571,
+      4904
+    ],
+    [
+      21564,
+      15552,
+      2384
+    ],
+    [
+      54587,
+      30000,
+      8929
+    ],
+    [
+      70466,
+      69166,
+      4672
+    ]
+  ],
+  "runs": [
+    {
+      "task": 34,
+      "repetition": 0,
+      "lowering_ns": 56969,
+      "evolution_ns": 31516,
+      "expectation_ns": 11782
+    },
+    {
+      "task": 27,
+      "repetition": 0,
+      "lowering_ns": 19896,
+      "evolution_ns": 10943,
+      "expectation_ns": 2242
+    },
+    {
+      "task": 20,
+      "repetition": 0,
+      "lowering_ns": 47657,
+      "evolution_ns": 18899,
+      "expectation_ns": 3497
+    },
+    {
+      "task": 18,
+      "repetition": 0,
+      "lowering_ns": 13465,
+      "evolution_ns": 6520,
+      "expectation_ns": 1725
+    },
+    {
+      "task": 31,
+      "repetition": 0,
+      "lowering_ns": 46836,
+      "evolution_ns": 24921,
+      "expectation_ns": 9518
+    },
+    {
+      "task": 16,
+      "repetition": 0,
+      "lowering_ns": 39913,
+      "evolution_ns": 10970,
+      "expectation_ns": 8374
+    },
+    {
+      "task": 21,
+      "repetition": 0,
+      "lowering_ns": 15616,
+      "evolution_ns": 8727,
+      "expectation_ns": 1847
+    },
+    {
+      "task": 33,
+      "repetition": 0,
+      "lowering_ns": 21288,
+      "evolution_ns": 16754,
+      "expectation_ns": 3112
+    },
+    {
+      "task": 32,
+      "repetition": 0,
+      "lowering_ns": 70682,
+      "evolution_ns": 52343,
+      "expectation_ns": 4756
+    },
+    {
+      "task": 26,
+      "repetition": 0,
+      "lowering_ns": 58960,
+      "evolution_ns": 24534,
+      "expectation_ns": 6062
+    },
+    {
+      "task": 12,
+      "repetition": 0,
+      "lowering_ns": 8220,
+      "evolution_ns": 4957,
+      "expectation_ns": 1388
+    },
+    {
+      "task": 8,
+      "repetition": 0,
+      "lowering_ns": 20674,
+      "evolution_ns": 8908,
+      "expectation_ns": 2727
+    },
+    {
+      "task": 35,
+      "repetition": 0,
+      "lowering_ns": 61966,
+      "evolution_ns": 44083,
+      "expectation_ns": 3653
+    },
+    {
+      "task": 22,
+      "repetition": 0,
+      "lowering_ns": 28170,
+      "evolution_ns": 8900,
+      "expectation_ns": 4633
+    },
+    {
+      "task": 14,
+      "repetition": 0,
+      "lowering_ns": 26096,
+      "evolution_ns": 11072,
+      "expectation_ns": 2639
+    },
+    {
+      "task": 1,
+      "repetition": 0,
+      "lowering_ns": 18569,
+      "evolution_ns": 4974,
+      "expectation_ns": 4387
+    },
+    {
+      "task": 29,
+      "repetition": 0,
+      "lowering_ns": 48918,
+      "evolution_ns": 21416,
+      "expectation_ns": 2611
+    },
+    {
+      "task": 15,
+      "repetition": 0,
+      "lowering_ns": 9531,
+      "evolution_ns": 5937,
+      "expectation_ns": 2721
+    },
+    {
+      "task": 0,
+      "repetition": 0,
+      "lowering_ns": 6266,
+      "evolution_ns": 4815,
+      "expectation_ns": 1315
+    },
+    {
+      "task": 4,
+      "repetition": 0,
+      "lowering_ns": 22201,
+      "evolution_ns": 5919,
+      "expectation_ns": 4702
+    },
+    {
+      "task": 28,
+      "repetition": 0,
+      "lowering_ns": 46776,
+      "evolution_ns": 16002,
+      "expectation_ns": 5779
+    },
+    {
+      "task": 13,
+      "repetition": 0,
+      "lowering_ns": 26834,
+      "evolution_ns": 10740,
+      "expectation_ns": 4547
+    },
+    {
+      "task": 11,
+      "repetition": 0,
+      "lowering_ns": 25351,
+      "evolution_ns": 9352,
+      "expectation_ns": 2594
+    },
+    {
+      "task": 3,
+      "repetition": 0,
+      "lowering_ns": 9770,
+      "evolution_ns": 5040,
+      "expectation_ns": 1231
+    },
+    {
+      "task": 24,
+      "repetition": 0,
+      "lowering_ns": 5750,
+      "evolution_ns": 4780,
+      "expectation_ns": 1271
+    },
+    {
+      "task": 23,
+      "repetition": 0,
+      "lowering_ns": 35206,
+      "evolution_ns": 13400,
+      "expectation_ns": 6385
+    },
+    {
+      "task": 17,
+      "repetition": 0,
+      "lowering_ns": 25309,
+      "evolution_ns": 9875,
+      "expectation_ns": 1899
+    },
+    {
+      "task": 7,
+      "repetition": 0,
+      "lowering_ns": 19536,
+      "evolution_ns": 6298,
+      "expectation_ns": 4350
+    },
+    {
+      "task": 2,
+      "repetition": 0,
+      "lowering_ns": 12912,
+      "evolution_ns": 5683,
+      "expectation_ns": 2201
+    },
+    {
+      "task": 10,
+      "repetition": 0,
+      "lowering_ns": 23106,
+      "evolution_ns": 6352,
+      "expectation_ns": 3709
+    },
+    {
+      "task": 6,
+      "repetition": 0,
+      "lowering_ns": 5889,
+      "evolution_ns": 4375,
+      "expectation_ns": 1252
+    },
+    {
+      "task": 25,
+      "repetition": 0,
+      "lowering_ns": 27817,
+      "evolution_ns": 9902,
+      "expectation_ns": 4502
+    },
+    {
+      "task": 19,
+      "repetition": 0,
+      "lowering_ns": 23111,
+      "evolution_ns": 7298,
+      "expectation_ns": 3953
+    },
+    {
+      "task": 5,
+      "repetition": 0,
+      "lowering_ns": 21270,
+      "evolution_ns": 6741,
+      "expectation_ns": 2356
+    },
+    {
+      "task": 9,
+      "repetition": 0,
+      "lowering_ns": 11180,
+      "evolution_ns": 5915,
+      "expectation_ns": 1308
+    },
+    {
+      "task": 30,
+      "repetition": 0,
+      "lowering_ns": 8406,
+      "evolution_ns": 11700,
+      "expectation_ns": 1979
+    },
+    {
+      "task": 2,
+      "repetition": 1,
+      "lowering_ns": 14372,
+      "evolution_ns": 6293,
+      "expectation_ns": 2488
+    },
+    {
+      "task": 25,
+      "repetition": 1,
+      "lowering_ns": 31709,
+      "evolution_ns": 10985,
+      "expectation_ns": 5360
+    },
+    {
+      "task": 27,
+      "repetition": 1,
+      "lowering_ns": 14831,
+      "evolution_ns": 8636,
+      "expectation_ns": 1371
+    },
+    {
+      "task": 9,
+      "repetition": 1,
+      "lowering_ns": 10303,
+      "evolution_ns": 6087,
+      "expectation_ns": 1323
+    },
+    {
+      "task": 4,
+      "repetition": 1,
+      "lowering_ns": 23523,
+      "evolution_ns": 6661,
+      "expectation_ns": 5009
+    },
+    {
+      "task": 34,
+      "repetition": 1,
+      "lowering_ns": 50811,
+      "evolution_ns": 28907,
+      "expectation_ns": 7857
+    },
+    {
+      "task": 1,
+      "repetition": 1,
+      "lowering_ns": 23049,
+      "evolution_ns": 4926,
+      "expectation_ns": 3663
+    },
+    {
+      "task": 18,
+      "repetition": 1,
+      "lowering_ns": 7561,
+      "evolution_ns": 4178,
+      "expectation_ns": 1265
+    },
+    {
+      "task": 19,
+      "repetition": 1,
+      "lowering_ns": 23386,
+      "evolution_ns": 7247,
+      "expectation_ns": 4193
+    },
+    {
+      "task": 20,
+      "repetition": 1,
+      "lowering_ns": 29877,
+      "evolution_ns": 12421,
+      "expectation_ns": 2410
+    },
+    {
+      "task": 17,
+      "repetition": 1,
+      "lowering_ns": 27980,
+      "evolution_ns": 18384,
+      "expectation_ns": 2315
+    },
+    {
+      "task": 33,
+      "repetition": 1,
+      "lowering_ns": 17116,
+      "evolution_ns": 12849,
+      "expectation_ns": 4011
+    },
+    {
+      "task": 15,
+      "repetition": 1,
+      "lowering_ns": 11385,
+      "evolution_ns": 6318,
+      "expectation_ns": 1212
+    },
+    {
+      "task": 8,
+      "repetition": 1,
+      "lowering_ns": 21373,
+      "evolution_ns": 8636,
+      "expectation_ns": 2639
+    },
+    {
+      "task": 11,
+      "repetition": 1,
+      "lowering_ns": 27221,
+      "evolution_ns": 9119,
+      "expectation_ns": 2381
+    },
+    {
+      "task": 16,
+      "repetition": 1,
+      "lowering_ns": 31478,
+      "evolution_ns": 9274,
+      "expectation_ns": 5478
+    },
+    {
+      "task": 0,
+      "repetition": 1,
+      "lowering_ns": 6938,
+      "evolution_ns": 7411,
+      "expectation_ns": 1201
+    },
+    {
+      "task": 6,
+      "repetition": 1,
+      "lowering_ns": 6218,
+      "evolution_ns": 4592,
+      "expectation_ns": 1277
+    },
+    {
+      "task": 22,
+      "repetition": 1,
+      "lowering_ns": 35581,
+      "evolution_ns": 8270,
+      "expectation_ns": 4087
+    },
+    {
+      "task": 3,
+      "repetition": 1,
+      "lowering_ns": 6862,
+      "evolution_ns": 4252,
+      "expectation_ns": 1050
+    },
+    {
+      "task": 5,
+      "repetition": 1,
+      "lowering_ns": 15356,
+      "evolution_ns": 5687,
+      "expectation_ns": 1890
+    },
+    {
+      "task": 26,
+      "repetition": 1,
+      "lowering_ns": 40398,
+      "evolution_ns": 19323,
+      "expectation_ns": 2599
+    },
+    {
+      "task": 12,
+      "repetition": 1,
+      "lowering_ns": 7139,
+      "evolution_ns": 5030,
+      "expectation_ns": 1180
+    },
+    {
+      "task": 21,
+      "repetition": 1,
+      "lowering_ns": 10126,
+      "evolution_ns": 6280,
+      "expectation_ns": 1188
+    },
+    {
+      "task": 14,
+      "repetition": 1,
+      "lowering_ns": 24525,
+      "evolution_ns": 9868,
+      "expectation_ns": 2845
+    },
+    {
+      "task": 28,
+      "repetition": 1,
+      "lowering_ns": 35489,
+      "evolution_ns": 12741,
+      "expectation_ns": 4673
+    },
+    {
+      "task": 35,
+      "repetition": 1,
+      "lowering_ns": 51733,
+      "evolution_ns": 38674,
+      "expectation_ns": 3210
+    },
+    {
+      "task": 31,
+      "repetition": 1,
+      "lowering_ns": 31839,
+      "evolution_ns": 18861,
+      "expectation_ns": 6900
+    },
+    {
+      "task": 24,
+      "repetition": 1,
+      "lowering_ns": 6133,
+      "evolution_ns": 5189,
+      "expectation_ns": 1501
+    },
+    {
+      "task": 32,
+      "repetition": 1,
+      "lowering_ns": 57994,
+      "evolution_ns": 43959,
+      "expectation_ns": 3578
+    },
+    {
+      "task": 29,
+      "repetition": 1,
+      "lowering_ns": 48925,
+      "evolution_ns": 25910,
+      "expectation_ns": 2381
+    },
+    {
+      "task": 23,
+      "repetition": 1,
+      "lowering_ns": 32654,
+      "evolution_ns": 16186,
+      "expectation_ns": 2455
+    },
+    {
+      "task": 13,
+      "repetition": 1,
+      "lowering_ns": 25678,
+      "evolution_ns": 7744,
+      "expectation_ns": 13826
+    },
+    {
+      "task": 7,
+      "repetition": 1,
+      "lowering_ns": 25057,
+      "evolution_ns": 8214,
+      "expectation_ns": 5973
+    },
+    {
+      "task": 30,
+      "repetition": 1,
+      "lowering_ns": 8032,
+      "evolution_ns": 6538,
+      "expectation_ns": 2589
+    },
+    {
+      "task": 10,
+      "repetition": 1,
+      "lowering_ns": 30955,
+      "evolution_ns": 9461,
+      "expectation_ns": 5590
+    },
+    {
+      "task": 17,
+      "repetition": 2,
+      "lowering_ns": 42273,
+      "evolution_ns": 13488,
+      "expectation_ns": 2768
+    },
+    {
+      "task": 4,
+      "repetition": 2,
+      "lowering_ns": 29129,
+      "evolution_ns": 7342,
+      "expectation_ns": 5406
+    },
+    {
+      "task": 7,
+      "repetition": 2,
+      "lowering_ns": 26847,
+      "evolution_ns": 7533,
+      "expectation_ns": 5307
+    },
+    {
+      "task": 18,
+      "repetition": 2,
+      "lowering_ns": 7062,
+      "evolution_ns": 5532,
+      "expectation_ns": 1571
+    },
+    {
+      "task": 0,
+      "repetition": 2,
+      "lowering_ns": 6633,
+      "evolution_ns": 5165,
+      "expectation_ns": 1366
+    },
+    {
+      "task": 13,
+      "repetition": 2,
+      "lowering_ns": 28112,
+      "evolution_ns": 8370,
+      "expectation_ns": 4944
+    },
+    {
+      "task": 19,
+      "repetition": 2,
+      "lowering_ns": 29352,
+      "evolution_ns": 9807,
+      "expectation_ns": 5426
+    },
+    {
+      "task": 30,
+      "repetition": 2,
+      "lowering_ns": 7102,
+      "evolution_ns": 5924,
+      "expectation_ns": 2192
+    },
+    {
+      "task": 8,
+      "repetition": 2,
+      "lowering_ns": 23593,
+      "evolution_ns": 9094,
+      "expectation_ns": 2426
+    },
+    {
+      "task": 20,
+      "repetition": 2,
+      "lowering_ns": 37942,
+      "evolution_ns": 14074,
+      "expectation_ns": 2532
+    },
+    {
+      "task": 9,
+      "repetition": 2,
+      "lowering_ns": 11501,
+      "evolution_ns": 5824,
+      "expectation_ns": 1304
+    },
+    {
+      "task": 1,
+      "repetition": 2,
+      "lowering_ns": 21008,
+      "evolution_ns": 5627,
+      "expectation_ns": 4706
+    },
+    {
+      "task": 12,
+      "repetition": 2,
+      "lowering_ns": 7477,
+      "evolution_ns": 6494,
+      "expectation_ns": 1472
+    },
+    {
+      "task": 21,
+      "repetition": 2,
+      "lowering_ns": 12653,
+      "evolution_ns": 6770,
+      "expectation_ns": 1307
+    },
+    {
+      "task": 31,
+      "repetition": 2,
+      "lowering_ns": 40907,
+      "evolution_ns": 21228,
+      "expectation_ns": 8485
+    },
+    {
+      "task": 32,
+      "repetition": 2,
+      "lowering_ns": 84894,
+      "evolution_ns": 49275,
+      "expectation_ns": 4750
+    },
+    {
+      "task": 34,
+      "repetition": 2,
+      "lowering_ns": 57610,
+      "evolution_ns": 32495,
+      "expectation_ns": 7789
+    },
+    {
+      "task": 14,
+      "repetition": 2,
+      "lowering_ns": 28308,
+      "evolution_ns": 15237,
+      "expectation_ns": 2934
+    },
+    {
+      "task": 2,
+      "repetition": 2,
+      "lowering_ns": 17403,
+      "evolution_ns": 7594,
+      "expectation_ns": 2954
+    },
+    {
+      "task": 23,
+      "repetition": 2,
+      "lowering_ns": 53255,
+      "evolution_ns": 21965,
+      "expectation_ns": 3047
+    },
+    {
+      "task": 6,
+      "repetition": 2,
+      "lowering_ns": 9135,
+      "evolution_ns": 5462,
+      "expectation_ns": 1409
+    },
+    {
+      "task": 27,
+      "repetition": 2,
+      "lowering_ns": 17047,
+      "evolution_ns": 11097,
+      "expectation_ns": 1897
+    },
+    {
+      "task": 11,
+      "repetition": 2,
+      "lowering_ns": 27739,
+      "evolution_ns": 12496,
+      "expectation_ns": 2999
+    },
+    {
+      "task": 16,
+      "repetition": 2,
+      "lowering_ns": 36994,
+      "evolution_ns": 11160,
+      "expectation_ns": 6251
+    },
+    {
+      "task": 25,
+      "repetition": 2,
+      "lowering_ns": 35245,
+      "evolution_ns": 12212,
+      "expectation_ns": 5828
+    },
+    {
+      "task": 10,
+      "repetition": 2,
+      "lowering_ns": 29665,
+      "evolution_ns": 8354,
+      "expectation_ns": 4944
+    },
+    {
+      "task": 26,
+      "repetition": 2,
+      "lowering_ns": 61158,
+      "evolution_ns": 25609,
+      "expectation_ns": 3505
+    },
+    {
+      "task": 24,
+      "repetition": 2,
+      "lowering_ns": 7496,
+      "evolution_ns": 5991,
+      "expectation_ns": 1937
+    },
+    {
+      "task": 15,
+      "repetition": 2,
+      "lowering_ns": 13686,
+      "evolution_ns": 7494,
+      "expectation_ns": 1540
+    },
+    {
+      "task": 29,
+      "repetition": 2,
+      "lowering_ns": 61703,
+      "evolution_ns": 27326,
+      "expectation_ns": 3991
+    },
+    {
+      "task": 33,
+      "repetition": 2,
+      "lowering_ns": 21188,
+      "evolution_ns": 15382,
+      "expectation_ns": 2339
+    },
+    {
+      "task": 35,
+      "repetition": 2,
+      "lowering_ns": 78618,
+      "evolution_ns": 52881,
+      "expectation_ns": 4255
+    },
+    {
+      "task": 3,
+      "repetition": 2,
+      "lowering_ns": 11411,
+      "evolution_ns": 5918,
+      "expectation_ns": 1410
+    },
+    {
+      "task": 28,
+      "repetition": 2,
+      "lowering_ns": 42086,
+      "evolution_ns": 19787,
+      "expectation_ns": 6805
+    },
+    {
+      "task": 5,
+      "repetition": 2,
+      "lowering_ns": 24425,
+      "evolution_ns": 9037,
+      "expectation_ns": 3085
+    },
+    {
+      "task": 22,
+      "repetition": 2,
+      "lowering_ns": 46407,
+      "evolution_ns": 13949,
+      "expectation_ns": 8607
+    },
+    {
+      "task": 2,
+      "repetition": 3,
+      "lowering_ns": 21439,
+      "evolution_ns": 9442,
+      "expectation_ns": 3485
+    },
+    {
+      "task": 10,
+      "repetition": 3,
+      "lowering_ns": 37589,
+      "evolution_ns": 10458,
+      "expectation_ns": 6702
+    },
+    {
+      "task": 3,
+      "repetition": 3,
+      "lowering_ns": 11161,
+      "evolution_ns": 8098,
+      "expectation_ns": 1655
+    },
+    {
+      "task": 30,
+      "repetition": 3,
+      "lowering_ns": 9272,
+      "evolution_ns": 7862,
+      "expectation_ns": 2755
+    },
+    {
+      "task": 14,
+      "repetition": 3,
+      "lowering_ns": 41376,
+      "evolution_ns": 16051,
+      "expectation_ns": 3565
+    },
+    {
+      "task": 19,
+      "repetition": 3,
+      "lowering_ns": 37900,
+      "evolution_ns": 11437,
+      "expectation_ns": 7210
+    },
+    {
+      "task": 34,
+      "repetition": 3,
+      "lowering_ns": 64380,
+      "evolution_ns": 37314,
+      "expectation_ns": 12013
+    },
+    {
+      "task": 0,
+      "repetition": 3,
+      "lowering_ns": 8197,
+      "evolution_ns": 6621,
+      "expectation_ns": 1641
+    },
+    {
+      "task": 8,
+      "repetition": 3,
+      "lowering_ns": 27079,
+      "evolution_ns": 11403,
+      "expectation_ns": 3264
+    },
+    {
+      "task": 32,
+      "repetition": 3,
+      "lowering_ns": 77194,
+      "evolution_ns": 57021,
+      "expectation_ns": 4983
+    },
+    {
+      "task": 25,
+      "repetition": 3,
+      "lowering_ns": 41776,
+      "evolution_ns": 15969,
+      "expectation_ns": 7405
+    },
+    {
+      "task": 20,
+      "repetition": 3,
+      "lowering_ns": 44225,
+      "evolution_ns": 18490,
+      "expectation_ns": 3360
+    },
+    {
+      "task": 11,
+      "repetition": 3,
+      "lowering_ns": 33853,
+      "evolution_ns": 11585,
+      "expectation_ns": 2892
+    },
+    {
+      "task": 35,
+      "repetition": 3,
+      "lowering_ns": 89735,
+      "evolution_ns": 56932,
+      "expectation_ns": 4888
+    },
+    {
+      "task": 29,
+      "repetition": 3,
+      "lowering_ns": 61200,
+      "evolution_ns": 28219,
+      "expectation_ns": 4147
+    },
+    {
+      "task": 23,
+      "repetition": 3,
+      "lowering_ns": 48462,
+      "evolution_ns": 17887,
+      "expectation_ns": 3129
+    },
+    {
+      "task": 31,
+      "repetition": 3,
+      "lowering_ns": 45290,
+      "evolution_ns": 24651,
+      "expectation_ns": 9493
+    },
+    {
+      "task": 1,
+      "repetition": 3,
+      "lowering_ns": 25084,
+      "evolution_ns": 6496,
+      "expectation_ns": 5338
+    },
+    {
+      "task": 27,
+      "repetition": 3,
+      "lowering_ns": 20107,
+      "evolution_ns": 9769,
+      "expectation_ns": 1656
+    },
+    {
+      "task": 7,
+      "repetition": 3,
+      "lowering_ns": 25574,
+      "evolution_ns": 7402,
+      "expectation_ns": 5295
+    },
+    {
+      "task": 33,
+      "repetition": 3,
+      "lowering_ns": 20428,
+      "evolution_ns": 16591,
+      "expectation_ns": 2096
+    },
+    {
+      "task": 18,
+      "repetition": 3,
+      "lowering_ns": 6828,
+      "evolution_ns": 5372,
+      "expectation_ns": 1528
+    },
+    {
+      "task": 4,
+      "repetition": 3,
+      "lowering_ns": 26891,
+      "evolution_ns": 7202,
+      "expectation_ns": 5216
+    },
+    {
+      "task": 12,
+      "repetition": 3,
+      "lowering_ns": 7467,
+      "evolution_ns": 5307,
+      "expectation_ns": 1504
+    },
+    {
+      "task": 17,
+      "repetition": 3,
+      "lowering_ns": 36502,
+      "evolution_ns": 13508,
+      "expectation_ns": 2689
+    },
+    {
+      "task": 9,
+      "repetition": 3,
+      "lowering_ns": 11502,
+      "evolution_ns": 6213,
+      "expectation_ns": 1371
+    },
+    {
+      "task": 24,
+      "repetition": 3,
+      "lowering_ns": 6816,
+      "evolution_ns": 5593,
+      "expectation_ns": 1625
+    },
+    {
+      "task": 13,
+      "repetition": 3,
+      "lowering_ns": 27983,
+      "evolution_ns": 8060,
+      "expectation_ns": 4930
+    },
+    {
+      "task": 26,
+      "repetition": 3,
+      "lowering_ns": 56860,
+      "evolution_ns": 25062,
+      "expectation_ns": 3321
+    },
+    {
+      "task": 16,
+      "repetition": 3,
+      "lowering_ns": 36954,
+      "evolution_ns": 8524,
+      "expectation_ns": 4521
+    },
+    {
+      "task": 28,
+      "repetition": 3,
+      "lowering_ns": 40453,
+      "evolution_ns": 13350,
+      "expectation_ns": 4922
+    },
+    {
+      "task": 6,
+      "repetition": 3,
+      "lowering_ns": 6159,
+      "evolution_ns": 4588,
+      "expectation_ns": 1267
+    },
+    {
+      "task": 5,
+      "repetition": 3,
+      "lowering_ns": 16950,
+      "evolution_ns": 6569,
+      "expectation_ns": 2271
+    },
+    {
+      "task": 22,
+      "repetition": 3,
+      "lowering_ns": 36209,
+      "evolution_ns": 9592,
+      "expectation_ns": 4326
+    },
+    {
+      "task": 21,
+      "repetition": 3,
+      "lowering_ns": 11544,
+      "evolution_ns": 6662,
+      "expectation_ns": 1377
+    },
+    {
+      "task": 15,
+      "repetition": 3,
+      "lowering_ns": 10407,
+      "evolution_ns": 5982,
+      "expectation_ns": 1269
+    },
+    {
+      "task": 33,
+      "repetition": 4,
+      "lowering_ns": 22073,
+      "evolution_ns": 16336,
+      "expectation_ns": 2557
+    },
+    {
+      "task": 27,
+      "repetition": 4,
+      "lowering_ns": 18535,
+      "evolution_ns": 10288,
+      "expectation_ns": 1878
+    },
+    {
+      "task": 34,
+      "repetition": 4,
+      "lowering_ns": 61343,
+      "evolution_ns": 34617,
+      "expectation_ns": 10394
+    },
+    {
+      "task": 14,
+      "repetition": 4,
+      "lowering_ns": 38195,
+      "evolution_ns": 14777,
+      "expectation_ns": 3241
+    },
+    {
+      "task": 31,
+      "repetition": 4,
+      "lowering_ns": 48166,
+      "evolution_ns": 23974,
+      "expectation_ns": 9292
+    },
+    {
+      "task": 20,
+      "repetition": 4,
+      "lowering_ns": 37979,
+      "evolution_ns": 13742,
+      "expectation_ns": 2641
+    },
+    {
+      "task": 2,
+      "repetition": 4,
+      "lowering_ns": 15548,
+      "evolution_ns": 6628,
+      "expectation_ns": 2491
+    },
+    {
+      "task": 18,
+      "repetition": 4,
+      "lowering_ns": 5977,
+      "evolution_ns": 4806,
+      "expectation_ns": 1411
+    },
+    {
+      "task": 25,
+      "repetition": 4,
+      "lowering_ns": 30969,
+      "evolution_ns": 10739,
+      "expectation_ns": 5119
+    },
+    {
+      "task": 12,
+      "repetition": 4,
+      "lowering_ns": 6529,
+      "evolution_ns": 4801,
+      "expectation_ns": 1177
+    },
+    {
+      "task": 16,
+      "repetition": 4,
+      "lowering_ns": 29488,
+      "evolution_ns": 8163,
+      "expectation_ns": 4204
+    },
+    {
+      "task": 6,
+      "repetition": 4,
+      "lowering_ns": 6606,
+      "evolution_ns": 4776,
+      "expectation_ns": 1271
+    },
+    {
+      "task": 0,
+      "repetition": 4,
+      "lowering_ns": 5835,
+      "evolution_ns": 4583,
+      "expectation_ns": 1265
+    },
+    {
+      "task": 8,
+      "repetition": 4,
+      "lowering_ns": 22125,
+      "evolution_ns": 8847,
+      "expectation_ns": 2250
+    },
+    {
+      "task": 24,
+      "repetition": 4,
+      "lowering_ns": 6966,
+      "evolution_ns": 5137,
+      "expectation_ns": 1526
+    },
+    {
+      "task": 30,
+      "repetition": 4,
+      "lowering_ns": 6076,
+      "evolution_ns": 5595,
+      "expectation_ns": 1921
+    },
+    {
+      "task": 3,
+      "repetition": 4,
+      "lowering_ns": 8321,
+      "evolution_ns": 5650,
+      "expectation_ns": 1221
+    },
+    {
+      "task": 7,
+      "repetition": 4,
+      "lowering_ns": 21436,
+      "evolution_ns": 6372,
+      "expectation_ns": 4435
+    },
+    {
+      "task": 23,
+      "repetition": 4,
+      "lowering_ns": 38713,
+      "evolution_ns": 14787,
+      "expectation_ns": 2453
+    },
+    {
+      "task": 17,
+      "repetition": 4,
+      "lowering_ns": 30782,
+      "evolution_ns": 11331,
+      "expectation_ns": 2523
+    },
+    {
+      "task": 4,
+      "repetition": 4,
+      "lowering_ns": 25076,
+      "evolution_ns": 6090,
+      "expectation_ns": 4327
+    },
+    {
+      "task": 13,
+      "repetition": 4,
+      "lowering_ns": 23831,
+      "evolution_ns": 7546,
+      "expectation_ns": 4687
+    },
+    {
+      "task": 26,
+      "repetition": 4,
+      "lowering_ns": 51526,
+      "evolution_ns": 24157,
+      "expectation_ns": 3062
+    },
+    {
+      "task": 32,
+      "repetition": 4,
+      "lowering_ns": 66204,
+      "evolution_ns": 58638,
+      "expectation_ns": 5462
+    },
+    {
+      "task": 10,
+      "repetition": 4,
+      "lowering_ns": 36632,
+      "evolution_ns": 9676,
+      "expectation_ns": 6038
+    },
+    {
+      "task": 1,
+      "repetition": 4,
+      "lowering_ns": 25456,
+      "evolution_ns": 7034,
+      "expectation_ns": 5955
+    },
+    {
+      "task": 22,
+      "repetition": 4,
+      "lowering_ns": 41967,
+      "evolution_ns": 12690,
+      "expectation_ns": 6149
+    },
+    {
+      "task": 9,
+      "repetition": 4,
+      "lowering_ns": 12696,
+      "evolution_ns": 7057,
+      "expectation_ns": 1807
+    },
+    {
+      "task": 21,
+      "repetition": 4,
+      "lowering_ns": 15708,
+      "evolution_ns": 6751,
+      "expectation_ns": 1441
+    },
+    {
+      "task": 11,
+      "repetition": 4,
+      "lowering_ns": 30708,
+      "evolution_ns": 9328,
+      "expectation_ns": 2485
+    },
+    {
+      "task": 35,
+      "repetition": 4,
+      "lowering_ns": 61792,
+      "evolution_ns": 46095,
+      "expectation_ns": 3756
+    },
+    {
+      "task": 15,
+      "repetition": 4,
+      "lowering_ns": 10558,
+      "evolution_ns": 6364,
+      "expectation_ns": 1458
+    },
+    {
+      "task": 19,
+      "repetition": 4,
+      "lowering_ns": 26324,
+      "evolution_ns": 8770,
+      "expectation_ns": 4950
+    },
+    {
+      "task": 28,
+      "repetition": 4,
+      "lowering_ns": 39440,
+      "evolution_ns": 14172,
+      "expectation_ns": 5367
+    },
+    {
+      "task": 29,
+      "repetition": 4,
+      "lowering_ns": 50737,
+      "evolution_ns": 22716,
+      "expectation_ns": 2759
+    },
+    {
+      "task": 5,
+      "repetition": 4,
+      "lowering_ns": 18916,
+      "evolution_ns": 6708,
+      "expectation_ns": 2851
+    }
+  ],
+  "targets_ns": [
+    13164,
+    31638,
+    24667,
+    16041,
+    35493,
+    28475,
+    12087,
+    38271,
+    33222,
+    18629,
+    46006,
+    42521,
+    14278,
+    41426,
+    46479,
+    18380,
+    49999,
+    48679,
+    13728,
+    40044,
+    54548,
+    20730,
+    50127,
+    55953,
+    13629,
+    48054,
+    85243,
+    30701,
+    58979,
+    77216,
+    17159,
+    79434,
+    130304,
+    39115,
+    100267,
+    111643
+  ],
+  "reconstruction_samples": [
+    [
+      32,
+      32,
+      14400
+    ],
+    [
+      32,
+      128,
+      16625
+    ],
+    [
+      128,
+      256,
+      29051
+    ],
+    [
+      128,
+      768,
+      36300
+    ]
+  ],
+  "scheduling_ns_per_task_samples": [
+    5091.25,
+    3597.0,
+    4367.25
+  ],
+  "profile_id": "45dbc83431ff75845274195bd1e2d0104db42a390380005c68da015e6e87a7b4",
+  "calibration_ns": 21533545
+}

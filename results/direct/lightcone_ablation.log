@@ -1,0 +1,18 @@
+Installed 30 packages in 19ms
+hardware_efficient_local_12q_d4_Z_all_s202           {'lazyqc': 1.104643, 'lightcone_separate_aer': 27.874383, 'lightcone_dedup_aer': 29.255576}
+hardware_efficient_local_12q_d4_Z_all_s303           {'lazyqc': 1.105779, 'lightcone_dedup_aer': 29.533445, 'lightcone_separate_aer': 29.925196}
+hardware_efficient_local_16q_d4_Z_all_s202           {'lazyqc': 1.775145, 'lightcone_dedup_aer': 43.197606, 'lightcone_separate_aer': 42.794105}
+hardware_efficient_local_16q_d4_Z_all_s303           {'lazyqc': 1.73919, 'lightcone_dedup_aer': 43.72176, 'lightcone_separate_aer': 43.065786}
+hardware_efficient_local_20q_d4_Z_all_s202           {'lazyqc': 2.522165, 'lightcone_separate_aer': 56.510655, 'lightcone_dedup_aer': 58.210794}
+hardware_efficient_local_20q_d4_Z_all_s303           {'lazyqc': 2.589482, 'lightcone_dedup_aer': 57.306945, 'lightcone_separate_aer': 56.2102}
+hardware_efficient_local_24q_d4_Z_all_s202           {'lightcone_dedup_aer': 69.576852, 'lazyqc': 3.043436, 'lightcone_separate_aer': 69.175248}
+hardware_efficient_local_24q_d4_Z_all_s303           {'lightcone_separate_aer': 69.263844, 'lightcone_dedup_aer': 68.596748, 'lazyqc': 3.044458}
+hardware_efficient_local_28q_d4_Z_all_s202           {'lazyqc': 3.912701, 'lightcone_separate_aer': 83.852472, 'lightcone_dedup_aer': 83.792978}
+hardware_efficient_local_28q_d4_Z_all_s303           {'lightcone_dedup_aer': 83.240091, 'lightcone_separate_aer': 83.987243, 'lazyqc': 3.78632}
+hardware_efficient_local_32q_d4_Z_all_s202           {'lazyqc': 4.52601, 'lightcone_separate_aer': 98.943283, 'lightcone_dedup_aer': 98.960536}
+hardware_efficient_local_32q_d4_Z_all_s303           {'lightcone_separate_aer': 99.558197, 'lazyqc': 4.624853, 'lightcone_dedup_aer': 97.890358}
+hardware_efficient_local_64q_d4_Z_all_s202           {'lightcone_separate_aer': 246.050944, 'lazyqc': 12.164676, 'lightcone_dedup_aer': 242.903129}
+hardware_efficient_local_64q_d4_Z_all_s303           {'lightcone_dedup_aer': 246.649805, 'lazyqc': 12.330856, 'lightcone_separate_aer': 249.656633}
+hardware_efficient_local_128q_d4_Z_all_s202          {'lightcone_separate_aer': 784.703142, 'lightcone_dedup_aer': 782.861077, 'lazyqc': 34.97703}
+hardware_efficient_local_128q_d4_Z_all_s303          {'lightcone_dedup_aer': 780.870219, 'lightcone_separate_aer': 788.698882, 'lazyqc': 34.870565}
+cases 16 rows 144 failures 0

@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "date_frozen": "2026-10-25",
+  "purpose": "Compare per-observable Qiskit LightCone reduction followed by Aer with LazyQC's structure-keyed batch planning, charging all reduction, lowering, deduplication and execution costs.",
+  "seed": 20261024,
+  "seed_offsets": [202, 303],
+  "family": "hardware_efficient_local",
+  "depth": 4,
+  "pattern": "same_state_local_outputs",
+  "qubits": [12, 16, 20, 24, 28, 32, 64, 128],
+  "repetitions": 3,
+  "warmup": 1,
+  "methods": ["lightcone_separate_aer", "lightcone_dedup_aer", "lazyqc"],
+  "simulator": "Qiskit Aer statevector, GPU, double precision; reduced circuits submitted as one job per method call",
+  "lazyqc_backend": "Single-thread Qulacs; the depth-four cones remain below the GPU placement threshold",
+  "timing_scope": "Qiskit circuit and DAG are prebuilt. Every repetition includes LightCone passes, compaction, circuit lowering and expectation setup, optional deduplication, and execution. LazyQC includes plan_all and collect.",
+  "validation": "Every timed method output against LazyQC's Qulacs expectations, tolerance 1e-9",
+  "scope": "Z on every wire of the hardware-efficient local family; not a claim about other observables or transpilation pipelines"
+}

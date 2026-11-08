@@ -1,0 +1,5 @@
+hardware_efficient_local_12q_d4_jacobian_s202        {'lightcone_dedup_aer': {'tasks': 504, 'best_ms': 2310.710598}, 'lazyqc': {'tasks': 290, 'best_ms': 50.764495}, 'lightcone_separate_aer': {'tasks': 1164, 'best_ms': 2924.782198}}
+hardware_efficient_local_12q_d4_jacobian_s303        {'lightcone_separate_aer': {'tasks': 1164, 'best_ms': 2938.646873}, 'lightcone_dedup_aer': {'tasks': 504, 'best_ms': 2336.763411}, 'lazyqc': {'tasks': 290, 'best_ms': 52.188843}}
+hardware_efficient_local_20q_d4_jacobian_s202        {'lightcone_dedup_aer': {'tasks': 896, 'best_ms': 6921.735066}, 'lightcone_separate_aer': {'tasks': 3220, 'best_ms': 9507.783}, 'lazyqc': {'tasks': 518, 'best_ms': 125.942596}}
+hardware_efficient_local_20q_d4_jacobian_s303        {'lightcone_separate_aer': {'tasks': 3220, 'best_ms': 9457.518817}, 'lazyqc': {'tasks': 518, 'best_ms': 128.060984}, 'lightcone_dedup_aer': {'tasks': 896, 'best_ms': 7003.065567}}
+cases 4 rows 30 failures 0

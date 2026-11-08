@@ -1,0 +1,5 @@
+hardware_efficient_local_24q_d4_jacobian_s202        lightning_gpu_adjoint     23855.69 ms
+hardware_efficient_local_24q_d4_jacobian_s303        lightning_gpu_adjoint     23856.07 ms
+qcnn_like_local_24q_d4_jacobian_s202                 lightning_gpu_adjoint     10533.59 ms
+qcnn_like_local_24q_d4_jacobian_s303                 lightning_gpu_adjoint     10540.75 ms
+rows 8 failures 4

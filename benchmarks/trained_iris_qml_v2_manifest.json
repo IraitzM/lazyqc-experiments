@@ -1,0 +1,29 @@
+{
+  "protocol": "trained_iris_qml_screen_v2",
+  "description": "Exploratory binary Iris QML classifier with X/Z readout and three shuffled passes over training data.",
+  "dataset": "scikit-learn bundled Iris dataset; class 0 versus class 1 only; no download",
+  "split_seed": 461,
+  "test_fraction": 0.2,
+  "feature_map": "standardize using training split only, then angle=pi*tanh(z/2); for 8 qubits repeat the four encoded features twice",
+  "readout_paulis": ["X", "Z"],
+  "base_seed": 20261024,
+  "seed_offsets": [1414, 1515],
+  "qubits": [4, 8],
+  "ansatz_depth": 2,
+  "train_batch_size": 8,
+  "training_steps": 30,
+  "learning_rate": 0.2,
+  "strategies": ["direct_qulacs", "full", "separate", "grouped", "auto"],
+  "max_state_qubits": 12,
+  "max_state_bytes": 268435456,
+  "oracle_tolerance": 1e-10,
+  "randomized_strategy_order_seed": 241027,
+  "notes": [
+    "Binary target is Iris class 1 versus class 0.",
+    "The split is stratified; standardization statistics are fitted on the training split only.",
+    "The quantum model outputs X and Z expectations on every wire; a classical affine head supplies the logit.",
+    "Every trainable RY occurrence receives an independent parameter and exact two-term parameter shift.",
+    "Each initialization sees three shuffled passes over the 80 training examples.",
+    "This exploratory small-data screen does not establish general QML training performance."
+  ]
+}

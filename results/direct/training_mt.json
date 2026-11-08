@@ -1,0 +1,177 @@
+{
+ "metadata": {
+  "timestamp_utc": "2026-11-03T22:47:34.795032+00:00",
+  "manifest_sha256": "2d6847850894bfac9f4409e59c8fd1b1db1b7bcf980ddb8b2fb82762a4fc9f29",
+  "command": [
+   "benchmarks/run_gradient_baselines.py",
+   "--study",
+   "training",
+   "--threads",
+   "20",
+   "--methods",
+   "lightning_gpu_vjp,aer_gpu_shift",
+   "--output",
+   "results/direct/training_mt.json"
+  ],
+  "threads": 20,
+  "methods": [
+   "lightning_gpu_vjp",
+   "aer_gpu_shift"
+  ],
+  "study": "training",
+  "smoke": false,
+  "environment": {
+   "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+   "cpu": "13th Gen Intel(R) Core(TM) i7-13700H",
+   "logical_cpus": 20,
+   "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 595.84, 3105 MHz, [N/A]",
+   "python": "3.12.7",
+   "threads": {
+    "QULACS_NUM_THREADS": "20",
+    "OMP_NUM_THREADS": "20",
+    "OPENBLAS_NUM_THREADS": "20",
+    "MKL_NUM_THREADS": "20",
+    "NUMEXPR_NUM_THREADS": "20"
+   },
+   "packages": {
+    "qulacs": "0.6.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.1",
+    "qiskit-aer-gpu": "0.18.0",
+    "pennylane": "0.45.1",
+    "pennylane-lightning": "0.45.0",
+    "pennylane-lightning-gpu": "0.45.0",
+    "custatevec-cu12": "1.6.0.post1"
+   }
+  }
+ },
+ "failures": [],
+ "rows": [],
+ "loops": [
+  {
+   "family": "hardware_efficient_local",
+   "qubits": 16,
+   "method": "lightning_gpu_vjp",
+   "threads": 20,
+   "parameters": 64,
+   "step_ns": [
+    17913689,
+    17887487,
+    17835757,
+    17931483,
+    17943450,
+    18001339,
+    18094705,
+    18256454,
+    18181999,
+    18441838
+   ],
+   "loss": [
+    0.09326724136106618,
+    0.09213086367404807,
+    0.09102535051683222,
+    0.08994979103693812,
+    0.08890328879635186,
+    0.08788496320891095,
+    0.08689395073594616,
+    0.08592940586424841,
+    0.08499050188882767,
+    0.08407643152131292
+   ]
+  },
+  {
+   "family": "hardware_efficient_local",
+   "qubits": 16,
+   "method": "aer_gpu_shift",
+   "threads": 20,
+   "parameters": 64,
+   "step_ns": [
+    722049809,
+    718945454,
+    715667470,
+    718660829,
+    742189000,
+    752469496,
+    718447451,
+    718660656,
+    730907899,
+    715612925
+   ],
+   "loss": [
+    0.09326724136106618,
+    0.09213086367404806,
+    0.09102535051683219,
+    0.08994979103693812,
+    0.08890328879635181,
+    0.08788496320891097,
+    0.08689395073594616,
+    0.08592940586424844,
+    0.0849905018888277,
+    0.08407643152131296
+   ]
+  },
+  {
+   "family": "hardware_efficient_local",
+   "qubits": 20,
+   "method": "lightning_gpu_vjp",
+   "threads": 20,
+   "parameters": 80,
+   "step_ns": [
+    125383977,
+    125759810,
+    126560286,
+    127091028,
+    125785146,
+    125425573,
+    125395987,
+    125485166,
+    125505972,
+    125475761
+   ],
+   "loss": [
+    0.0831867934900883,
+    0.08232626113880524,
+    0.08148208039675951,
+    0.08065393396599708,
+    0.07984150122512972,
+    0.07904445934582119,
+    0.07826248432458098,
+    0.07749525193170083,
+    0.07674243857966126,
+    0.07600372211374079
+   ]
+  },
+  {
+   "family": "hardware_efficient_local",
+   "qubits": 24,
+   "method": "lightning_gpu_vjp",
+   "threads": 20,
+   "parameters": 96,
+   "step_ns": [
+    3216405432,
+    3214694600,
+    3215775526,
+    3216425241,
+    3216215953,
+    3215804946,
+    3216257904,
+    3216077430,
+    3215389719,
+    3214858119
+   ],
+   "loss": [
+    0.09802845346751099,
+    0.097189649583188,
+    0.09636244763916364,
+    0.09554670518016924,
+    0.09474227895932096,
+    0.0939490250673345,
+    0.0931667990538121,
+    0.09239545604147799,
+    0.09163485083416427,
+    0.09088483801925816
+   ]
+  }
+ ]
+}

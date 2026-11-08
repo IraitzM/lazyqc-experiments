@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "coefficients": [
+    7419.277984992927,
+    801.4504515876821,
+    7.5888933049682,
+    1.0089212418669793,
+    1835.2767761645782,
+    0.0,
+    5789.702211775268,
+    10.375383031593358
+  ],
+  "reconstruction_term_ns": 294.90387284050087,
+  "reconstruction_factor_ns": 1.0399512490049927,
+  "environment_items": [
+    [
+      "MKL_NUM_THREADS",
+      "1"
+    ],
+    [
+      "OMP_NUM_THREADS",
+      "1"
+    ],
+    [
+      "OPENBLAS_NUM_THREADS",
+      "1"
+    ],
+    [
+      "QULACS_NUM_THREADS",
+      "1"
+    ],
+    [
+      "batch_executor_sha256",
+      "34f5cf1cfd6a36457f5e10618bec9b0d0f010af17f2f432aedaa8ddec160a760"
+    ],
+    [
+      "cpu",
+      "13th Gen Intel(R) Core(TM) i7-13700H"
+    ],
+    [
+      "implementation_sha256",
+      "0c95dba1bcaf340a018372b40be101aa0d29baf5e5384e0bc4884389e107c450"
+    ],
+    [
+      "numpy",
+      "2.5.3"
+    ],
+    [
+      "platform",
+      "Linux-6.8.0-136-generic-x86_64-with-glibc2.35"
+    ],
+    [
+      "python",
+      "3.12.7"
+    ],
+    [
+      "qulacs",
+      "0.6.14"
+    ]
+  ],
+  "max_width": 8,
+  "calibration_ns": 21533545,
+  "planning_ns_per_expansion": null,
+  "scheduling_ns_per_task": 4367.25
+}

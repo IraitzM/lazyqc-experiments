@@ -1,0 +1,19 @@
+{
+  "protocol": "fourier_trained_qml_v1",
+  "description": "Replay of 20 trained angle re-uploading classifiers from the Fourier geometry-selection study (4 datasets x 5 seeds) as LazyQC inference batches. Trained weights, splits and predictions come from that study; nothing is retrained here.",
+  "source_index": "results/qml_workloads/fourier_trained/index.json",
+  "readout": "Z_i and Z_i Z_{i+1 mod 8} on 8 wires",
+  "batch_sizes": [1, 16, 64],
+  "strategies": ["full", "separate", "grouped", "auto"],
+  "direct_baseline": true,
+  "repeats": 5,
+  "setup_timing": "setup (planning or Qulacs circuit construction) and collection are both timed in every repetition, because each inference batch brings new data. Revised after a first run timed setup once per case, which charged a cold first call to direct Qulacs at batch size 1.",
+  "max_state_qubits": 24,
+  "max_state_bytes": 268435456,
+  "randomized_order_seed": 251024,
+  "validation": [
+    "LazyQC full-plan values on every test example against the matrix-free NumPy oracle, absolute tolerance 1e-10",
+    "argmax of the trained linear head on LazyQC features against the study's saved test predictions"
+  ],
+  "expectation_before_timing": "4 uploads with a CX ring saturate every output cone, so this is a trained saturated-cone control; auto should keep the full plan"
+}

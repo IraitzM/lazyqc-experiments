@@ -1,0 +1,5 @@
+Linux 209-20-157-197 6.8.0-60-generic #63~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 22 19:00:15 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+               total        used        free      shared  buff/cache   available
+Mem:             221           3         211           0           6         216
+Swap:              0           0           0
+uv 0.13.7 (x86_64-unknown-linux-gnu)

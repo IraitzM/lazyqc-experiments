@@ -1,0 +1,496 @@
+{
+  "forward": {
+    "source": "results/direct/lightcone_ablation.json",
+    "source_sha256": "328cdd1fa31ff99080425647879f91b2526a0b780ac32a5d32a564406b658b36",
+    "manifest_sha256": "5fb916fb6b8671746bf9729499c95cc20df22ce994e1326d57bb777ecb1c1247",
+    "failures": [],
+    "max_abs_error": 1.1102230246251565e-15,
+    "cases": [
+      {
+        "case_id": "hardware_efficient_local_12q_d4_Z_all_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 12,
+        "depth": 4,
+        "seed_offset": 202,
+        "outputs": 12
+      },
+      {
+        "case_id": "hardware_efficient_local_12q_d4_Z_all_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 12,
+        "depth": 4,
+        "seed_offset": 303,
+        "outputs": 12
+      },
+      {
+        "case_id": "hardware_efficient_local_16q_d4_Z_all_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 16,
+        "depth": 4,
+        "seed_offset": 202,
+        "outputs": 16
+      },
+      {
+        "case_id": "hardware_efficient_local_16q_d4_Z_all_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 16,
+        "depth": 4,
+        "seed_offset": 303,
+        "outputs": 16
+      },
+      {
+        "case_id": "hardware_efficient_local_20q_d4_Z_all_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 20,
+        "depth": 4,
+        "seed_offset": 202,
+        "outputs": 20
+      },
+      {
+        "case_id": "hardware_efficient_local_20q_d4_Z_all_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 20,
+        "depth": 4,
+        "seed_offset": 303,
+        "outputs": 20
+      },
+      {
+        "case_id": "hardware_efficient_local_24q_d4_Z_all_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 24,
+        "depth": 4,
+        "seed_offset": 202,
+        "outputs": 24
+      },
+      {
+        "case_id": "hardware_efficient_local_24q_d4_Z_all_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 24,
+        "depth": 4,
+        "seed_offset": 303,
+        "outputs": 24
+      },
+      {
+        "case_id": "hardware_efficient_local_28q_d4_Z_all_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 28,
+        "depth": 4,
+        "seed_offset": 202,
+        "outputs": 28
+      },
+      {
+        "case_id": "hardware_efficient_local_28q_d4_Z_all_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 28,
+        "depth": 4,
+        "seed_offset": 303,
+        "outputs": 28
+      },
+      {
+        "case_id": "hardware_efficient_local_32q_d4_Z_all_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 32,
+        "depth": 4,
+        "seed_offset": 202,
+        "outputs": 32
+      },
+      {
+        "case_id": "hardware_efficient_local_32q_d4_Z_all_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 32,
+        "depth": 4,
+        "seed_offset": 303,
+        "outputs": 32
+      },
+      {
+        "case_id": "hardware_efficient_local_64q_d4_Z_all_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 64,
+        "depth": 4,
+        "seed_offset": 202,
+        "outputs": 64
+      },
+      {
+        "case_id": "hardware_efficient_local_64q_d4_Z_all_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 64,
+        "depth": 4,
+        "seed_offset": 303,
+        "outputs": 64
+      },
+      {
+        "case_id": "hardware_efficient_local_128q_d4_Z_all_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 128,
+        "depth": 4,
+        "seed_offset": 202,
+        "outputs": 128
+      },
+      {
+        "case_id": "hardware_efficient_local_128q_d4_Z_all_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 128,
+        "depth": 4,
+        "seed_offset": 303,
+        "outputs": 128
+      }
+    ],
+    "configs": [
+      {
+        "qubits": 12,
+        "method": "lazyqc",
+        "analysis_ms": 0.37416154575931504,
+        "execution_ms": 0.7406317645449727,
+        "total_ms": 1.1287917924852218,
+        "tasks": 6,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 12,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 20.974568588895934,
+        "execution_ms": 8.743129682923385,
+        "total_ms": 29.774863842011943,
+        "tasks": 12,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 12,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 20.41033541157029,
+        "execution_ms": 8.846055025117186,
+        "total_ms": 29.265031183958097,
+        "tasks": 12,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 16,
+        "method": "lazyqc",
+        "analysis_ms": 0.5732931423948834,
+        "execution_ms": 1.2034757708819899,
+        "total_ms": 1.7623829418511745,
+        "tasks": 8,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 16,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 31.311109834268496,
+        "execution_ms": 12.335265921447013,
+        "total_ms": 43.55104182484547,
+        "tasks": 16,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 16,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 31.195761759621142,
+        "execution_ms": 12.10664290221447,
+        "total_ms": 43.28245470813849,
+        "tasks": 16,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 20,
+        "method": "lazyqc",
+        "analysis_ms": 0.8924311730368902,
+        "execution_ms": 1.697441566207214,
+        "total_ms": 2.6275197794408705,
+        "tasks": 10,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 20,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 42.79092268319364,
+        "execution_ms": 16.085550003917177,
+        "total_ms": 58.84700425087534,
+        "tasks": 20,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 20,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 40.949794827637476,
+        "execution_ms": 15.56280238324332,
+        "total_ms": 56.66054793689786,
+        "tasks": 20,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 24,
+        "method": "lazyqc",
+        "analysis_ms": 1.1161989734666484,
+        "execution_ms": 2.0499479253285924,
+        "total_ms": 3.1579954396768852,
+        "tasks": 12,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 24,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 50.930471298406815,
+        "execution_ms": 18.765799478832147,
+        "total_ms": 69.71247976107668,
+        "tasks": 24,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 24,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 50.93042714863145,
+        "execution_ms": 18.529106857752346,
+        "total_ms": 69.40491156779689,
+        "tasks": 24,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 28,
+        "method": "lazyqc",
+        "analysis_ms": 1.4452045510376723,
+        "execution_ms": 2.4542061133745467,
+        "total_ms": 3.8999590790353174,
+        "tasks": 14,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 28,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 61.982530620752435,
+        "execution_ms": 21.888030736771412,
+        "total_ms": 83.86070987171003,
+        "tasks": 28,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 28,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 62.55777756272654,
+        "execution_ms": 21.940769727841637,
+        "total_ms": 84.53398399327456,
+        "tasks": 28,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 32,
+        "method": "lazyqc",
+        "analysis_ms": 1.768221366386856,
+        "execution_ms": 2.8603836156725553,
+        "total_ms": 4.6891042893776635,
+        "tasks": 16,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 32,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 73.57615749656335,
+        "execution_ms": 25.070798141943445,
+        "total_ms": 98.75805201414745,
+        "tasks": 32,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 32,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 74.14545823455583,
+        "execution_ms": 25.481372988281784,
+        "total_ms": 99.70765588032558,
+        "tasks": 32,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 64,
+        "method": "lazyqc",
+        "analysis_ms": 6.003773499702666,
+        "execution_ms": 6.360874376385686,
+        "total_ms": 12.41342708916748,
+        "tasks": 32,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 64,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 195.4583592405215,
+        "execution_ms": 51.112620614414276,
+        "total_ms": 246.43082991555352,
+        "tasks": 64,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 64,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 196.00583885219476,
+        "execution_ms": 52.36107775482923,
+        "total_ms": 249.07998991177993,
+        "tasks": 64,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 128,
+        "method": "lazyqc",
+        "analysis_ms": 22.240786501041736,
+        "execution_ms": 12.9388560771518,
+        "total_ms": 35.17664874102454,
+        "tasks": 64,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 128,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 686.1570293929254,
+        "execution_ms": 103.1888437951503,
+        "total_ms": 789.3746009668477,
+        "tasks": 128,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 128,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 689.3739696491335,
+        "execution_ms": 104.07349818203424,
+        "total_ms": 793.6182541829993,
+        "tasks": 128,
+        "min_width": 4,
+        "max_width": 10
+      }
+    ]
+  },
+  "jacobian": {
+    "source": "results/direct/lightcone_jacobian_ablation.json",
+    "source_sha256": "34980bff04061825e56ca55189239d67ccd82c6a73715493e74072ae8f8439d0",
+    "manifest_sha256": "eb5cdce9797c3269caf470eef3f8fd9fe1a92aa0288896cb069b74d1f140f32c",
+    "failures": [],
+    "max_abs_error": 1.2212453270876722e-15,
+    "cases": [
+      {
+        "case_id": "hardware_efficient_local_12q_d4_jacobian_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 12,
+        "depth": 4,
+        "seed_offset": 202,
+        "parameters": 48,
+        "programs": 97,
+        "outputs": 12,
+        "requests": 1164
+      },
+      {
+        "case_id": "hardware_efficient_local_12q_d4_jacobian_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 12,
+        "depth": 4,
+        "seed_offset": 303,
+        "parameters": 48,
+        "programs": 97,
+        "outputs": 12,
+        "requests": 1164
+      },
+      {
+        "case_id": "hardware_efficient_local_20q_d4_jacobian_s202",
+        "family": "hardware_efficient_local",
+        "qubits": 20,
+        "depth": 4,
+        "seed_offset": 202,
+        "parameters": 80,
+        "programs": 161,
+        "outputs": 20,
+        "requests": 3220
+      },
+      {
+        "case_id": "hardware_efficient_local_20q_d4_jacobian_s303",
+        "family": "hardware_efficient_local",
+        "qubits": 20,
+        "depth": 4,
+        "seed_offset": 303,
+        "parameters": 80,
+        "programs": 161,
+        "outputs": 20,
+        "requests": 3220
+      }
+    ],
+    "configs": [
+      {
+        "qubits": 12,
+        "method": "lazyqc",
+        "analysis_ms": 8.516536643321043,
+        "execution_ms": 43.09268615297362,
+        "total_ms": 52.01635833027356,
+        "tasks": 290,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 12,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 1945.5321128219748,
+        "execution_ms": 383.0452345959448,
+        "total_ms": 2329.602583620401,
+        "tasks": 504,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 12,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 2137.5317333912176,
+        "execution_ms": 816.2967820060884,
+        "total_ms": 2953.5684501863757,
+        "tasks": 1164,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 20,
+        "method": "lazyqc",
+        "analysis_ms": 22.780179323223027,
+        "execution_ms": 104.34709287711361,
+        "total_ms": 127.67600001232255,
+        "tasks": 518,
+        "min_width": 6,
+        "max_width": 10
+      },
+      {
+        "qubits": 20,
+        "method": "lightcone_dedup_aer",
+        "analysis_ms": 6221.206882800502,
+        "execution_ms": 758.4839707311559,
+        "total_ms": 6982.585326056369,
+        "tasks": 896,
+        "min_width": 4,
+        "max_width": 10
+      },
+      {
+        "qubits": 20,
+        "method": "lightcone_separate_aer",
+        "analysis_ms": 7053.1085535329485,
+        "execution_ms": 2433.324676859752,
+        "total_ms": 9493.913513929152,
+        "tasks": 3220,
+        "min_width": 4,
+        "max_width": 10
+      }
+    ]
+  }
+}
