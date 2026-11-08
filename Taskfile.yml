@@ -20,12 +20,3 @@ tasks:
     desc: Summarize the planner-versus-direct results (laptop and remote) and regenerate the paper tables
     cmds:
       - uv run --locked --group notebooks python benchmarks/summarize_direct.py
-
-  paper-audit:
-    desc: Regenerate every paper table and verify byte-identical raw-data provenance
-    cmds:
-      - uv run --locked --group notebooks python benchmarks/summarize_direct.py
-      - uv run --locked python benchmarks/paper_generalization_tables.py
-      - uv run --locked python benchmarks/summarize_policy_ablations.py
-      - uv run --locked python benchmarks/summarize_lightcone_ablation.py
-      - uv run --locked --group notebooks python benchmarks/audit_paper_tables.py

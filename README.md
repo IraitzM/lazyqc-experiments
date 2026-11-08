@@ -25,10 +25,9 @@ The NumPy reference, the frozen circuit fixtures and the drawing helpers the run
 ## Running
 
 ```bash
-task --list            # paper-audit, direct-summary, remote-gpu
+task --list            # direct-summary, remote-gpu
 task laptop-gpu        # rerun the laptop GPU benchmarks (locked script environments)
 task local-studies     # rerun the CPU-only studies (QML matrix, held-out families, probes, workers, sensitivity)
-task paper-audit       # regenerate every paper table and check it is byte-identical
 task -d slides --list  # talks
 ```
 

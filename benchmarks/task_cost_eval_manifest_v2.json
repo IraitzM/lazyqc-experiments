@@ -1,0 +1,76 @@
+{
+  "protocol": "task_cost_v2",
+  "description": "Second fresh-instance screen for issue #2. The first screen (task_cost_v1) tested a per-task constant and was looked at once. A calibration diagnostic then showed that a per-gate term also matters: on random circuits unrelated to every family below, the cross-validated median error of the collection-time fit is 50% without a fixed cost, 35% with a per-task term, 21% with a per-gate term and 13% with both. The rules below are evaluated on instances nobody has timed: new seed offsets, frozen before they were timed. The rule that ships is chosen from this screen alone.",
+  "frozen_utc": "2026-11-01",
+  "base_seed": 20261024,
+  "calibration": {
+    "source": "seeded random circuits from calibrate_analysis_budget.random_batch, unrelated to any family below",
+    "seed": 20261101
+  },
+  "seed_offsets": [
+    4101,
+    4202,
+    4303,
+    4404
+  ],
+  "families": {
+    "small_tree": [
+      "tree_mera_like",
+      "strongly_entangling"
+    ],
+    "narrow_regime": [
+      "hardware_efficient_local",
+      "qcnn_like_local"
+    ]
+  },
+  "qubits": [
+    6,
+    8,
+    10,
+    12,
+    16
+  ],
+  "depths": [
+    2,
+    4,
+    8
+  ],
+  "patterns": [
+    "same_state_local_outputs",
+    "same_state_shared_cone",
+    "sparse_local_outputs"
+  ],
+  "strategies": [
+    "full",
+    "separate",
+    "grouped"
+  ],
+  "sessions": [
+    0,
+    1
+  ],
+  "collections_per_plan": 5,
+  "max_state_qubits": 24,
+  "max_state_bytes": 268435456,
+  "randomized_order_seed": 20261103,
+  "regret": {
+    "ranking": "execution time of the candidate the rule selects / execution time of the fastest of full, separate, grouped; per instance, then median, p90 and geometric mean",
+    "cross_validated": "the fastest candidate is chosen on one session and the rule is timed on the other, averaged both ways",
+    "collections": "median collection time of the plan, after one warm-up"
+  },
+  "success_criteria": {
+    "small_tree_ranking_regret_below": 1.29,
+    "narrow_regime": "no loss: the median ratio of selected to best stays within 1.02 of the current rule",
+    "reduction_wins": "the narrow-cone instances keep selecting a cone plan",
+    "note": "a rule ships only if its small-tree ranking regret falls and the narrow regime keeps its cone plans (share kept at least 0.95 and p90 within 1.05 of the current rule)"
+  },
+  "rules": [
+    "current",
+    "task_cost",
+    "gate_cost",
+    "task_and_gate_cost",
+    "width_n",
+    "width_half",
+    "width_10"
+  ]
+}
